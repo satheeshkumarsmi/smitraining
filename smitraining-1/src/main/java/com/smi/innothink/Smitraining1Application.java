@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Smitraining1Application {
 
 	public static void main(String[] args) {
+		System.out.println("welcome");
 		SpringApplication.run(Smitraining1Application.class, args);
 	}
 
