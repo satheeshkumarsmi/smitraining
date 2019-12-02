@@ -1,4 +1,6 @@
-package com.smi.innothink.controller;
+package com.smi.innothink;
+
+import java.util.HashMap;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.CrudRepository;
@@ -9,16 +11,17 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.smi.innothink.domain.Course;
+import com.smi.innothink.domain.IdBean;
 import com.smi.innothink.repository.CourseRepository;
 import com.smi.innothink.repositoryimpl.CourseRepositoryImpl;
 import com.smi.innothink.services.AutoIncrement;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/smi")
 public class CourseController {
 	
-	@Autowired(required=false)
+	@Autowired
 	CourseRepository courseRepository;
 	@Autowired(required=false)
 	Course course;
@@ -26,9 +29,9 @@ public class CourseController {
 
 	@RequestMapping(value = "/insert", method=RequestMethod.POST, produces = "application/json")
 	public boolean insert(@RequestBody(required = false) Course course) {
-	    String courseId=courseRepository.getId();
-	    String id=AutoIncrement.incrementId(courseId);
-	    course.setCourseID(id);
+	    String courseId=courseRepository.getId("courseid","SMI_IT_CUR_","Course");
+	    String id=AutoIncrement.incrementId(Integer.parseInt(courseId),"SMI_IT_CUR_");
+	    course.setCourseID(id);	    
 		Course res=courseRepository.save(course);
 		if(res.getCourseID().equals(course.getCourseID()))
 			return true;
