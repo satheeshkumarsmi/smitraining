@@ -7,8 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 		"com.smi.innothink.controller"})
 public class Smitraining1Application {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		SpringApplication.run(Smitraining1Application.class, args);
 	}
 
