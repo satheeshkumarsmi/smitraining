@@ -10,11 +10,12 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "StudentPersonal")
 public class StudentPersonal {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
 
-	private int studentId;
-	private int personalId;
+	
+	@Id
+	private String studentPersonalId;
+	private String studentId;
 	private String studentMobile;
 	private String studentEmail;
 	private String studentAddress;
@@ -22,17 +23,17 @@ public class StudentPersonal {
 	private String studentAlternateMobile;
 	private String dateOfBirth;
 	private String gender;
-	public int getStudentId() {
+	public String getStudentId() {
 		return studentId;
 	}
-	public void setStudentId(int studentId) {
+	public void setStudentId(String studentId) {
 		this.studentId = studentId;
 	}
-	public int getPersonalId() {
-		return personalId;
+	public String getStudentPersonalId() {
+		return studentPersonalId;
 	}
-	public void setPersonalId(int personalId) {
-		this.personalId = personalId;
+	public void setStudentPersonalId(String studentPersonalId) {
+		this.studentPersonalId = studentPersonalId;
 	}
 	public String getStudentMobile() {
 		return studentMobile;

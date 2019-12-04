@@ -6,10 +6,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name="AcademicDetails")
 public class AcademicDetails {
+	
+	
 	@Id
-	
-	private String studentId;
-	
 	private String studentAcademicId;
 	
 	private String studentCollege;	
@@ -19,12 +18,8 @@ public class AcademicDetails {
 	private String stream;
 	
 	private int yearOfPassing;
-	public String getStudentId() {
-		return studentId;
-	}
-	public void setStudentId(String studentId) {
-		this.studentId = studentId;
-	}
+	
+	
 	public String getStudentAcademicId() {
 		return studentAcademicId;
 	}

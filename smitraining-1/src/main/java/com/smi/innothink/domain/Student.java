@@ -15,11 +15,11 @@ private String dateOfJoining;
 private boolean bond;
 private String duration;
 private String salary;
-private int studentPersonalId;
-private int stayId;
-private int statusId;
-private int academicId;
-private int modeId;
+private String studentPersonalId;
+private String stayDetails;
+private String statusDetails;
+private String academicId;
+private String mode;
 public String getStudentId() {
 	return studentId;
 }
@@ -56,35 +56,35 @@ public String getSalary() {
 public void setSalary(String salary) {
 	this.salary = salary;
 }
-public int getStudentPersonalId() {
+public String getStudentPersonalId() {
 	return studentPersonalId;
 }
-public void setStudentPersonalId(int studentPersonalId) {
+public void setStudentPersonalId(String studentPersonalId) {
 	this.studentPersonalId = studentPersonalId;
 }
-public int getStayId() {
-	return stayId;
+public String getStayDetails() {
+	return stayDetails;
 }
-public void setStayId(int stayId) {
-	this.stayId = stayId;
+public void setStayDetails(String stayDetails) {
+	this.stayDetails = stayDetails;
 }
-public int getStatusId() {
-	return statusId;
+public String getStatusDetails() {
+	return statusDetails;
 }
-public void setStatusId(int statusId) {
-	this.statusId = statusId;
+public void setStatusDetails(String statusDetails) {
+	this.statusDetails = statusDetails;
 }
-public int getAcademicId() {
+public String getAcademicId() {
 	return academicId;
 }
-public void setAcademicId(int academicId) {
+public void setAcademicId(String academicId) {
 	this.academicId = academicId;
 }
-public int getModeId() {
-	return modeId;
+public String getMode() {
+	return mode;
 }
-public void setModeId(int modeId) {
-	this.modeId = modeId;
+public void setMode(String mode) {
+	this.mode = mode;
 }
 
 }

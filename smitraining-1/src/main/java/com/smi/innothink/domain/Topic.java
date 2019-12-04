@@ -22,6 +22,7 @@ public class Topic {
 	@Id
 	private String topicId;
 	private String subjectId;
+	@Column(name="topic_name")
 	private String topicName;
 	private int duration;
 	private String description;
