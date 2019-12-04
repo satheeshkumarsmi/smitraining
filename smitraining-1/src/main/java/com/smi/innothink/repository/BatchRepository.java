@@ -1,5 +1,9 @@
 package com.smi.innothink.repository;
 
-public interface BatchRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.smi.innothink.domain.Batch;
+
+public interface BatchRepository extends JpaRepository<Batch, String>{
 
 }

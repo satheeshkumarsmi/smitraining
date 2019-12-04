@@ -1,5 +1,9 @@
 package com.smi.innothink.repository;
 
-public interface AcademicDetailsRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.smi.innothink.domain.AcademicDetails;
+
+public interface AcademicDetailsRepository extends JpaRepository<AcademicDetails, String>{
 
 }

@@ -2,6 +2,8 @@ package com.smi.innothink.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -9,23 +11,16 @@ import javax.persistence.Table;
 @Table(name = "StudentPersonal")
 public class StudentPersonal {
 	@Id
-	@Column(name = "StudentId")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+
 	private int studentId;
-	@Column(name = "PersonalId")
 	private int personalId;
-	@Column(name = "StudentMobile")
 	private String studentMobile;
-	@Column(name = "StudentEmail")
 	private String studentEmail;
-	@Column(name = "StudentAddress")
 	private String studentAddress;
-	@Column(name = "ParentMobile")
 	private String parentMobile;
-	@Column(name = "StudentAlternateMobile")
 	private String studentAlternateMobile;
-	@Column(name = "DateOfBirth")
 	private String dateOfBirth;
-	@Column(name = "Gender")
 	private String gender;
 	public int getStudentId() {
 		return studentId;

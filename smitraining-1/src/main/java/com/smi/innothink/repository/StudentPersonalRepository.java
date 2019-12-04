@@ -1,5 +1,9 @@
 package com.smi.innothink.repository;
 
-public interface StudentPersonalRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.smi.innothink.domain.StudentPersonal;
+
+public interface StudentPersonalRepository extends JpaRepository<StudentPersonal, Integer> {
 
 }

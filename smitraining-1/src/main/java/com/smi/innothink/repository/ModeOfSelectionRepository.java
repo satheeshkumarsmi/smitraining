@@ -1,5 +1,9 @@
 package com.smi.innothink.repository;
 
-public interface ModeOfSelectionRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.smi.innothink.domain.ModeOfSelection;
+
+public interface ModeOfSelectionRepository extends JpaRepository<ModeOfSelection, Integer> {
 
 }

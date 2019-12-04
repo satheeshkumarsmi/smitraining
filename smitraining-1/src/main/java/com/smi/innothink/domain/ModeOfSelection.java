@@ -1,6 +1,5 @@
 package com.smi.innothink.domain;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,9 +11,7 @@ import javax.persistence.Table;
 public class ModeOfSelection {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "SelectionId")
 	private int selectionId;
-	@Column(name = "SelectionMode")
 	private int selectionMode;
 	public int getSelectionId() {
 		return selectionId;

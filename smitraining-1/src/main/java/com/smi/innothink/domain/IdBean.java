@@ -1,6 +1,5 @@
 package com.smi.innothink.domain;
 
-import javax.persistence.Entity;
 
 public class IdBean {
 	

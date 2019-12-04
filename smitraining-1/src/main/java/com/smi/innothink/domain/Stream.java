@@ -12,9 +12,7 @@ import javax.persistence.Table;
 public class Stream {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "SId")
 	private int sId;
-	@Column(name = "DegreeStream")
 	private int degreeStream;
 	public int getsId() {
 		return sId;

@@ -1,11 +1,23 @@
 package com.smi.innothink.domain;
-
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+@Entity
+@Table(name="AcademicDetails")
 public class AcademicDetails {
+	@Id
+	
 	private String studentId;
-	private String studentAcademicId;	
+	
+	private String studentAcademicId;
+	
 	private String studentCollege;	
+	
     private String	qualification;
+	
 	private String stream;
+	
 	private int yearOfPassing;
 	public String getStudentId() {
 		return studentId;

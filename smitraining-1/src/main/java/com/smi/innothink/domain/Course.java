@@ -1,16 +1,12 @@
 package com.smi.innothink.domain;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.NamedStoredProcedureQuery;
 import javax.persistence.ParameterMode;
 import javax.persistence.StoredProcedureParameter;
 import javax.persistence.Table;
 
-import org.springframework.stereotype.Repository;
 @Entity
 @Table(name = "course")
 @NamedStoredProcedureQuery(name = "in_and_out_test", 
@@ -25,22 +21,22 @@ public class Course {
 	@Id
 	
 	private String courseID;
-	@Column(name="course_name")
-	private String CourseName;
-	private String description;
 	
+	private String course_name;
+	
+	private String description;
 	public String getCourseID() {
-		
 		return courseID;
 	}
 	public void setCourseID(String courseID) {
 		this.courseID = courseID;
 	}
-	public String getCourseName() {
-		return CourseName;
+	
+	public String getCourse_name() {
+		return course_name;
 	}
-	public void setCourseName(String courseName) {
-		this.CourseName = courseName;
+	public void setCourse_name(String course_name) {
+		this.course_name = course_name;
 	}
 	public String getDescription() {
 		return description;

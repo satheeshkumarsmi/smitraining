@@ -1,5 +1,9 @@
 package com.smi.innothink.repository;
 
-public interface QualificationRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.smi.innothink.domain.Qualification;
+
+public interface QualificationRepository extends JpaRepository<Qualification, Integer> {
 
 }

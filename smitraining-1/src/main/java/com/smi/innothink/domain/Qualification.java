@@ -12,9 +12,7 @@ import javax.persistence.Table;
 public class Qualification {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "QId")
 	private int qId;
-	@Column(name = "Degree")
 	private int degree;
 	public int getqId() {
 		return qId;
