@@ -43,7 +43,6 @@ public class CourseController {
 
 	@RequestMapping(value = "/insert", method = RequestMethod.POST, produces = "application/json")
 	public boolean insert(@RequestBody(required = false) Course course) {
-
 		String courseId = courseRepository.getId("courseid", "SMI_IT_CUR_", "Course");
 		String id = AutoIncrement.incrementId(Integer.parseInt(courseId), "SMI_IT_CUR_");
 		System.out.println(id);
