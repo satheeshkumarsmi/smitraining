@@ -11,19 +11,13 @@ import javax.persistence.Table;
 @Table(name = "Qualification")
 public class Qualification {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int qId;
-	private int degree;
-	public int getqId() {
-		return qId;
-	}
-	public void setqId(int qId) {
-		this.qId = qId;
-	}
-	public int getDegree() {
+	private String degree;
+
+
+	public String getDegree() {
 		return degree;
 	}
-	public void setDegree(int degree) {
+	public void setDegree(String degree) {
 		this.degree = degree;
 	}
 }

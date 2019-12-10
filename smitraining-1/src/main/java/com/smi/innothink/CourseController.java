@@ -46,7 +46,6 @@ public class CourseController {
 
 		String courseId = courseRepository.getId("courseid", "SMI_IT_CUR_", "Course");
 		String id = AutoIncrement.incrementId(Integer.parseInt(courseId), "SMI_IT_CUR_");
-		System.out.println(id);
 		course.setCourseID(id);
 		System.out.println(course.getCourseID());
 		System.out.println(course.getCourse_name());
@@ -102,5 +101,11 @@ public class CourseController {
 	public Iterable<Topic> getTopic() {
 		return topicRepository.findAll();
 	}
+	
+	@RequestMapping(value = "/gettopiconsubject", method = RequestMethod.GET, produces = "application/json")
+	public Iterable<Topic> getTopicOnSubject(@RequestParam("subjectId") String subjectId) {
+		return topicRepository.getTopics(subjectId);
+	}
+	
 
 }

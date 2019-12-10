@@ -2,9 +2,20 @@ package com.smi.innothink.domain;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedStoredProcedureQuery;
+import javax.persistence.ParameterMode;
+import javax.persistence.StoredProcedureParameter;
 import javax.persistence.Table;
 @Entity
 @Table(name="AcademicDetails")
+@NamedStoredProcedureQuery(name = "in_and_out_test_academic", 
+procedureName = "sample",
+parameters = {
+   @StoredProcedureParameter(mode = ParameterMode.IN, name = "inParam", type = String.class),
+   @StoredProcedureParameter(mode = ParameterMode.IN, name = "inParam1", type = String.class),
+   @StoredProcedureParameter(mode = ParameterMode.IN, name = "outParam1", type = String.class),
+   @StoredProcedureParameter(mode = ParameterMode.OUT, name = "outParam2", type = String.class)
+})
 public class AcademicDetails {
 	
 	

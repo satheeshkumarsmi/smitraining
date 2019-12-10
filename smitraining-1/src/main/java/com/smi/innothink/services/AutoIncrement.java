@@ -10,6 +10,14 @@ public class AutoIncrement {
 		result=prefix+id;
 		return result;
 	}
+
+	public static int getIncrement(int id) {
+
+		id++;
+		return id;
+	}
+
+	
 	
 	
 

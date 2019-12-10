@@ -13,17 +13,17 @@ public class Stream {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int sId;
-	private int degreeStream;
+	private String degreeStream;
 	public int getsId() {
 		return sId;
 	}
 	public void setsId(int sId) {
 		this.sId = sId;
 	}
-	public int getDegreeStream() {
+	public String getDegreeStream() {
 		return degreeStream;
 	}
-	public void setDegreeStream(int degreeStream) {
+	public void setDegreeStream(String degreeStream) {
 		this.degreeStream = degreeStream;
 	}
 	

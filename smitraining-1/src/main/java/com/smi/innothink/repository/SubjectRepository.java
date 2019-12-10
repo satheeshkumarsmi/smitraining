@@ -14,4 +14,5 @@ public interface SubjectRepository extends JpaRepository<Subject, String>{
 	@Query(" from Subject s where s.courseId=:id")
 	Iterable<Subject> getSubjects(@Param("id") String courseId);
 
+
 }

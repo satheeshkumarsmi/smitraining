@@ -3,20 +3,33 @@ package com.smi.innothink.domain;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedStoredProcedureQuery;
+import javax.persistence.ParameterMode;
+import javax.persistence.StoredProcedureParameter;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="Student")
+@NamedStoredProcedureQuery(name = "in_and_out_test_student", 
+procedureName = "sample",
+parameters = {
+   @StoredProcedureParameter(mode = ParameterMode.IN, name = "inParam", type = String.class),
+   @StoredProcedureParameter(mode = ParameterMode.IN, name = "inParam1", type = String.class),
+   @StoredProcedureParameter(mode = ParameterMode.IN, name = "outParam1", type = String.class),
+   @StoredProcedureParameter(mode = ParameterMode.OUT, name = "outParam2", type = String.class)
+})
 public class Student {
 @Id
 private String studentId;
 private String studentName;
 private String dateOfJoining;
-private boolean bond;
+private String bond;
 private String duration;
 private String salary;
 private String studentPersonalId;
+@Column(name="stay_details")
 private String stayDetails;
+@Column(name="status_details")
 private String statusDetails;
 private String academicId;
 private String mode;
@@ -38,10 +51,10 @@ public String getDateOfJoining() {
 public void setDateOfJoining(String dateOfJoining) {
 	this.dateOfJoining = dateOfJoining;
 }
-public boolean isBond() {
+public String isBond() {
 	return bond;
 }
-public void setBond(boolean bond) {
+public void setBond(String bond) {
 	this.bond = bond;
 }
 public String getDuration() {
