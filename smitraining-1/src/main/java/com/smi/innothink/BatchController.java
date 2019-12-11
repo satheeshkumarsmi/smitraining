@@ -77,7 +77,6 @@ public class BatchController {
 	public ArrayList<Student> getName(@RequestParam("mobile") String mobile) {
 		System.out.println(mobile);
 		ArrayList<Student> al= studentRepository.getName("%"+mobile+"%");
-		System.out.println(al);
 		return al;
 		 
 	}
