@@ -28,6 +28,7 @@ public class AttendanceController {
 		String id = AutoIncrement.incrementId(Integer.parseInt(attendanceId), "SMI_IT_ATD_");
 		attendance.setAttendanceId(id);
 		Attendance res=attendanceRepository.save(attendance);
+		System.out.println();
 		if(res.getAttendanceId().equals(attendance.getAttendanceId())){
 			return true;
 		}
