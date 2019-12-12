@@ -1,7 +1,10 @@
 package com.smi.innothink.domain;
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.NamedStoredProcedureQuery;
+import javax.persistence.OneToMany;
 import javax.persistence.ParameterMode;
 import javax.persistence.StoredProcedureParameter;
 import javax.persistence.Table;
@@ -27,6 +30,16 @@ public class Trainers {
 	private String trainerQualification;
 	private String technologyUndertaken;
 	private String trainerPassword;
+	
+
+	
+//	private List<SmiRoles> roles;
+	
+	
+	public Trainers(Trainers trainer) {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public String getTrainerId() {
 		return trainerId;
 	}

@@ -13,7 +13,7 @@ import com.smi.innothink.repository.TrainerRepository;
 import com.smi.innothink.services.AutoIncrement;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RequestMapping("/smi")
 public class TrainerController {
 	@Autowired(required = false)

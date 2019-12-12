@@ -20,7 +20,7 @@ import com.smi.innothink.repository.StudentRepository;
 import com.smi.innothink.services.AutoIncrement;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RequestMapping("/smi")
 public class StudentController {
 	@Autowired(required = false)
@@ -89,11 +89,14 @@ public class StudentController {
 		System.out.println(id1);
 		academicDetails.setStudentAcademicId(id1);
 		AcademicDetails res1 = academicDetailsRepository.save(academicDetails);
+		acId=res1.getStudentAcademicId();
 		if ((res1.getStudentAcademicId().equals(academicDetails.getStudentAcademicId())))
 			return true;
 		else
 			return false;
 	}
+	String acId;
+	String pId;
 
 	@RequestMapping(value = "/insertstudentpersonal", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertStudentPersonal(@RequestBody(required = false) StudentPersonal studentPersonal) {
@@ -103,6 +106,7 @@ public class StudentController {
 		System.out.println(id2);
 		studentPersonal.setStudentPersonalId(id2);
 		StudentPersonal res2 = studentPersonalRepository.save(studentPersonal);
+		pId=res2.getStudentPersonalId();
 		if (res2.getStudentPersonalId().equals(studentPersonal.getStudentPersonalId()))
 			return true;
 		else
@@ -115,15 +119,8 @@ public class StudentController {
 	public boolean insertStudent(@RequestBody(required = false) Student student) {
 
 		String studentId = studentPersonalRepository.getId("student_id", "SMI_IT_STU_", "student");
-		String academicId = academicDetailsRepository.getId("student_academic_id", "SMI_IT_ADI_", "academic_details");
-		int k=Integer.parseInt(academicId)+1;
-		String personalId = studentPersonalRepository.getId("student_personal_id", "SMI_IT_STUP_", "student_personal");
-		int r=Integer.parseInt(personalId)+1;
-		String acaId="SMI_IT_ADI_"+k;
-		String perId="SMI_IT_STUP_"+r;		
-		student.setAcademicId(acaId);
-		student.setStudentPersonalId(perId);
-
+		student.setAcademicId(acId);
+		student.setStudentPersonalId(pId);
 		String id3 = AutoIncrement.incrementId(Integer.parseInt(studentId), "SMI_IT_STU_");
 		System.out.println(id3);
 		student.setStudentId(id3);

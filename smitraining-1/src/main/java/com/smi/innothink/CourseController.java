@@ -20,7 +20,7 @@ import com.smi.innothink.repository.TopicRepository;
 import com.smi.innothink.services.AutoIncrement;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RequestMapping("/smi")
 public class CourseController {
 

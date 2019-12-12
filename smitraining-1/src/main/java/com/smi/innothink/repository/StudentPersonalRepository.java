@@ -1,5 +1,7 @@
 package com.smi.innothink.repository;
 
+import java.util.ArrayList;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.jpa.repository.query.Procedure;
@@ -11,6 +13,5 @@ public interface StudentPersonalRepository extends JpaRepository<StudentPersonal
 
 	@Procedure(name = "in_and_out_test_studentpersonal")
     String getId(@Param("inParam") String inParam,@Param("inParam1") String inParam1,@Param("outParam1") String inParam2);
-  // @Query("select studentPersonalId from StudentPersonal where studentMobile LIKE ':mobile%'")
-  // Iterable getPersonalIdByMobile(@Param ("mobile")String mobile);
+ 
 }

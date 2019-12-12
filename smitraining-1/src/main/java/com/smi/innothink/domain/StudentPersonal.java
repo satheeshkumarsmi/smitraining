@@ -28,8 +28,7 @@ public class StudentPersonal {
 	@Column(name="student_personal_id")
 	private String studentPersonalId;
 
-    @Column(name="student_mobile")
-	private String studentMobile;
+	
     @Column(name="student_email")
 	private String studentEmail;
 	@Column(name="student_address")
@@ -49,12 +48,7 @@ public class StudentPersonal {
 	public void setStudentPersonalId(String studentPersonalId) {
 		this.studentPersonalId = studentPersonalId;
 	}
-	public String getStudentMobile() {
-		return studentMobile;
-	}
-	public void setStudentMobile(String studentMobile) {
-		this.studentMobile = studentMobile;
-	}
+	
 	public String getStudentEmail() {
 		return studentEmail;
 	}

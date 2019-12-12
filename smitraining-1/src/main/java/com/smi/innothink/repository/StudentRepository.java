@@ -13,7 +13,9 @@ public interface StudentRepository extends JpaRepository<Student, String>{
 
 	@Procedure(name = "in_and_out_test_student")
     String getId(@Param("inParam") String inParam,@Param("inParam1") String inParam1,@Param("outParam1") String inParam2);
-	@Query("from Student s where s.studentPersonalId  in ( select c.studentPersonalId from StudentPersonal c where c.studentMobile LIKE :mobile)" )
+	@Query("from Student s where s.studentMobile Like  :mobile ")
 	ArrayList<Student> getName(@Param ("mobile") String mobile); 
-
+	
+	@Query("from Student s where s.studentId=:id")
+	Student getStudent(@Param ("id") String k);
 }

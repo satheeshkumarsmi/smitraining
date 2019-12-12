@@ -2,18 +2,29 @@ package com.smi.innothink.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedStoredProcedureQuery;
+import javax.persistence.ParameterMode;
+import javax.persistence.StoredProcedureParameter;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="Attendance")
+@NamedStoredProcedureQuery(name = "in_and_out_test_attendance", 
+procedureName = "sample",
+parameters = {
+   @StoredProcedureParameter(mode = ParameterMode.IN, name = "inParam", type = String.class),
+   @StoredProcedureParameter(mode = ParameterMode.IN, name = "inParam1", type = String.class),
+   @StoredProcedureParameter(mode = ParameterMode.IN, name = "outParam1", type = String.class),
+   @StoredProcedureParameter(mode = ParameterMode.OUT, name = "outParam2", type = String.class)
+})
 public class Attendance {
 	@Id
 	private String attendanceId;
 	private String batchId;
 	private String studentId;
 	private String attendanceDate;
-	private String forenoonSession;
-	private String afternoonSession;
+	private String session;
+	private boolean status;
 	public String getAttendanceId() {
 		return attendanceId;
 	}
@@ -38,18 +49,18 @@ public class Attendance {
 	public void setAttendanceDate(String attendanceDate) {
 		this.attendanceDate = attendanceDate;
 	}
-	public String getForenoonSession() {
-		return forenoonSession;
+	public String getSession() {
+		return session;
 	}
-	public void setForenoonSession(String forenoonSession) {
-		this.forenoonSession = forenoonSession;
+	public void setSession(String session) {
+		this.session = session;
 	}
-	public String getAfternoonSession() {
-		return afternoonSession;
+	public boolean isStatus() {
+		return status;
 	}
-	public void setAfternoonSession(String afternoonSession) {
-		this.afternoonSession = afternoonSession;
+	public void setStatus(boolean status) {
+		this.status = status;
 	}
 	
-
+	
 }

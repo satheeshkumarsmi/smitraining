@@ -24,6 +24,8 @@ private String studentId;
 private String studentName;
 private String dateOfJoining;
 private String bond;
+
+private String studentMobile;
 private String duration;
 private String salary;
 private String studentPersonalId;
@@ -41,6 +43,15 @@ public void setStudentId(String studentId) {
 }
 public String getStudentName() {
 	return studentName;
+}
+public String getStudentMobile() {
+	return studentMobile;
+}
+public void setStudentMobile(String studentMobile) {
+	this.studentMobile = studentMobile;
+}
+public String getBond() {
+	return bond;
 }
 public void setStudentName(String studentName) {
 	this.studentName = studentName;

@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.smi.innothink.domain.Attendance;
 import com.smi.innothink.domain.Trainers;
 import com.smi.innothink.repository.AttendanceRepository;
+import com.smi.innothink.services.AutoIncrement;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin
 @RequestMapping("/smi")
 public class AttendanceController {
 	@Autowired(required=false)
@@ -21,7 +22,18 @@ public class AttendanceController {
 	AttendanceRepository attendanceRepository;
 	
 	@RequestMapping(value = "/insertattendance", method = RequestMethod.POST, produces = "application/json")
-	public boolean insertAttendance(@RequestBody(required = false) Trainers trainers) {
-		return false;
+	public boolean insertAttendance(@RequestBody(required = false) Attendance attendance) {
+
+		String attendanceId = attendanceRepository.getId("attendance_id", "SMI_IT_ATD_", "attendance");
+		String id = AutoIncrement.incrementId(Integer.parseInt(attendanceId), "SMI_IT_ATD_");
+		attendance.setAttendanceId(id);
+		Attendance res=attendanceRepository.save(attendance);
+		if(res.getAttendanceId().equals(attendance.getAttendanceId())){
+			return true;
+		}
+		else
+			return false;
+		
+		
 	}
 }
