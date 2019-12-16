@@ -16,5 +16,4 @@ public interface BatchRepository extends JpaRepository<Batch, String>{
 	@Query("from Batch")
      ArrayList<Batch> getBatch();
 
-
 }

@@ -23,8 +23,8 @@ public class Attendance {
 	private String batchId;
 	private String studentId;
 	private String attendanceDate;
-	private String session;
-	private boolean status;
+	private boolean forenoonSession;
+	private boolean afternoonSession;
 	public String getAttendanceId() {
 		return attendanceId;
 	}
@@ -49,18 +49,19 @@ public class Attendance {
 	public void setAttendanceDate(String attendanceDate) {
 		this.attendanceDate = attendanceDate;
 	}
-	public String getSession() {
-		return session;
+	public boolean isForenoonSession() {
+		return forenoonSession;
 	}
-	public void setSession(String session) {
-		this.session = session;
+	public void setForenoonSession(boolean forenoonSession) {
+		this.forenoonSession = forenoonSession;
 	}
-	public boolean isStatus() {
-		return status;
+	public boolean isAfternoonSession() {
+		return afternoonSession;
 	}
-	public void setStatus(boolean status) {
-		this.status = status;
+	public void setAfternoonSession(boolean afternoonSession) {
+		this.afternoonSession = afternoonSession;
 	}
+	
 	
 	
 }

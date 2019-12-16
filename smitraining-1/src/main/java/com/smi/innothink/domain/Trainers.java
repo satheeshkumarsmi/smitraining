@@ -36,9 +36,9 @@ public class Trainers {
 //	private List<SmiRoles> roles;
 	
 	
-	public Trainers(Trainers trainer) {
+	//public Trainers(Trainers trainer) {
 		// TODO Auto-generated constructor stub
-	}
+	//}
 	
 	public String getTrainerId() {
 		return trainerId;
