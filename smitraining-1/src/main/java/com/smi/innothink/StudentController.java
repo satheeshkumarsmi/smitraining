@@ -1,5 +1,6 @@
 package com.smi.innothink;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,6 +24,7 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class StudentController {
+	static Logger log = Logger.getLogger("StudentController.class");
 	@Autowired(required = false)
 	Qualification qualification;
 
@@ -56,28 +58,38 @@ public class StudentController {
 		System.out.println(qualification);
 
 		Qualification res = qualificationRepository.save(qualification);
-		if (res.getDegree() == (qualification.getDegree()))
+		if (res.getDegree() == (qualification.getDegree())) {
+			log.info("Insert Student Qualification  " +qualification.getDegree() );
 			return true;
-		else
+		}
+		else {
+			log.info("Fail to insert");
 			return false;
+		}
 	}
 
 	@RequestMapping(value = "/getstudentqualification", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Qualification> getstudentqualification() {
+		log.info("Get student qualification");
 		return qualificationRepository.findAll();
 	}
 
 	@RequestMapping(value = "/insertstudentstream", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertStudentStream(@RequestBody(required = false) Stream stream) {
 		Stream res = streamRepopsitory.save(stream);
-		if (res.getsId() == (stream.getsId()))
+		if (res.getsId() == (stream.getsId())) {
+			log.info("Insert student stream  " +stream.getsId());
 			return true;
-		else
+		}
+		else {
+			log.info("Fail to insert student stream");
 			return false;
+		}
 	}
 
 	@RequestMapping(value = "/getstudentstream", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Stream> getstudentStream() {
+		log.info("Get student stream");
 		return streamRepopsitory.findAll();
 	}
 
@@ -90,10 +102,15 @@ public class StudentController {
 		academicDetails.setStudentAcademicId(id1);
 		AcademicDetails res1 = academicDetailsRepository.save(academicDetails);
 		acId=res1.getStudentAcademicId();
-		if ((res1.getStudentAcademicId().equals(academicDetails.getStudentAcademicId())))
+		if ((res1.getStudentAcademicId().equals(academicDetails.getStudentAcademicId()))) {
+			log.info("Insert Student Academic details  " +academicDetails.getStudentAcademicId());
 			return true;
-		else
+		}
+			
+		else {
+			log.info("Fail to insert student academic details");
 			return false;
+			}
 	}
 	String acId;
 	String pId;
@@ -107,11 +124,15 @@ public class StudentController {
 		studentPersonal.setStudentPersonalId(id2);
 		StudentPersonal res2 = studentPersonalRepository.save(studentPersonal);
 		pId=res2.getStudentPersonalId();
-		if (res2.getStudentPersonalId().equals(studentPersonal.getStudentPersonalId()))
+		if (res2.getStudentPersonalId().equals(studentPersonal.getStudentPersonalId())) {
+			log.info("Insert Student Personal details  " + studentPersonal.getStudentPersonalId());
 			return true;
-		else
+		}
+			
+		else {
+			log.info("Fail to insert Student personal details ");
 			return false;
-
+		}
 	}
 
 	@RequestMapping(value = "/insertstudent", method = RequestMethod.POST, produces = "application/json")
@@ -125,9 +146,15 @@ public class StudentController {
 		System.out.println(id3);
 		student.setStudentId(id3);
 		Student res3 = studentRepository.save(student);
-		if (res3.getStudentId().equals(student.getStudentId()))
-			return true;
-		else
+		if (res3.getStudentId().equals(student.getStudentId())) {
+			log.info("Insert new Student  " + student.getStudentId());
+			return true;	
+		}
+			
+		else {
+			log.info("Fail to insert new student");
 			return false;
+		}
+			
 	}
 }

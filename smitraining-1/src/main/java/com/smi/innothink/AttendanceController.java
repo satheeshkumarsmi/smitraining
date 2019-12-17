@@ -3,6 +3,7 @@ package com.smi.innothink;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -21,6 +22,7 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class AttendanceController {
+	static Logger log = Logger.getLogger("AttendanceController.class");
 	@Autowired(required = false)
 	Attendance attendance;
 	@Autowired(required = false)
@@ -42,9 +44,10 @@ public class AttendanceController {
     		String attendanceId = attendanceRepository.getId("attendance_id", "SMI_IT_ATD_", "attendance");
     		String id = AutoIncrement.incrementId(Integer.parseInt(attendanceId), "SMI_IT_ATD_");
     		attendance.setAttendanceId(id);
+    		log.info("Attendance is inserted  " +attendance.getAttendanceDate() + attendance.getBatchId() + attendance.getAttendanceId());
         	
         }
-		
+			log.info("Fail to insert attendence");
 			return false;
 
 	}

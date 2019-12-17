@@ -1,5 +1,6 @@
 package com.smi.innothink;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,6 +17,7 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class DailyStatusController {
+	static Logger log = Logger.getLogger("DailyStatusController.class");
 @Autowired(required=false)
 DailyStatus dailyStatus;
 @Autowired(required=false)
@@ -28,10 +30,13 @@ public boolean insertBatch(@RequestBody(required = false) DailyStatus dailyStatu
 	String id = AutoIncrement.incrementId(Integer.parseInt(dailyStatusId), "SMI_IT_DSI_");
 	dailyStatus.setDailyStatusId(id);
 	DailyStatus res = dailyStatusRepository.save(dailyStatus);
-	if (res.getDailyStatusId().equals(dailyStatus.getDailyStatusId()))
+	if (res.getDailyStatusId().equals(dailyStatus.getDailyStatusId())) {
+		log.info("Insert Daily status report  " +dailyStatus.getDailyStatusId());
 		return true;
-	else
+	}
+	else {
+		log.info("Fail to insert daily status report");
 		return false;
-
+	}
 }
 }

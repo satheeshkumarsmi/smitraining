@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.Optional;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,7 +24,7 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class CourseController {
-
+	static Logger log = Logger.getLogger("CourseController.class");
 	@Autowired
 	CourseRepository courseRepository;
 
@@ -50,17 +51,21 @@ public class CourseController {
 		System.out.println(course.getCourse_name());
 		System.out.println(course.getDescription());
 		Course res = courseRepository.save(course);
-		if (res.getCourseID().equals(course.getCourseID()))
+		if (res.getCourseID().equals(course.getCourseID())) {
+			log.info("Insert Course Details  " +course.getCourseID());
 			return true;
-		else
+		}
+		else {
+			log.info("Fail to insert course");
 			return false;
+			}
 	}
 
 	@RequestMapping(value = "/get", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Course> get() {
+		log.info("Get course details");
 		return courseRepository.findAll();
-
-	}
+		}
 
 	@RequestMapping(value = "/insertsubject", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertSubject(@RequestBody(required = false) Subject subject) {
@@ -68,19 +73,26 @@ public class CourseController {
 		String id = AutoIncrement.incrementId(Integer.parseInt(subjectId), "SMI_IT_SUB_");
 		subject.setSubjectId(id);
 		Subject res = subjectRepository.save(subject);
-		if (res.getSubjectId().equals(subject.getSubjectId()))
+		if (res.getSubjectId().equals(subject.getSubjectId())) {
+			log.info("Insert Subject details  " + subject.getSubjectId());
 			return true;
-		else
+		}
+		else {
+			log.info("Fail to insert subject");
 			return false;
+		}
+			
 	}
 
 	@RequestMapping(value = "/getsubject", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Subject> getSubject() {
+		log.info("Get subject details");
 		return subjectRepository.findAll();
 	}
 
 	@RequestMapping(value = "/getsubjectoncourse", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Subject> getSubjectOnCourse(@RequestParam("courseId") String courseId) {
+		log.info("Get details about subject on course");
 		return subjectRepository.getSubjects(courseId);
 	}
 
@@ -90,19 +102,23 @@ public class CourseController {
 		String id = AutoIncrement.incrementId(Integer.parseInt(topicId), "SMI_IT_TOP_");
 		topic.setTopicId(id);
 		Topic res = topicRepository.save(topic);
-		if (res.getTopicId().equals(topic.getTopicId()))
+		if (res.getTopicId().equals(topic.getTopicId())) {
+			log.info("Inserting topics  " + topic.getTopicId());
 			return true;
+		}
 		else
 			return false;
 	}
 
 	@RequestMapping(value = "/gettopic", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Topic> getTopic() {
+		log.info("Get topic details");
 		return topicRepository.findAll();
 	}
 	
 	@RequestMapping(value = "/gettopiconsubject", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Topic> getTopicOnSubject(@RequestParam("subjectId") String subjectId) {
+		log.info("Get topic on subject ");
 		return topicRepository.getTopics(subjectId);
 	}
 	

@@ -33,7 +33,7 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class BatchController {
-
+	static Logger log = Logger.getLogger("BatchController.class");
 	@Autowired(required = false)
 	BatchRepository batchRepository;
 	@Autowired(required = false)
@@ -58,20 +58,25 @@ public class BatchController {
 		String id = AutoIncrement.incrementId(Integer.parseInt(batchId), "SMI_IT_BAT_");
 		batch.setBatchId(id);
 		Batch res = batchRepository.save(batch);
-		if (res.getBatchId().equals(batch.getBatchId()))
+		if (res.getBatchId().equals(batch.getBatchId())) {
+			log.info("Inserting Batch Details  " + batch.getBatchId());
 			return true;
-		else
+			}
+		else {
+			log.info("Failed to insert");
 			return false;
-
+		}
 	}
 
 	@RequestMapping(value = "/getbatch", method = RequestMethod.GET, produces = "application/json")
 	public ArrayList<Batch> get() {
+		log.info("Get Batch Details");
 		return batchRepository.getBatch();
 	}
 
 	@RequestMapping(value = "/getname", method = RequestMethod.GET, produces = "application/json")
 	public ArrayList<Student> getName(@RequestParam("mobile") String mobile) {
+		log.info("Get the student name according to their mobile number");
 		System.out.println(mobile);
 		ArrayList<Student> al = studentRepository.getName("%" + mobile + "%");
 		return al;
@@ -83,28 +88,31 @@ public class BatchController {
 
 		System.out.println(batchMapping);
 		BatchMapping res = batchMappingRepository.save(batchMapping);
-		if (res.getId() == batchMapping.getId())
+		if (res.getId() == batchMapping.getId()) {
+			log.info("Insert Student and Batch Mapping  " +batchMapping.getId());
 			return true;
-		else
+		}
+		else {
+			log.info("Fail to insert Batch Mapping");
 			return false;
+		}
+			
 	}
 
 	@RequestMapping(value = "/getstudentnameandmobile", method = RequestMethod.GET, produces = "application/json")
 	public ArrayList<Student> getStudentNameAndMobile(@RequestParam String batchId) {
-		ArrayList<String> al=batchMappingRepository.getStudent(batchId);
-		ArrayList<Student> res=new ArrayList<Student>();
-		Iterator it=al.iterator();
-		while(it.hasNext()) {
-			String k=String.valueOf(it.next());
+		ArrayList<String> al = batchMappingRepository.getStudent(batchId);
+		ArrayList<Student> res = new ArrayList<Student>();
+		Iterator it = al.iterator();
+		while (it.hasNext()) {
+			String k = String.valueOf(it.next());
 			System.out.println(k);
-			Student k1=(studentRepository.getStudent(k));
-			 System.out.println(k1);
-			 	res.add(k1);
-				
-			}
+			Student k1 = (studentRepository.getStudent(k));
+			System.out.println(k1);
+			res.add(k1);
+
+		}
+		log.info("Get student name and mobile number ");
 		return res;
-		}}
-		 
-		
-
-
+	}
+}

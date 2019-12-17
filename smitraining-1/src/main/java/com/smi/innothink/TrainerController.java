@@ -1,5 +1,6 @@
 package com.smi.innothink;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,6 +17,7 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class TrainerController {
+	static Logger log = Logger.getLogger("TrainerController.class");
 	@Autowired(required = false)
     Trainers trainers;
 	@Autowired(required = false)
@@ -28,15 +30,19 @@ public class TrainerController {
 		String id = AutoIncrement.incrementId(Integer.parseInt(trainerId), "SMI_IT_TRA_");
 		trainers.setTrainerId(id);
 		Trainers res=trainerRepository.save(trainers);
-		if(trainers.getTrainerId().equals (res.getTrainerId()))
+		if(trainers.getTrainerId().equals (res.getTrainerId())) {
+			log.info("Insert New Trainer  " +res.getTrainerId());
 			return true;
-		else
+		}
+		else {
+			log.info("Fail to insert new trainer");
 			return false;
-	
+		}
 }
 	
 	@RequestMapping(value = "/gettrainer", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Trainers> get() {
+		log.info("Get all trainer details");
 		return trainerRepository.findAll();
 
 	}
