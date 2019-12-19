@@ -33,7 +33,7 @@ public class Trainers {
 	
 
 	
-//	private List<SmiRoles> roles;
+//	private Set<SmiRoles> roles;
 	
 	
 	//public Trainers(Trainers trainer) {

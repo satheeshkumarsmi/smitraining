@@ -22,6 +22,7 @@ import com.smi.innothink.domain.BatchStatus;
 import com.smi.innothink.domain.Course;
 import com.smi.innothink.domain.Qualification;
 import com.smi.innothink.domain.Student;
+import com.smi.innothink.domain.SwitchBatch;
 import com.smi.innothink.repository.BatchMappingRepository;
 import com.smi.innothink.repository.BatchRepository;
 import com.smi.innothink.repository.BatchStatusRepository;
@@ -50,6 +51,8 @@ public class BatchController {
 	StudentRepository studentRepository;
 	@Autowired(required = false)
 	StudentPersonalRepository studentpersonalRepository;
+	@Autowired(required = false)
+	SwitchBatch switchBatch;
 
 	@RequestMapping(value = "/insertbatch", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertBatch(@RequestBody(required = false) Batch batch) {
@@ -90,7 +93,8 @@ public class BatchController {
 	}
 
 	@RequestMapping(value = "/getstudentnameandmobile", method = RequestMethod.GET, produces = "application/json")
-	public ArrayList<Student> getStudentNameAndMobile(@RequestParam String batchId) {
+	public ArrayList<Student> getStudentNameAndMobile(@RequestParam String batchId) 
+	{
 		ArrayList<String> al=batchMappingRepository.getStudent(batchId);
 		ArrayList<Student> res=new ArrayList<Student>();
 		Iterator it=al.iterator();
@@ -98,13 +102,26 @@ public class BatchController {
 			String k=String.valueOf(it.next());
 			System.out.println(k);
 			Student k1=(studentRepository.getStudent(k));
-			 System.out.println(k1);
-			 	res.add(k1);
-				
-			}
+			System.out.println(k1);
+			 	res.add(k1);			
+			 	}
 		return res;
-		}}
+		}
 		 
+		@RequestMapping(value = "/switchbatch", method = RequestMethod.POST, produces = "application/java")
+		public boolean switchBatch(@RequestBody(required=false) BatchMapping batchMapping) {
+			
+			
+			String k=batchMapping.getStudentId();
+			String n=batchMapping.getBatchId();
+			batchMappingRepository.remove(k);
+			batchMapping.setStudentId(k);
+			batchMapping.setBatchId(n);
+			batchMappingRepository.save(batchMapping);
+			
+			return false;
+		}
 		
+}
 
 

@@ -1,5 +1,7 @@
 package com.smi.innothink;
 
+import java.util.ArrayList;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -9,11 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.smi.innothink.domain.AcademicDetails;
 import com.smi.innothink.domain.Qualification;
+import com.smi.innothink.domain.StatusDetails;
 import com.smi.innothink.domain.Stream;
 import com.smi.innothink.domain.Student;
 import com.smi.innothink.domain.StudentPersonal;
 import com.smi.innothink.repository.AcademicDetailsRepository;
 import com.smi.innothink.repository.QualificationRepository;
+import com.smi.innothink.repository.StatusDetailsRepository;
 import com.smi.innothink.repository.StreamRepository;
 import com.smi.innothink.repository.StudentPersonalRepository;
 import com.smi.innothink.repository.StudentRepository;
@@ -47,6 +51,11 @@ public class StudentController {
 	AcademicDetailsRepository academicDetailsRepository;
 	@Autowired(required = false)
 	StudentRepository studentRepository;
+	
+	@Autowired(required=false)
+	StatusDetails statusDetails;
+	@Autowired(required=false)
+	StatusDetailsRepository statusDetailsRepository;
 
 	@RequestMapping(value = "/insertstudentqualification", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertStudentQualification(@RequestBody(required = false) Qualification qualification) {
@@ -129,5 +138,35 @@ public class StudentController {
 			return true;
 		else
 			return false;
+	}
+	
+	@RequestMapping(value = "/getdeployedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
+	public Iterable getDeployedStudentsDetails()
+	{
+		return studentRepository.getDeployedStudent("deployed");
+	}
+	
+	@RequestMapping(value = "/getdiscontinuedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
+	public Iterable getDiscontinuedStudentsDetails()
+	{
+		return studentRepository.getDiscontinuedStudent("discontinued");
+	}
+
+	@RequestMapping(value = "/getterminatedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
+	public Iterable getTerminatedStudentsDetails()
+	{
+		return studentRepository.getTerminatedStudent("terminated");
+	}
+	@RequestMapping(value = "/getintrainingstudentsdetails", method = RequestMethod.GET, produces = "application/json")
+	public Iterable getIntrainingStudentsDetails()
+	{
+		return studentRepository.getIntrainingStudent("in-training");
+	}
+	
+	@RequestMapping(value = "/insertstudentstatus", method = RequestMethod.POST, produces = "application/json")
+	public void insertStudentStatus(@RequestBody(required = false) StatusDetails statusDetails) {
+		statusDetailsRepository.save(statusDetails);
+		
+		
 	}
 }

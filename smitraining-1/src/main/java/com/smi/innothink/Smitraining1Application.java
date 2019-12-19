@@ -8,6 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Smitraining1Application {
 	public static void main(String[] args) {		
 		SpringApplication.run(Smitraining1Application.class, args);
+	
+		//AttendanceController attendanceController = new AttendanceController();
+		//attendanceController.insertAttendance("SMI_IT_BAT_1", "cccc");
 	}
 
 }

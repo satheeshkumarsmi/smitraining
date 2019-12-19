@@ -18,4 +18,17 @@ public interface StudentRepository extends JpaRepository<Student, String>{
 	
 	@Query("from Student s where s.studentId=:id")
 	Student getStudent(@Param ("id") String k);
+	
+	@Query("select b.batchName,s.studentName,s.dateOfJoining,sd.date,sd.teamName from StatusDetails sd join Student s on sd.studentId =s.studentId join Batch b on sd.batchId=b.batchId where sd.status=:id") 
+    public ArrayList getDeployedStudent(@Param ("id") String status);
+	
+	@Query("select b.batchName,s.studentName,s.dateOfJoining,sd.date,sd.teamName,sd.reason from StatusDetails sd join Student s on sd.studentId =s.studentId join Batch b on sd.batchId=b.batchId where sd.status=:id") 
+    public ArrayList getDiscontinuedStudent(@Param ("id") String status);
+	@Query("select b.batchName,s.studentName,s.dateOfJoining,sd.date,sd.teamName,sd.reason from StatusDetails sd join Student s on sd.studentId =s.studentId join Batch b on sd.batchId=b.batchId where sd.status=:id") 
+    public ArrayList getTerminatedStudent(@Param ("id") String status);
+	
+	@Query("select b.batchName,s.studentName,s.dateOfJoining from StatusDetails sd join Student s on sd.studentId =s.studentId join Batch b on sd.batchId=b.batchId where sd.status=:id") 
+    public ArrayList getIntrainingStudent(@Param ("id") String status);
+	
+	
 }

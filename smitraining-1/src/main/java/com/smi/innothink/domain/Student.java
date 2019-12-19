@@ -31,8 +31,6 @@ private String salary;
 private String studentPersonalId;
 @Column(name="stay_details")
 private String stayDetails;
-@Column(name="status_details")
-private String statusDetails;
 private String academicId;
 private String mode;
 public String getStudentId() {
@@ -92,12 +90,7 @@ public String getStayDetails() {
 public void setStayDetails(String stayDetails) {
 	this.stayDetails = stayDetails;
 }
-public String getStatusDetails() {
-	return statusDetails;
-}
-public void setStatusDetails(String statusDetails) {
-	this.statusDetails = statusDetails;
-}
+
 public String getAcademicId() {
 	return academicId;
 }
