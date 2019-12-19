@@ -1,5 +1,7 @@
 package com.smi.innothink.repository;
 
+import java.util.ArrayList;
+
 import javax.transaction.Transactional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -23,5 +25,5 @@ public interface AttendanceRepository extends JpaRepository<Attendance,  String>
 	@Query("update Attendance set afternoonSession=true where studentId=:Id and attendanceDate=:date")
 	void updateAfternoonAttendance(@Param("Id") String studentId,@Param("date") String date);
     @Query("select b.batchName,s.studentName,a.forenoonSession,a.afternoonSession from Attendance a join Student s on a.studentId=s.studentId join batch b on a.batchId=b.batchId where a.attendanceDate = :date")
-    public Iterable getDailyAttendance(@Param("date") String date);
+    public ArrayList getDailyAttendance(@Param("date") String date);
 }
