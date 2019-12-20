@@ -59,8 +59,9 @@ public class AttendanceController {
 			log.info("Inserting attendance " + attendance.getAttendanceId());
 		}
 		log.error("Fail to insert Attendance");
-		return false;
-	}
+		return false;}
+	
+
 
 	@RequestMapping(value = "/updateattendance", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertAttendanceProperly(@RequestBody(required = false) AttendanceSession attendanceSession) {

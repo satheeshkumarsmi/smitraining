@@ -17,12 +17,12 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class TrainerController {
+	static Logger log = Logger.getLogger("TrainerController.class");
 	@Autowired(required = false)
     Trainers trainers;
 	@Autowired(required = false)
 	TrainerRepository trainerRepository;
 	
-	static Logger log=Logger.getLogger("TrainerController.class");
 	@RequestMapping(value = "/inserttrainers", method = RequestMethod.POST, produces = "application/json")
 	public boolean insert(@RequestBody(required = false) Trainers trainers) {
 
@@ -32,11 +32,13 @@ public class TrainerController {
 		Trainers res=trainerRepository.save(trainers);
 		if(trainers.getTrainerId().equals (res.getTrainerId())) {
 			log.info("New Trainer is added" + trainers.getTrainerName());
+			log.info("Insert New Trainer  " +res.getTrainerId());
 			return true;
 		}
 			
+
 		else {
-			log.error("Fail to add new trainer");
+			log.info("Fail to insert new trainer");
 			return false;
 		}
 }

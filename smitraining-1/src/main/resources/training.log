@@ -1,0 +1,28 @@
+2019-Dec-17 11:22:30,568  INFO class:12 - Welcome to SMI Training Department
+2019-Dec-17 11:51:55,703  INFO class:12 - Welcome to SMI Training Department
+2019-Dec-20 20:22:02,312  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-20 20:22:42,216  INFO class:77 - List of batches
+2019-Dec-20 20:22:42,232  INFO class:78 - Get Batch Details
+2019-Dec-20 20:22:44,084  INFO class:66 - List of all available courses 
+2019-Dec-20 20:22:52,811  INFO class:66 - List of all available courses 
+2019-Dec-20 20:23:14,502  INFO class:66 - List of all available courses 
+2019-Dec-20 20:23:33,090  INFO class:53 - Insert Course Details  SMI_IT_CUR_8
+2019-Dec-20 20:23:34,645  INFO class:66 - List of all available courses 
+2019-Dec-20 20:24:03,638  INFO class:66 - List of all available courses 
+2019-Dec-20 20:24:03,646  INFO class:91 - List of all Subjects available
+2019-Dec-20 20:24:03,647  INFO class:92 - Get subject details
+2019-Dec-20 20:24:18,657  INFO class:78 - Insert Subject details  SMI_IT_SUB_37
+2019-Dec-20 20:24:21,713  INFO class:91 - List of all Subjects available
+2019-Dec-20 20:24:21,713  INFO class:92 - Get subject details
+2019-Dec-20 20:24:21,713  INFO class:66 - List of all available courses 
+2019-Dec-20 20:24:35,708  INFO class:66 - List of all available courses 
+2019-Dec-20 20:24:35,708  INFO class:91 - List of all Subjects available
+2019-Dec-20 20:24:35,723  INFO class:92 - Get subject details
+2019-Dec-20 20:24:35,723  INFO class:123 - List of available topics
+2019-Dec-20 20:24:38,583  INFO class:99 - Get details about subject on course
+2019-Dec-20 20:25:05,684  INFO class:110 - New Topic Inserted dml
+2019-Dec-20 20:25:09,020  INFO class:66 - List of all available courses 
+2019-Dec-20 20:25:09,038  INFO class:91 - List of all Subjects available
+2019-Dec-20 20:25:09,038  INFO class:92 - Get subject details
+2019-Dec-20 20:25:09,038  INFO class:123 - List of available topics
+2019-Dec-20 20:25:40,167  INFO class:66 - List of all available courses 

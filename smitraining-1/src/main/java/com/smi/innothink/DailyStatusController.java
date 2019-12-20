@@ -16,11 +16,13 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class DailyStatusController {
+
 	@Autowired(required = false)
 	DailyStatus dailyStatus;
 	@Autowired(required = false)
 	DailyStatusRepository dailyStatusRepository;
 	static Logger log = Logger.getLogger("DailyStatusController.class");
+
 
 	@RequestMapping(value = "/insertdailystatus", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertBatch(@RequestBody(required = false) DailyStatus dailyStatus) {
@@ -36,6 +38,7 @@ public class DailyStatusController {
 			return false;
 		}
 	}
+
 
 	@RequestMapping(value = "/getdailystatus", method = RequestMethod.GET, produces = "application/json")
 	public Iterable getDailyStatus(@RequestParam String date) {

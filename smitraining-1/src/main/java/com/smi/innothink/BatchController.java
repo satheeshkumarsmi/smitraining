@@ -34,7 +34,7 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class BatchController {
-
+	static Logger log = Logger.getLogger("BatchController.class");
 	@Autowired(required = false)
 	BatchRepository batchRepository;
 	@Autowired(required = false)
@@ -53,7 +53,6 @@ public class BatchController {
 	StudentPersonalRepository studentpersonalRepository;
 	@Autowired(required = false)
 	SwitchBatch switchBatch;
-	static Logger log=Logger.getLogger("BatchController.class");
 	
 	@RequestMapping(value = "/insertbatch", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertBatch(@RequestBody(required = false) Batch batch) {
@@ -67,19 +66,24 @@ public class BatchController {
 			return true;}
 		else {
 			log.error("Fail to Insert New Batch");
-			return false;
-		}
+			log.info("Inserting Batch Details  " + batch.getBatchId());
+			return true;
+			}
+		
 	}
 
 	@RequestMapping(value = "/getbatch", method = RequestMethod.GET, produces = "application/json")
 	public ArrayList<Batch> get() {
 		log.info("List of batches");
+		log.info("Get Batch Details");
 		return batchRepository.getBatch();
 	}
 
 	@RequestMapping(value = "/getname", method = RequestMethod.GET, produces = "application/json")
 	public ArrayList<Student> getName(@RequestParam("mobile") String mobile) {
-		
+
+		log.info("Get the student name according to their mobile number");
+		System.out.println(mobile);
 		ArrayList<Student> al = studentRepository.getName("%" + mobile + "%");
 		log.info("Find the name of student based on Mobilenumber");
 		return al;
@@ -92,10 +96,15 @@ public class BatchController {
 		BatchMapping res = batchMappingRepository.save(batchMapping);
 		if (res.getId() == batchMapping.getId()) {
 			log.info("Mapping of Student and Batches  " +batchMapping.getStudentId() + batchMapping.getBatchId());
+			log.info("Insert Student and Batch Mapping  " +batchMapping.getId());
 			return true;
 			}
-		else
+	
+		else {
+			log.info("Fail to insert Batch Mapping");
 			return false;
+		}
+			
 	}
 
 	@RequestMapping(value = "/getstudentnameandmobile", method = RequestMethod.GET, produces = "application/json")
@@ -130,5 +139,4 @@ public class BatchController {
 		}
 		
 }
-
 

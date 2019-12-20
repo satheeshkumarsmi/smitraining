@@ -24,7 +24,7 @@ import com.smi.innothink.services.AutoIncrement;
 @CrossOrigin
 @RequestMapping("/smi")
 public class CourseController {
-
+	static Logger log = Logger.getLogger("CourseController.class");
 	@Autowired
 	CourseRepository courseRepository;
 
@@ -41,7 +41,6 @@ public class CourseController {
 
 	@Autowired(required = false)
 	Topic topic;
-	static Logger log=Logger.getLogger("CourseController.class");
 	
 	@RequestMapping(value = "/insert", method = RequestMethod.POST, produces = "application/json")
 	public boolean insert(@RequestBody(required = false) Course course) {
@@ -49,22 +48,24 @@ public class CourseController {
 		String id = AutoIncrement.incrementId(Integer.parseInt(courseId), "SMI_IT_CUR_");
 		course.setCourseId(id);
 		Course res = courseRepository.save(course);
+
 		if (res.getCourseId().equals(course.getCourseId())) {
-			log.info(" New Course Inserted " + course.getCourseName() );
+			log.info("Insert Course Details  " +course.getCourseId());
 			return true;
 		}
 		else {
 			log.error("Fail to insert new course");
+
 			return false;
 		}
-	}
+			}
+
 
 	@RequestMapping(value = "/get", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Course> get() {
 		log.info("List of all available courses ");
 		return courseRepository.findAll();
-
-	}
+		}
 
 	@RequestMapping(value = "/insertsubject", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertSubject(@RequestBody(required = false) Subject subject) {
@@ -73,24 +74,29 @@ public class CourseController {
 		subject.setSubjectId(id);
 		Subject res = subjectRepository.save(subject);
 		if (res.getSubjectId().equals(subject.getSubjectId())) {
-			log.info("New Subject Inserted " +subject.getSubjectName());
+		
+			log.info("Insert Subject details  " + subject.getSubjectId());
 			return true;
 		}
 			
 		else {
-			log.error("Fail to insert new subject");
+			log.info("Fail to insert subject");
 			return false;
 	        }
-	}
+		}
+			
+	
 	@RequestMapping(value = "/getsubject", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Subject> getSubject() {
 		log.info("List of all Subjects available");
+		log.info("Get subject details");
 		return subjectRepository.findAll();
 	}
 
 	@RequestMapping(value = "/getsubjectoncourse", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Subject> getSubjectOnCourse(@RequestParam("courseId") String courseId) {
-		log.info("Find the course of the subject ");
+	
+		log.info("Get details about subject on course");
 		return subjectRepository.getSubjects(courseId);
 	}
 
@@ -102,6 +108,7 @@ public class CourseController {
 		Topic res = topicRepository.save(topic);
 		if (res.getTopicId().equals(topic.getTopicId())) {
 			log.info("New Topic Inserted " + topic.getTopicName());
+
 			return true;
 		}
 		else {
@@ -114,12 +121,14 @@ public class CourseController {
 	@RequestMapping(value = "/gettopic", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Topic> getTopic() {
 		log.info("List of available topics");
+
 		return topicRepository.findAll();
 	}
 	
 	@RequestMapping(value = "/gettopiconsubject", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Topic> getTopicOnSubject(@RequestParam("subjectId") String subjectId) {
-		log.info("Find the subject of the requested topic");
+
+		log.info("Get topic on subject ");
 		return topicRepository.getTopics(subjectId);
 	}
 	

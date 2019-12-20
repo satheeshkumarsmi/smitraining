@@ -10,7 +10,6 @@ public class Smitraining1Application {
 	static Logger log = Logger.getLogger("Smitraining1Application.class");
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(Smitraining1Application.class, args);
 		BasicConfigurator.configure();
 		// AttendanceController attendanceController = new AttendanceController();
