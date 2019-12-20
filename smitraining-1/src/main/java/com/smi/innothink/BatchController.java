@@ -53,7 +53,8 @@ public class BatchController {
 	StudentPersonalRepository studentpersonalRepository;
 	@Autowired(required = false)
 	SwitchBatch switchBatch;
-
+	static Logger log=Logger.getLogger("BatchController.class");
+	
 	@RequestMapping(value = "/insertbatch", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertBatch(@RequestBody(required = false) Batch batch) {
 
@@ -61,22 +62,26 @@ public class BatchController {
 		String id = AutoIncrement.incrementId(Integer.parseInt(batchId), "SMI_IT_BAT_");
 		batch.setBatchId(id);
 		Batch res = batchRepository.save(batch);
-		if (res.getBatchId().equals(batch.getBatchId()))
-			return true;
-		else
+		if (res.getBatchId().equals(batch.getBatchId())) {
+			log.info("New batch Inserted " + batch.getBatchId());
+			return true;}
+		else {
+			log.error("Fail to Insert New Batch");
 			return false;
-
+		}
 	}
 
 	@RequestMapping(value = "/getbatch", method = RequestMethod.GET, produces = "application/json")
 	public ArrayList<Batch> get() {
+		log.info("List of batches");
 		return batchRepository.getBatch();
 	}
 
 	@RequestMapping(value = "/getname", method = RequestMethod.GET, produces = "application/json")
 	public ArrayList<Student> getName(@RequestParam("mobile") String mobile) {
-		System.out.println(mobile);
+		
 		ArrayList<Student> al = studentRepository.getName("%" + mobile + "%");
+		log.info("Find the name of student based on Mobilenumber");
 		return al;
 
 	}
@@ -84,10 +89,11 @@ public class BatchController {
 	@RequestMapping(value = "/insertbatchmapping", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertBatchMapping(@RequestBody(required = false) BatchMapping batchMapping) {
 
-		System.out.println(batchMapping);
 		BatchMapping res = batchMappingRepository.save(batchMapping);
-		if (res.getId() == batchMapping.getId())
+		if (res.getId() == batchMapping.getId()) {
+			log.info("Mapping of Student and Batches  " +batchMapping.getStudentId() + batchMapping.getBatchId());
 			return true;
+			}
 		else
 			return false;
 	}
@@ -100,11 +106,10 @@ public class BatchController {
 		Iterator it=al.iterator();
 		while(it.hasNext()) {
 			String k=String.valueOf(it.next());
-			System.out.println(k);
 			Student k1=(studentRepository.getStudent(k));
-			System.out.println(k1);
 			 	res.add(k1);			
 			 	}
+		log.info("Details of student based on Batch");
 		return res;
 		}
 		 
@@ -117,8 +122,10 @@ public class BatchController {
 			batchMappingRepository.remove(k);
 			batchMapping.setStudentId(k);
 			batchMapping.setBatchId(n);
-			batchMappingRepository.save(batchMapping);
-			
+			System.out.println(batchMapping);
+			BatchMapping b=batchMappingRepository.save(batchMapping);
+			System.out.println(b);
+			log.info("Change the batch of the student " + batchMapping.getStudentId() +"into "  +batchMapping.getBatchId());
 			return false;
 		}
 		

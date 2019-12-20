@@ -8,7 +8,7 @@ import javax.persistence.StoredProcedureParameter;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "course")
+@Table(name = "Course")
 @NamedStoredProcedureQuery(name = "in_and_out_test", 
 procedureName = "sample",
 parameters = {
@@ -20,23 +20,23 @@ parameters = {
 public class Course {
 	@Id
 	
-	private String courseID;
+	private String courseId;
 	
-	private String course_name;
+	private String courseName;
 	
 	private String description;
-	public String getCourseID() {
-		return courseID;
+	public String getCourseId() {
+		return courseId;
 	}
-	public void setCourseID(String courseID) {
-		this.courseID = courseID;
+	public void setCourseId(String courseId) {
+		this.courseId = courseId;
 	}
 	
-	public String getCourse_name() {
-		return course_name;
+	public String getCourseName() {
+		return courseName;
 	}
-	public void setCourse_name(String course_name) {
-		this.course_name = course_name;
+	public void setCourse_name(String courseName) {
+		this.courseName = courseName;
 	}
 	public String getDescription() {
 		return description;

@@ -24,7 +24,6 @@ private String studentId;
 private String studentName;
 private String dateOfJoining;
 private String bond;
-
 private String studentMobile;
 private String duration;
 private String salary;

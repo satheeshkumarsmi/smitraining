@@ -2,6 +2,7 @@ package com.smi.innothink;
 
 import java.util.ArrayList;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -56,37 +57,50 @@ public class StudentController {
 	StatusDetails statusDetails;
 	@Autowired(required=false)
 	StatusDetailsRepository statusDetailsRepository;
-
+	
+	static Logger log=Logger.getLogger("StudentController.class");
+	
+	
 	@RequestMapping(value = "/insertstudentqualification", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertStudentQualification(@RequestBody(required = false) Qualification qualification) {
 		// int id= qualificationRepository.getId();
 
 		// qualification.setQualificationId(AutoIncrement.getIncrement(id));
-		System.out.println(qualification);
+		
 
 		Qualification res = qualificationRepository.save(qualification);
-		if (res.getDegree() == (qualification.getDegree()))
+		if (res.getDegree() == (qualification.getDegree())) {
+			log.info("Student Qualification Inserted");
 			return true;
-		else
+		}
+		else {
+			log.error("Fail to insert qualification details");
 			return false;
+		}
+			
 	}
 
 	@RequestMapping(value = "/getstudentqualification", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Qualification> getstudentqualification() {
+		log.info("Find the qualification of the student ");
 		return qualificationRepository.findAll();
 	}
 
 	@RequestMapping(value = "/insertstudentstream", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertStudentStream(@RequestBody(required = false) Stream stream) {
 		Stream res = streamRepopsitory.save(stream);
-		if (res.getsId() == (stream.getsId()))
+		if (res.getsId() == (stream.getsId())) {
+			log.info("Insert Student Stream");
 			return true;
-		else
+		}
+		else {
+			log.error("Fail to insert Student stream");
 			return false;
 	}
-
+	}
 	@RequestMapping(value = "/getstudentstream", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Stream> getstudentStream() {
+		log.info("Find the Stream of the student");
 		return streamRepopsitory.findAll();
 	}
 
@@ -99,10 +113,15 @@ public class StudentController {
 		academicDetails.setStudentAcademicId(id1);
 		AcademicDetails res1 = academicDetailsRepository.save(academicDetails);
 		acId=res1.getStudentAcademicId();
-		if ((res1.getStudentAcademicId().equals(academicDetails.getStudentAcademicId())))
+		if ((res1.getStudentAcademicId().equals(academicDetails.getStudentAcademicId()))) {
+			log.info("Student Academic Details are inserted");
 			return true;
-		else
+		}
+		else {
+			log.error("Fail to insert Student academic details ");
 			return false;
+		}
+			
 	}
 	String acId;
 	String pId;
@@ -116,11 +135,14 @@ public class StudentController {
 		studentPersonal.setStudentPersonalId(id2);
 		StudentPersonal res2 = studentPersonalRepository.save(studentPersonal);
 		pId=res2.getStudentPersonalId();
-		if (res2.getStudentPersonalId().equals(studentPersonal.getStudentPersonalId()))
+		if (res2.getStudentPersonalId().equals(studentPersonal.getStudentPersonalId())) {
+			log.info("Student personal details are inserted");
 			return true;
-		else
+		}
+		else {
+			log.error("Fail to insert student personal details");
 			return false;
-
+		}
 	}
 
 	@RequestMapping(value = "/insertstudent", method = RequestMethod.POST, produces = "application/json")
@@ -134,37 +156,45 @@ public class StudentController {
 		System.out.println(id3);
 		student.setStudentId(id3);
 		Student res3 = studentRepository.save(student);
-		if (res3.getStudentId().equals(student.getStudentId()))
+		if (res3.getStudentId().equals(student.getStudentId())) {
+			log.info("Insert new Student");
 			return true;
-		else
+		}
+		else {
+			log.error("Fail to insert new student");
 			return false;
 	}
-	
+	}
 	@RequestMapping(value = "/getdeployedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
 	public Iterable getDeployedStudentsDetails()
 	{
+		log.info("Details of deployed students");
 		return studentRepository.getDeployedStudent("deployed");
 	}
 	
 	@RequestMapping(value = "/getdiscontinuedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
 	public Iterable getDiscontinuedStudentsDetails()
 	{
+		log.info("Details of discontinued students");
 		return studentRepository.getDiscontinuedStudent("discontinued");
 	}
 
 	@RequestMapping(value = "/getterminatedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
 	public Iterable getTerminatedStudentsDetails()
 	{
+		log.info("Details of Terminated Students");
 		return studentRepository.getTerminatedStudent("terminated");
 	}
 	@RequestMapping(value = "/getintrainingstudentsdetails", method = RequestMethod.GET, produces = "application/json")
 	public Iterable getIntrainingStudentsDetails()
 	{
+		log.info("Details of students in training");
 		return studentRepository.getIntrainingStudent("in-training");
 	}
 	
 	@RequestMapping(value = "/insertstudentstatus", method = RequestMethod.POST, produces = "application/json")
 	public void insertStudentStatus(@RequestBody(required = false) StatusDetails statusDetails) {
+		log.info("Insert Current status of the students");
 		statusDetailsRepository.save(statusDetails);
 		
 		
