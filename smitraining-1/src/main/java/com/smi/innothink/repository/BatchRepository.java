@@ -15,5 +15,9 @@ public interface BatchRepository extends JpaRepository<Batch, String>{
 
 	@Query("from Batch")
      ArrayList<Batch> getBatch();
+	
+	@Query("select s.studentName from Student s where s.studentId=:id")
+	String getStudentName(@Param ("id") String studentId);
+	
 
 }

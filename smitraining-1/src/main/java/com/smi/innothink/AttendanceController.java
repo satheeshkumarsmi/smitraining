@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.smi.innothink.controllerinterfaces.AttendanceControllerInterface;
 import com.smi.innothink.domain.Attendance;
 import com.smi.innothink.domain.AttendanceSession;
 import com.smi.innothink.domain.DateBatch;
-import com.smi.innothink.domain.Trainers;
 import com.smi.innothink.repository.AttendanceRepository;
 import com.smi.innothink.repository.BatchMappingRepository;
 import com.smi.innothink.services.AutoIncrement;
@@ -26,7 +26,7 @@ import com.smi.innothink.services.AutoIncrement;
 @RestController
 @CrossOrigin
 @RequestMapping("/smi")
-public class AttendanceController {
+public class AttendanceController implements AttendanceControllerInterface {
 	@Autowired(required = false)
 	Attendance attendance;
 	@Autowired(required = false)
@@ -64,8 +64,7 @@ public class AttendanceController {
 
 
 	@RequestMapping(value = "/updateattendance", method = RequestMethod.POST, produces = "application/json")
-	public boolean insertAttendanceProperly(@RequestBody(required = false) AttendanceSession attendanceSession) {
-		
+	public boolean insertAttendanceProperly(@RequestBody(required = false) AttendanceSession attendanceSession) {		
 		if (attendanceSession.getSession().equals("Forenoon") && attendanceSession.isStatus()) {
 			attendanceRepository.updateForenoonAttendance(attendanceSession.getStudentId(),
 					attendance.getAttendanceDate());

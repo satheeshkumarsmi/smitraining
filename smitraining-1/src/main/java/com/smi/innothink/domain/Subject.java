@@ -21,7 +21,7 @@ public class Subject {
 	private String subjectId;
 	private String courseId;
 	private String subjectName;
-	private String description;
+	private String subjectDescription;
 	public String getSubjectId() {
 		return subjectId;
 	}
@@ -40,11 +40,11 @@ public class Subject {
 	public void setSubjectName(String subjectName) {
 		this.subjectName = subjectName;
 	}
-	public String getDescription() {
-		return description;
+	public String getSubjectDescription() {
+		return subjectDescription;
 	}
-	public void setDescription(String description) {
-		this.description = description;
+	public void setSubjectDescription(String subjectDescription) {
+		this.subjectDescription = subjectDescription;
 	}
 
 }

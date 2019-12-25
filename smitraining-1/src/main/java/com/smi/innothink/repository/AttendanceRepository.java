@@ -27,7 +27,7 @@ public interface AttendanceRepository extends JpaRepository<Attendance,  String>
  
 	@Query("select b.batchName,s.studentName,a.forenoonSession,a.afternoonSession from Attendance a join Student s on a.studentId=s.studentId join Batch b on a.batchId=b.batchId where a.attendanceDate = :date")
     public ArrayList getDailyAttendance(@Param("date") String date);
-	@Query("select b.batchName,s.studentName,a.forenoonSession,a.afternoonSession from Attendance a join Student s on a.studentId=s.studentId join Batch b on a.batchId=b.batchId where a.attendanceDate like :date")
+	@Query("select a.attendanceDate,b.batchName,s.studentName,a.forenoonSession,a.afternoonSession from Attendance a join Student s on a.studentId=s.studentId join Batch b on a.batchId=b.batchId where a.attendanceDate like :date")
 	public ArrayList getMonthlyAttendance(@Param ("date") String date);
 	
 	

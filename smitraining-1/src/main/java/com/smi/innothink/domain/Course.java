@@ -24,7 +24,7 @@ public class Course {
 	
 	private String courseName;
 	
-	private String description;
+	private String courseDescription;
 	public String getCourseId() {
 		return courseId;
 	}
@@ -35,15 +35,17 @@ public class Course {
 	public String getCourseName() {
 		return courseName;
 	}
-	public void setCourse_name(String courseName) {
+
+	public String getCourseDescription() {
+		return courseDescription;
+	}
+	public void setCourseDescription(String courseDescription) {
+		this.courseDescription = courseDescription;
+	}
+	public void setCourseName(String courseName) {
 		this.courseName = courseName;
 	}
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
-	}
+
 
 	
 

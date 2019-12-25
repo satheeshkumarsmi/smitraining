@@ -1,7 +1,5 @@
 package com.smi.innothink;
 
-import java.util.ArrayList;
-
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -9,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-
+import com.smi.innothink.controllerinterfaces.StudentControllerInterface;
 import com.smi.innothink.domain.AcademicDetails;
 import com.smi.innothink.domain.Qualification;
 import com.smi.innothink.domain.StatusDetails;
@@ -27,20 +25,16 @@ import com.smi.innothink.services.AutoIncrement;
 @RestController
 @CrossOrigin
 @RequestMapping("/smi")
-public class StudentController {
+public class StudentController implements StudentControllerInterface {
 	static Logger log = Logger.getLogger("StudentController.class");
 	@Autowired(required = false)
 	Qualification qualification;
-
 	@Autowired(required = false)
 	QualificationRepository qualificationRepository;
-
 	@Autowired(required = false)
 	Stream stream;
-
 	@Autowired(required = false)
 	StreamRepository streamRepopsitory;
-
 	@Autowired(required = false)
 	Student student;
 	@Autowired(required = false)
@@ -53,7 +47,6 @@ public class StudentController {
 	AcademicDetailsRepository academicDetailsRepository;
 	@Autowired(required = false)
 	StudentRepository studentRepository;
-
 	@Autowired(required = false)
 	StatusDetails statusDetails;
 	@Autowired(required = false)
@@ -90,12 +83,10 @@ public class StudentController {
 			log.info("Insert Student Academic details  " + academicDetails.getStudentAcademicId());
 			return true;
 		}
-
 		else {
 			log.info("Fail to insert student academic details");
 			return false;
 		}
-
 	}
 
 	String acId;
@@ -103,7 +94,6 @@ public class StudentController {
 
 	@RequestMapping(value = "/insertstudentpersonal", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertStudentPersonal(@RequestBody(required = false) StudentPersonal studentPersonal) {
-
 		String personalId = studentPersonalRepository.getId("student_personal_id", "SMI_IT_STUP_", "student_personal");
 		String id2 = AutoIncrement.incrementId(Integer.parseInt(personalId), "SMI_IT_STUP_");
 		System.out.println(id2);
@@ -114,7 +104,6 @@ public class StudentController {
 			log.info("Insert Student Personal details  " + studentPersonal.getStudentPersonalId());
 			return true;
 		}
-
 		else {
 			log.info("Fail to insert Student personal details ");
 			return false;
@@ -122,9 +111,7 @@ public class StudentController {
 	}
 
 	@RequestMapping(value = "/insertstudent", method = RequestMethod.POST, produces = "application/json")
-
 	public boolean insertStudent(@RequestBody(required = false) Student student) {
-
 		String studentId = studentPersonalRepository.getId("student_id", "SMI_IT_STU_", "student");
 		student.setAcademicId(acId);
 		student.setStudentPersonalId(pId);
@@ -139,7 +126,6 @@ public class StudentController {
 			log.info("Fail to insert new student");
 			return false;
 		}
-
 	}
 
 	@RequestMapping(value = "/getdeployedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
@@ -170,6 +156,5 @@ public class StudentController {
 	public void insertStudentStatus(@RequestBody(required = false) StatusDetails statusDetails) {
 		log.info("Insert Current status of the students");
 		statusDetailsRepository.save(statusDetails);
-
 	}
 }

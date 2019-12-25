@@ -25,7 +25,7 @@ public class Topic {
 	@Column(name="topic_name")
 	private String topicName;
 	private int duration;
-	private String description;
+	private String topicDescription;
 	public String getTopicId() {
 		return topicId;
 	}
@@ -50,11 +50,12 @@ public class Topic {
 	public void setDuration(int duration) {
 		this.duration = duration;
 	}
-	public String getDescription() {
-		return description;
+	public String getTopicDescription() {
+		return topicDescription;
 	}
-	public void setDescription(String description) {
-		this.description = description;
+	public void setTopicDescription(String topicDescription) {
+		this.topicDescription = topicDescription;
 	}
+
 
 }

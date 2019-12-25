@@ -26,3 +26,1662 @@
 2019-Dec-20 20:25:09,038  INFO class:92 - Get subject details
 2019-Dec-20 20:25:09,038  INFO class:123 - List of available topics
 2019-Dec-20 20:25:40,167  INFO class:66 - List of all available courses 
+2019-Dec-23 10:21:35,925  INFO class:147 - Details of deployed students
+2019-Dec-23 10:21:46,211  INFO class:83 - Daily attendance details for 2019-12-19
+2019-Dec-23 10:21:59,658  INFO class:83 - Daily attendance details for 2019-12-01
+2019-Dec-23 10:22:03,505  INFO class:83 - Daily attendance details for 2019-12-19
+2019-Dec-23 10:22:30,949  INFO class:88 - Monthly attendance details for 2019-12
+2019-Dec-23 10:22:45,369  INFO class:85 - Get the student name according to their mobile number
+2019-Dec-23 10:22:45,375  INFO class:88 - Find the name of student based on Mobilenumber
+2019-Dec-23 10:22:45,885  INFO class:85 - Get the student name according to their mobile number
+2019-Dec-23 10:22:45,901  INFO class:88 - Find the name of student based on Mobilenumber
+2019-Dec-23 10:22:47,174  INFO class:85 - Get the student name according to their mobile number
+2019-Dec-23 10:22:47,178  INFO class:88 - Find the name of student based on Mobilenumber
+2019-Dec-23 10:22:56,770  INFO class:77 - List of batches
+2019-Dec-23 10:22:56,770  INFO class:78 - Get Batch Details
+2019-Dec-23 10:22:58,882  INFO class:110 - Batchwise Attendance report
+2019-Dec-23 10:23:13,049  INFO class:83 - Daily attendance details for 2019-12-23
+2019-Dec-23 10:23:27,842  INFO class:83 - Daily attendance details for 2019-12-19
+2019-Dec-23 10:23:57,836  INFO class:77 - List of batches
+2019-Dec-23 10:23:57,836  INFO class:78 - Get Batch Details
+2019-Dec-23 10:24:16,233  INFO class:77 - List of batches
+2019-Dec-23 10:24:16,233  INFO class:78 - Get Batch Details
+2019-Dec-23 10:26:04,745  INFO class:77 - List of batches
+2019-Dec-23 10:26:04,745  INFO class:78 - Get Batch Details
+2019-Dec-23 10:27:53,207  INFO class:77 - List of batches
+2019-Dec-23 10:27:53,207  INFO class:78 - Get Batch Details
+2019-Dec-23 10:28:10,986  INFO class:77 - List of batches
+2019-Dec-23 10:28:10,986  INFO class:78 - Get Batch Details
+2019-Dec-23 10:44:20,590  INFO class:77 - List of batches
+2019-Dec-23 10:44:20,605  INFO class:78 - Get Batch Details
+2019-Dec-23 10:47:15,461  INFO class:77 - List of batches
+2019-Dec-23 10:47:15,461  INFO class:78 - Get Batch Details
+2019-Dec-23 10:48:56,182  INFO class:77 - List of batches
+2019-Dec-23 10:48:56,182  INFO class:78 - Get Batch Details
+2019-Dec-23 10:51:57,512  INFO class:77 - List of batches
+2019-Dec-23 10:51:57,512  INFO class:78 - Get Batch Details
+2019-Dec-23 10:53:07,853  INFO class:77 - List of batches
+2019-Dec-23 10:53:07,853  INFO class:78 - Get Batch Details
+2019-Dec-23 10:53:55,607  INFO class:77 - List of batches
+2019-Dec-23 10:53:55,607  INFO class:78 - Get Batch Details
+2019-Dec-23 10:54:02,471  INFO class:77 - List of batches
+2019-Dec-23 10:54:02,471  INFO class:78 - Get Batch Details
+2019-Dec-23 10:54:08,294  INFO class:110 - Batchwise Attendance report
+2019-Dec-23 10:54:09,722  INFO class:110 - Batchwise Attendance report
+2019-Dec-23 10:54:17,104  INFO class:77 - List of batches
+2019-Dec-23 10:54:17,104  INFO class:78 - Get Batch Details
+2019-Dec-23 10:54:49,317  INFO class:77 - List of batches
+2019-Dec-23 10:54:49,317  INFO class:78 - Get Batch Details
+2019-Dec-23 10:54:55,305  INFO class:77 - List of batches
+2019-Dec-23 10:54:55,305  INFO class:78 - Get Batch Details
+2019-Dec-23 10:55:15,415  INFO class:77 - List of batches
+2019-Dec-23 10:55:15,415  INFO class:78 - Get Batch Details
+2019-Dec-23 10:55:20,024  INFO class:77 - List of batches
+2019-Dec-23 10:55:20,024  INFO class:78 - Get Batch Details
+2019-Dec-23 10:55:31,385  INFO class:77 - List of batches
+2019-Dec-23 10:55:31,401  INFO class:78 - Get Batch Details
+2019-Dec-23 10:55:37,717  INFO class:77 - List of batches
+2019-Dec-23 10:55:37,717  INFO class:78 - Get Batch Details
+2019-Dec-23 10:56:00,342  INFO class:77 - List of batches
+2019-Dec-23 10:56:00,342  INFO class:78 - Get Batch Details
+2019-Dec-23 10:57:05,839  INFO class:77 - List of batches
+2019-Dec-23 10:57:05,839  INFO class:78 - Get Batch Details
+2019-Dec-23 10:57:09,322  INFO class:77 - List of batches
+2019-Dec-23 10:57:09,322  INFO class:78 - Get Batch Details
+2019-Dec-23 10:57:59,387  INFO class:110 - Batchwise Attendance report
+2019-Dec-23 10:58:40,406  INFO class:77 - List of batches
+2019-Dec-23 10:58:40,412  INFO class:78 - Get Batch Details
+2019-Dec-23 11:01:22,950  INFO class:77 - List of batches
+2019-Dec-23 11:01:22,950  INFO class:78 - Get Batch Details
+2019-Dec-23 11:03:41,883  INFO class:147 - Details of deployed students
+2019-Dec-23 11:04:02,704  INFO class:77 - List of batches
+2019-Dec-23 11:04:02,708  INFO class:78 - Get Batch Details
+2019-Dec-23 11:04:25,466  INFO class:77 - List of batches
+2019-Dec-23 11:04:25,466  INFO class:78 - Get Batch Details
+2019-Dec-23 11:05:11,516  INFO class:77 - List of batches
+2019-Dec-23 11:05:11,516  INFO class:78 - Get Batch Details
+2019-Dec-23 11:06:03,603  INFO class:77 - List of batches
+2019-Dec-23 11:06:03,603  INFO class:78 - Get Batch Details
+2019-Dec-23 11:06:09,557  INFO class:77 - List of batches
+2019-Dec-23 11:06:09,557  INFO class:78 - Get Batch Details
+2019-Dec-23 11:08:23,402  INFO class:77 - List of batches
+2019-Dec-23 11:08:23,402  INFO class:78 - Get Batch Details
+2019-Dec-23 11:08:54,306  INFO class:77 - List of batches
+2019-Dec-23 11:08:54,306  INFO class:78 - Get Batch Details
+2019-Dec-23 11:10:44,416  INFO class:77 - List of batches
+2019-Dec-23 11:10:44,416  INFO class:78 - Get Batch Details
+2019-Dec-23 11:10:53,584  INFO class:77 - List of batches
+2019-Dec-23 11:10:53,588  INFO class:78 - Get Batch Details
+2019-Dec-23 11:12:52,623  INFO class:88 - Monthly attendance details for 
+2019-Dec-23 11:13:18,417  INFO class:88 - Monthly attendance details for 
+2019-Dec-23 11:15:06,480  INFO class:77 - List of batches
+2019-Dec-23 11:15:06,480  INFO class:78 - Get Batch Details
+2019-Dec-23 11:16:35,161  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-23 11:21:58,075  INFO class:83 - Daily attendance details for 2019-12-25
+2019-Dec-23 11:22:00,573  INFO class:83 - Daily attendance details for 2019-12-19
+2019-Dec-23 11:28:05,967  INFO class:71 - List of batches
+2019-Dec-23 11:28:05,969  INFO class:72 - Get Batch Details
+2019-Dec-23 11:29:40,218  INFO class:71 - List of batches
+2019-Dec-23 11:29:40,226  INFO class:72 - Get Batch Details
+2019-Dec-23 11:32:28,600  INFO class:71 - List of batches
+2019-Dec-23 11:32:28,604  INFO class:72 - Get Batch Details
+2019-Dec-23 11:34:37,996  INFO class:71 - List of batches
+2019-Dec-23 11:34:38,008  INFO class:72 - Get Batch Details
+2019-Dec-23 11:34:44,032  INFO class:71 - List of batches
+2019-Dec-23 11:34:44,032  INFO class:72 - Get Batch Details
+2019-Dec-23 11:36:05,214  INFO class:71 - List of batches
+2019-Dec-23 11:36:05,214  INFO class:72 - Get Batch Details
+2019-Dec-23 11:36:32,509  INFO class:71 - List of batches
+2019-Dec-23 11:36:32,509  INFO class:72 - Get Batch Details
+2019-Dec-23 11:36:46,152  INFO class:145 - Details of Terminated Students
+2019-Dec-23 11:37:04,822  INFO class:151 - Details of students in training
+2019-Dec-23 11:37:10,871  INFO class:71 - List of batches
+2019-Dec-23 11:37:10,871  INFO class:72 - Get Batch Details
+2019-Dec-23 11:37:42,809  INFO class:71 - List of batches
+2019-Dec-23 11:37:42,813  INFO class:72 - Get Batch Details
+2019-Dec-23 11:38:12,074  INFO class:83 - Daily attendance details for 
+2019-Dec-23 11:39:16,896  INFO class:71 - List of batches
+2019-Dec-23 11:39:16,896  INFO class:72 - Get Batch Details
+2019-Dec-23 11:39:21,684  INFO class:71 - List of batches
+2019-Dec-23 11:39:21,684  INFO class:72 - Get Batch Details
+2019-Dec-23 11:40:37,400  INFO class:71 - List of batches
+2019-Dec-23 11:40:37,400  INFO class:72 - Get Batch Details
+2019-Dec-23 11:40:48,340  INFO class:71 - List of batches
+2019-Dec-23 11:40:48,343  INFO class:72 - Get Batch Details
+2019-Dec-23 11:42:11,821  INFO class:83 - Daily attendance details for 2019-12-10
+2019-Dec-23 11:42:12,279  INFO class:71 - List of batches
+2019-Dec-23 11:42:12,279  INFO class:72 - Get Batch Details
+2019-Dec-23 11:42:14,810  INFO class:83 - Daily attendance details for 
+2019-Dec-23 11:42:16,654  INFO class:83 - Daily attendance details for 
+2019-Dec-23 11:42:18,254  INFO class:83 - Daily attendance details for 
+2019-Dec-23 11:42:27,778  INFO class:83 - Daily attendance details for 2019-12-23
+2019-Dec-23 11:42:32,104  INFO class:83 - Daily attendance details for 2019-12-12
+2019-Dec-23 11:42:32,768  INFO class:71 - List of batches
+2019-Dec-23 11:42:32,768  INFO class:72 - Get Batch Details
+2019-Dec-23 11:42:34,710  INFO class:83 - Daily attendance details for 
+2019-Dec-23 11:42:35,575  INFO class:83 - Daily attendance details for 
+2019-Dec-23 11:44:03,701  INFO class:83 - Daily attendance details for 
+2019-Dec-23 11:44:09,213  INFO class:110 - Batchwise Attendance report
+2019-Dec-23 11:45:14,523  INFO class:133 - Details of deployed students
+2019-Dec-23 11:46:41,495  INFO class:71 - List of batches
+2019-Dec-23 11:46:41,495  INFO class:72 - Get Batch Details
+2019-Dec-23 11:46:58,690  INFO class:139 - Details of discontinued students
+2019-Dec-23 11:47:24,572  INFO class:71 - List of batches
+2019-Dec-23 11:47:24,572  INFO class:72 - Get Batch Details
+2019-Dec-23 11:48:07,553  INFO class:71 - List of batches
+2019-Dec-23 11:48:07,557  INFO class:72 - Get Batch Details
+2019-Dec-23 11:48:56,982  INFO class:71 - List of batches
+2019-Dec-23 11:48:56,982  INFO class:72 - Get Batch Details
+2019-Dec-23 11:49:05,618  INFO class:114 - Details of student based on Batch
+2019-Dec-23 11:49:09,478  INFO class:59 - Inserting attendance SMI_IT_ATD_14
+2019-Dec-23 11:49:09,538  INFO class:59 - Inserting attendance SMI_IT_ATD_15
+2019-Dec-23 11:49:09,602  INFO class:59 - Inserting attendance SMI_IT_ATD_16
+2019-Dec-23 11:49:09,650  INFO class:59 - Inserting attendance SMI_IT_ATD_17
+2019-Dec-23 11:49:09,650 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 11:49:25,218  INFO class:72 - Attendance is updated for forenoontrueSMI_IT_STU_19
+2019-Dec-23 11:49:29,461  INFO class:139 - Details of discontinued students
+2019-Dec-23 11:49:30,193  INFO class:72 - Attendance is updated for forenoontrueSMI_IT_STU_15
+2019-Dec-23 11:49:32,473  INFO class:72 - Attendance is updated for forenoontrueSMI_IT_STU_14
+2019-Dec-23 11:49:44,877  INFO class:83 - Daily attendance details for 2019-12-23
+2019-Dec-23 11:49:55,424  INFO class:83 - Daily attendance details for 2019-12-20
+2019-Dec-23 11:49:58,166  INFO class:83 - Daily attendance details for 2019-12-19
+2019-Dec-23 11:50:11,276  INFO class:88 - Monthly attendance details for 2019-12
+2019-Dec-23 11:50:17,824  INFO class:139 - Details of discontinued students
+2019-Dec-23 11:51:39,599  INFO class:88 - Monthly attendance details for 2019-12
+2019-Dec-23 11:51:46,862  INFO class:145 - Details of Terminated Students
+2019-Dec-23 11:51:52,085  INFO class:71 - List of batches
+2019-Dec-23 11:51:52,085  INFO class:72 - Get Batch Details
+2019-Dec-23 11:53:36,301  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-23 11:54:04,654  INFO class:87 - Monthly attendance details for 2019-12
+2019-Dec-23 11:55:04,889  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-23 11:55:15,773  INFO class:87 - Monthly attendance details for 2019-12
+2019-Dec-23 11:55:29,640 ERROR class:45 - Details of trainers
+2019-Dec-23 11:56:34,728  INFO class:139 - Details of discontinued students
+2019-Dec-23 11:56:39,641 ERROR class:45 - Details of trainers
+2019-Dec-23 11:58:34,257  INFO class:57 - List of all available courses 
+2019-Dec-23 11:58:34,424  INFO class:80 - List of all Subjects available
+2019-Dec-23 11:58:34,424  INFO class:81 - Get subject details
+2019-Dec-23 11:58:37,216  INFO class:110 - List of available topics
+2019-Dec-23 11:58:37,216  INFO class:71 - List of batches
+2019-Dec-23 11:58:37,221  INFO class:72 - Get Batch Details
+2019-Dec-23 11:59:17,296  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-23 12:02:24,992 ERROR class:45 - Details of trainers
+2019-Dec-23 12:02:40,516 ERROR class:45 - Details of trainers
+2019-Dec-23 12:03:00,912 ERROR class:45 - Details of trainers
+2019-Dec-23 12:04:26,075 ERROR class:45 - Details of trainers
+2019-Dec-23 12:04:43,772 ERROR class:45 - Details of trainers
+2019-Dec-23 12:05:07,411 ERROR class:45 - Details of trainers
+2019-Dec-23 12:05:33,388 ERROR class:45 - Details of trainers
+2019-Dec-23 12:05:39,931 ERROR class:45 - Details of trainers
+2019-Dec-23 12:05:53,789 ERROR class:45 - Details of trainers
+2019-Dec-23 12:06:00,653 ERROR class:45 - Details of trainers
+2019-Dec-23 12:06:18,637  INFO class:57 - List of all available courses 
+2019-Dec-23 12:06:21,229 ERROR class:45 - Details of trainers
+2019-Dec-23 12:06:33,701  INFO class:57 - List of all available courses 
+2019-Dec-23 12:07:03,153  INFO class:82 - Daily attendance details for 2019-12-03
+2019-Dec-23 12:11:02,408 ERROR class:45 - Details of trainers
+2019-Dec-23 12:11:41,180 ERROR class:45 - Details of trainers
+2019-Dec-23 12:12:10,418 ERROR class:45 - Details of trainers
+2019-Dec-23 12:12:43,606 ERROR class:45 - Details of trainers
+2019-Dec-23 12:12:56,199 ERROR class:45 - Details of trainers
+2019-Dec-23 12:13:11,985 ERROR class:45 - Details of trainers
+2019-Dec-23 12:13:40,099 ERROR class:45 - Details of trainers
+2019-Dec-23 12:14:17,153  INFO class:57 - List of all available courses 
+2019-Dec-23 12:14:17,195 ERROR class:45 - Details of trainers
+2019-Dec-23 12:14:17,283  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:14:17,283  INFO class:81 - Get subject details
+2019-Dec-23 12:14:17,303  INFO class:110 - List of available topics
+2019-Dec-23 12:14:17,319  INFO class:71 - List of batches
+2019-Dec-23 12:14:17,319  INFO class:72 - Get Batch Details
+2019-Dec-23 12:14:50,139  INFO class:71 - List of batches
+2019-Dec-23 12:14:50,143  INFO class:72 - Get Batch Details
+2019-Dec-23 12:14:58,969  INFO class:57 - List of all available courses 
+2019-Dec-23 12:14:58,981  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:14:58,981  INFO class:81 - Get subject details
+2019-Dec-23 12:14:58,981  INFO class:71 - List of batches
+2019-Dec-23 12:14:58,981  INFO class:72 - Get Batch Details
+2019-Dec-23 12:14:58,985  INFO class:110 - List of available topics
+2019-Dec-23 12:15:17,421 ERROR class:45 - Details of trainers
+2019-Dec-23 12:15:33,490  INFO class:71 - List of batches
+2019-Dec-23 12:15:33,494  INFO class:72 - Get Batch Details
+2019-Dec-23 12:16:07,936 ERROR class:45 - Details of trainers
+2019-Dec-23 12:16:27,271  INFO class:71 - List of batches
+2019-Dec-23 12:16:27,271  INFO class:72 - Get Batch Details
+2019-Dec-23 12:16:30,384  INFO class:139 - Details of discontinued students
+2019-Dec-23 12:25:56,822 ERROR class:45 - Details of trainers
+2019-Dec-23 12:26:19,519 ERROR class:45 - Details of trainers
+2019-Dec-23 12:27:07,819 ERROR class:45 - Details of trainers
+2019-Dec-23 12:27:17,872 ERROR class:45 - Details of trainers
+2019-Dec-23 12:30:38,841 ERROR class:45 - Details of trainers
+2019-Dec-23 12:33:32,944 ERROR class:45 - Details of trainers
+2019-Dec-23 12:39:10,640 ERROR class:45 - Details of trainers
+2019-Dec-23 12:39:25,848 ERROR class:45 - Details of trainers
+2019-Dec-23 12:43:10,359 ERROR class:45 - Details of trainers
+2019-Dec-23 12:44:59,668 ERROR class:45 - Details of trainers
+2019-Dec-23 12:48:10,942  INFO class:139 - Details of discontinued students
+2019-Dec-23 12:48:17,783 ERROR class:45 - Details of trainers
+2019-Dec-23 12:48:30,693  INFO class:71 - List of batches
+2019-Dec-23 12:48:30,693  INFO class:72 - Get Batch Details
+2019-Dec-23 12:48:34,868  INFO class:71 - List of batches
+2019-Dec-23 12:48:34,868  INFO class:72 - Get Batch Details
+2019-Dec-23 12:48:39,409  INFO class:128 - Change the batch of the student nullinto null
+2019-Dec-23 12:50:57,477  INFO class:57 - List of all available courses 
+2019-Dec-23 12:50:59,654  INFO class:45 - Insert Course Details  SMI_IT_CUR_2
+2019-Dec-23 12:51:01,395  INFO class:57 - List of all available courses 
+2019-Dec-23 12:51:01,402  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:51:01,403  INFO class:81 - Get subject details
+2019-Dec-23 12:51:03,854  INFO class:68 - Insert Subject details  SMI_IT_SUB_2
+2019-Dec-23 12:51:05,823  INFO class:57 - List of all available courses 
+2019-Dec-23 12:51:05,834  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:51:05,835  INFO class:81 - Get subject details
+2019-Dec-23 12:51:05,844  INFO class:110 - List of available topics
+2019-Dec-23 12:51:15,154  INFO class:98 - New Topic Inserted null
+2019-Dec-23 12:51:57,080  INFO class:57 - List of all available courses 
+2019-Dec-23 12:51:57,081  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:51:57,080  INFO class:110 - List of available topics
+2019-Dec-23 12:51:57,082  INFO class:81 - Get subject details
+2019-Dec-23 12:52:01,030  INFO class:57 - List of all available courses 
+2019-Dec-23 12:52:01,030  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:52:01,031  INFO class:81 - Get subject details
+2019-Dec-23 12:52:01,034  INFO class:110 - List of available topics
+2019-Dec-23 12:52:53,877  INFO class:57 - List of all available courses 
+2019-Dec-23 12:52:53,880  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:52:53,881  INFO class:81 - Get subject details
+2019-Dec-23 12:52:53,881  INFO class:110 - List of available topics
+2019-Dec-23 12:53:59,986  INFO class:57 - List of all available courses 
+2019-Dec-23 12:53:59,986  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:53:59,988  INFO class:81 - Get subject details
+2019-Dec-23 12:53:59,986  INFO class:110 - List of available topics
+2019-Dec-23 12:55:31,291  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-23 12:56:47,199  INFO class:57 - List of all available courses 
+2019-Dec-23 12:56:47,203  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:56:47,205  INFO class:81 - Get subject details
+2019-Dec-23 12:56:47,533  INFO class:110 - List of available topics
+2019-Dec-23 12:57:12,494  INFO class:57 - List of all available courses 
+2019-Dec-23 12:57:12,495  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:57:12,496  INFO class:81 - Get subject details
+2019-Dec-23 12:57:12,503  INFO class:110 - List of available topics
+2019-Dec-23 12:58:20,079  INFO class:80 - List of all Subjects available
+2019-Dec-23 12:58:20,079  INFO class:57 - List of all available courses 
+2019-Dec-23 12:58:20,079  INFO class:110 - List of available topics
+2019-Dec-23 12:58:20,081  INFO class:81 - Get subject details
+2019-Dec-23 12:58:33,744 ERROR class:45 - Details of trainers
+2019-Dec-23 12:59:10,645  INFO class:71 - List of batches
+2019-Dec-23 12:59:10,646  INFO class:72 - Get Batch Details
+2019-Dec-23 13:03:14,741  INFO class:57 - List of all available courses 
+2019-Dec-23 13:03:14,760  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:03:14,760  INFO class:81 - Get subject details
+2019-Dec-23 13:03:14,777  INFO class:110 - List of available topics
+2019-Dec-23 13:03:18,288 ERROR class:45 - Details of trainers
+2019-Dec-23 13:03:21,811  INFO class:110 - List of available topics
+2019-Dec-23 13:03:21,811  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:03:21,812  INFO class:81 - Get subject details
+2019-Dec-23 13:03:21,811  INFO class:57 - List of all available courses 
+2019-Dec-23 13:07:28,900  INFO class:57 - List of all available courses 
+2019-Dec-23 13:07:28,914  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:07:28,915  INFO class:81 - Get subject details
+2019-Dec-23 13:07:28,937  INFO class:110 - List of available topics
+2019-Dec-23 13:07:41,552  INFO class:57 - List of all available courses 
+2019-Dec-23 13:07:41,555  INFO class:110 - List of available topics
+2019-Dec-23 13:07:41,555  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:07:41,557  INFO class:81 - Get subject details
+2019-Dec-23 13:07:46,434  INFO class:57 - List of all available courses 
+2019-Dec-23 13:07:46,437  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:07:46,438  INFO class:81 - Get subject details
+2019-Dec-23 13:07:46,443  INFO class:110 - List of available topics
+2019-Dec-23 13:08:09,056  INFO class:57 - List of all available courses 
+2019-Dec-23 13:09:54,513  INFO class:57 - List of all available courses 
+2019-Dec-23 13:10:51,039  INFO class:57 - List of all available courses 
+2019-Dec-23 13:10:52,697  INFO class:45 - Insert Course Details  SMI_IT_CUR_2
+2019-Dec-23 13:10:54,441  INFO class:57 - List of all available courses 
+2019-Dec-23 13:10:54,449  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:10:54,449  INFO class:81 - Get subject details
+2019-Dec-23 13:10:55,573  INFO class:68 - Insert Subject details  SMI_IT_SUB_2
+2019-Dec-23 13:10:58,306  INFO class:57 - List of all available courses 
+2019-Dec-23 13:10:58,308  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:10:58,308  INFO class:81 - Get subject details
+2019-Dec-23 13:10:58,313  INFO class:110 - List of available topics
+2019-Dec-23 13:10:59,649  INFO class:98 - New Topic Inserted null
+2019-Dec-23 13:11:12,805  INFO class:57 - List of all available courses 
+2019-Dec-23 13:11:12,809  INFO class:110 - List of available topics
+2019-Dec-23 13:11:12,809  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:11:12,811  INFO class:81 - Get subject details
+2019-Dec-23 13:11:54,636 ERROR class:45 - Details of trainers
+2019-Dec-23 13:15:08,210 ERROR class:45 - Details of trainers
+2019-Dec-23 13:15:12,380 ERROR class:45 - Details of trainers
+2019-Dec-23 13:19:26,435  INFO class:57 - List of all available courses 
+2019-Dec-23 13:19:26,463  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:19:26,463  INFO class:81 - Get subject details
+2019-Dec-23 13:19:26,491  INFO class:110 - List of available topics
+2019-Dec-23 13:19:29,575  INFO class:110 - List of available topics
+2019-Dec-23 13:19:29,575  INFO class:57 - List of all available courses 
+2019-Dec-23 13:19:29,575  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:19:29,577  INFO class:81 - Get subject details
+2019-Dec-23 13:19:35,437  INFO class:71 - List of batches
+2019-Dec-23 13:19:35,437  INFO class:72 - Get Batch Details
+2019-Dec-23 13:19:38,562 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 13:19:46,550  INFO class:71 - List of batches
+2019-Dec-23 13:19:46,550  INFO class:72 - Get Batch Details
+2019-Dec-23 13:19:47,710 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 13:20:00,838  INFO class:57 - List of all available courses 
+2019-Dec-23 13:20:04,454  INFO class:57 - List of all available courses 
+2019-Dec-23 13:20:04,459  INFO class:110 - List of available topics
+2019-Dec-23 13:20:04,459  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:20:04,459  INFO class:81 - Get subject details
+2019-Dec-23 13:20:04,468  INFO class:71 - List of batches
+2019-Dec-23 13:20:04,468  INFO class:72 - Get Batch Details
+2019-Dec-23 13:21:47,819  INFO class:57 - List of all available courses 
+2019-Dec-23 13:21:47,819  INFO class:110 - List of available topics
+2019-Dec-23 13:21:47,819  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:21:47,824  INFO class:81 - Get subject details
+2019-Dec-23 13:21:47,823  INFO class:71 - List of batches
+2019-Dec-23 13:21:47,832  INFO class:72 - Get Batch Details
+2019-Dec-23 13:22:40,828  INFO class:57 - List of all available courses 
+2019-Dec-23 13:22:40,828  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:22:40,828  INFO class:110 - List of available topics
+2019-Dec-23 13:22:40,831  INFO class:81 - Get subject details
+2019-Dec-23 13:22:40,830  INFO class:71 - List of batches
+2019-Dec-23 13:22:40,835  INFO class:72 - Get Batch Details
+2019-Dec-23 13:22:42,696  INFO class:34 - Daily status Inserted 
+2019-Dec-23 13:24:37,831  INFO class:57 - List of all available courses 
+2019-Dec-23 13:24:47,147  INFO class:59 - New batch Inserted SMI_IT_BAT_2
+2019-Dec-23 13:24:52,831  INFO class:71 - List of batches
+2019-Dec-23 13:24:52,831  INFO class:72 - Get Batch Details
+2019-Dec-23 13:24:54,480  INFO class:92 - Mapping of Student and Batches  nullnull
+2019-Dec-23 13:24:54,480  INFO class:93 - Insert Student and Batch Mapping  3
+2019-Dec-23 13:27:22,795  INFO class:71 - List of batches
+2019-Dec-23 13:27:22,799  INFO class:72 - Get Batch Details
+2019-Dec-23 13:27:33,993  INFO class:92 - Mapping of Student and Batches  nullnull
+2019-Dec-23 13:27:33,993  INFO class:93 - Insert Student and Batch Mapping  4
+2019-Dec-23 13:27:41,272  INFO class:71 - List of batches
+2019-Dec-23 13:27:41,276  INFO class:72 - Get Batch Details
+2019-Dec-23 13:27:54,338  INFO class:157 - Insert Current status of the students
+2019-Dec-23 13:29:39,678  INFO class:71 - List of batches
+2019-Dec-23 13:29:39,682  INFO class:72 - Get Batch Details
+2019-Dec-23 13:29:50,760  INFO class:57 - List of all available courses 
+2019-Dec-23 13:29:53,266  INFO class:59 - New batch Inserted SMI_IT_BAT_3
+2019-Dec-23 13:30:16,310  INFO class:57 - List of all available courses 
+2019-Dec-23 13:30:22,245  INFO class:71 - List of batches
+2019-Dec-23 13:30:22,245  INFO class:72 - Get Batch Details
+2019-Dec-23 13:30:24,392  INFO class:157 - Insert Current status of the students
+2019-Dec-23 13:31:10,650  INFO class:71 - List of batches
+2019-Dec-23 13:31:10,654  INFO class:72 - Get Batch Details
+2019-Dec-23 13:31:13,719  INFO class:157 - Insert Current status of the students
+2019-Dec-23 13:31:23,438  INFO class:71 - List of batches
+2019-Dec-23 13:31:23,438  INFO class:72 - Get Batch Details
+2019-Dec-23 13:31:24,960  INFO class:128 - Change the batch of the student nullinto null
+2019-Dec-23 13:31:56,392  INFO class:71 - List of batches
+2019-Dec-23 13:31:56,392  INFO class:72 - Get Batch Details
+2019-Dec-23 13:32:00,263  INFO class:128 - Change the batch of the student nullinto null
+2019-Dec-23 13:32:15,323  INFO class:57 - List of all available courses 
+2019-Dec-23 13:32:17,876  INFO class:59 - New batch Inserted SMI_IT_BAT_4
+2019-Dec-23 13:32:48,255  INFO class:83 - Insert Student Academic details  SMI_IT_ADI_2
+2019-Dec-23 13:32:48,299  INFO class:123 - Insert new Student
+2019-Dec-23 13:32:48,299  INFO class:104 - Insert Student Personal details  SMI_IT_STUP_1
+2019-Dec-23 13:32:58,815  INFO class:57 - List of all available courses 
+2019-Dec-23 13:33:00,092  INFO class:45 - Insert Course Details  SMI_IT_CUR_3
+2019-Dec-23 13:33:02,604  INFO class:57 - List of all available courses 
+2019-Dec-23 13:33:02,608  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:33:02,608  INFO class:81 - Get subject details
+2019-Dec-23 13:33:03,725  INFO class:68 - Insert Subject details  SMI_IT_SUB_3
+2019-Dec-23 13:33:05,569  INFO class:57 - List of all available courses 
+2019-Dec-23 13:33:05,573  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:33:05,573  INFO class:81 - Get subject details
+2019-Dec-23 13:33:05,573  INFO class:110 - List of available topics
+2019-Dec-23 13:33:07,048  INFO class:98 - New Topic Inserted null
+2019-Dec-23 13:33:12,104 ERROR class:45 - Details of trainers
+2019-Dec-23 13:33:13,568  INFO class:34 - New Trainer is addednull
+2019-Dec-23 13:33:13,568  INFO class:35 - Insert New Trainer  SMI_IT_TRA_2
+2019-Dec-23 13:33:38,312  INFO class:71 - List of batches
+2019-Dec-23 13:33:38,316  INFO class:72 - Get Batch Details
+2019-Dec-23 13:33:39,854 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 13:34:21,706  INFO class:71 - List of batches
+2019-Dec-23 13:34:21,706  INFO class:72 - Get Batch Details
+2019-Dec-23 13:34:23,498 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 13:58:34,966  INFO class:57 - List of all available courses 
+2019-Dec-23 13:58:35,011  INFO class:80 - List of all Subjects available
+2019-Dec-23 13:58:35,011  INFO class:81 - Get subject details
+2019-Dec-23 13:58:35,027  INFO class:110 - List of available topics
+2019-Dec-23 13:58:35,046  INFO class:71 - List of batches
+2019-Dec-23 13:58:35,046  INFO class:72 - Get Batch Details
+2019-Dec-23 13:58:36,542  INFO class:34 - Daily status Inserted 
+2019-Dec-23 14:02:31,755  INFO class:57 - List of all available courses 
+2019-Dec-23 14:02:31,775  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:02:31,775  INFO class:81 - Get subject details
+2019-Dec-23 14:02:31,787  INFO class:110 - List of available topics
+2019-Dec-23 14:02:31,803  INFO class:71 - List of batches
+2019-Dec-23 14:02:31,803  INFO class:72 - Get Batch Details
+2019-Dec-23 14:03:18,507  INFO class:57 - List of all available courses 
+2019-Dec-23 14:03:18,516  INFO class:71 - List of batches
+2019-Dec-23 14:03:18,520  INFO class:72 - Get Batch Details
+2019-Dec-23 14:03:18,516  INFO class:110 - List of available topics
+2019-Dec-23 14:03:18,516  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:03:18,520  INFO class:81 - Get subject details
+2019-Dec-23 14:04:02,820  INFO class:57 - List of all available courses 
+2019-Dec-23 14:04:02,820  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:04:02,820  INFO class:110 - List of available topics
+2019-Dec-23 14:04:02,820  INFO class:71 - List of batches
+2019-Dec-23 14:04:02,825  INFO class:72 - Get Batch Details
+2019-Dec-23 14:04:02,824  INFO class:81 - Get subject details
+2019-Dec-23 14:04:13,637  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:04:13,637  INFO class:81 - Get subject details
+2019-Dec-23 14:04:13,639  INFO class:110 - List of available topics
+2019-Dec-23 14:04:13,637  INFO class:57 - List of all available courses 
+2019-Dec-23 14:04:13,644  INFO class:71 - List of batches
+2019-Dec-23 14:04:13,644  INFO class:72 - Get Batch Details
+2019-Dec-23 14:04:50,608  INFO class:57 - List of all available courses 
+2019-Dec-23 14:04:50,613  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:04:50,613  INFO class:81 - Get subject details
+2019-Dec-23 14:04:50,613  INFO class:71 - List of batches
+2019-Dec-23 14:04:50,613  INFO class:72 - Get Batch Details
+2019-Dec-23 14:04:50,613  INFO class:110 - List of available topics
+2019-Dec-23 14:05:26,937  INFO class:57 - List of all available courses 
+2019-Dec-23 14:05:26,941  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:05:26,941  INFO class:81 - Get subject details
+2019-Dec-23 14:05:26,941  INFO class:71 - List of batches
+2019-Dec-23 14:05:26,941  INFO class:72 - Get Batch Details
+2019-Dec-23 14:05:26,945  INFO class:110 - List of available topics
+2019-Dec-23 14:05:34,293  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:05:34,293  INFO class:81 - Get subject details
+2019-Dec-23 14:05:34,293  INFO class:57 - List of all available courses 
+2019-Dec-23 14:05:34,296  INFO class:71 - List of batches
+2019-Dec-23 14:05:34,297  INFO class:72 - Get Batch Details
+2019-Dec-23 14:05:34,296  INFO class:110 - List of available topics
+2019-Dec-23 14:06:01,425  INFO class:57 - List of all available courses 
+2019-Dec-23 14:06:01,429  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:06:01,429  INFO class:81 - Get subject details
+2019-Dec-23 14:06:01,429  INFO class:71 - List of batches
+2019-Dec-23 14:06:01,429  INFO class:72 - Get Batch Details
+2019-Dec-23 14:06:01,433  INFO class:110 - List of available topics
+2019-Dec-23 14:06:05,517  INFO class:71 - List of batches
+2019-Dec-23 14:06:05,517  INFO class:72 - Get Batch Details
+2019-Dec-23 14:06:13,409  INFO class:114 - Details of student based on Batch
+2019-Dec-23 14:06:21,506  INFO class:71 - List of batches
+2019-Dec-23 14:06:21,506  INFO class:72 - Get Batch Details
+2019-Dec-23 14:06:23,094  INFO class:92 - Mapping of Student and Batches  nullnull
+2019-Dec-23 14:06:23,094  INFO class:93 - Insert Student and Batch Mapping  7
+2019-Dec-23 14:07:03,051  INFO class:71 - List of batches
+2019-Dec-23 14:07:03,051  INFO class:72 - Get Batch Details
+2019-Dec-23 14:07:07,120  INFO class:71 - List of batches
+2019-Dec-23 14:07:07,120  INFO class:72 - Get Batch Details
+2019-Dec-23 14:07:09,284 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 14:07:26,790  INFO class:71 - List of batches
+2019-Dec-23 14:07:26,790  INFO class:72 - Get Batch Details
+2019-Dec-23 14:07:29,209 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 14:07:49,449  INFO class:71 - List of batches
+2019-Dec-23 14:07:49,449  INFO class:72 - Get Batch Details
+2019-Dec-23 14:07:52,366  INFO class:92 - Mapping of Student and Batches  nullnull
+2019-Dec-23 14:07:52,370  INFO class:93 - Insert Student and Batch Mapping  8
+2019-Dec-23 14:08:35,409  INFO class:71 - List of batches
+2019-Dec-23 14:08:35,409  INFO class:72 - Get Batch Details
+2019-Dec-23 14:08:45,797  INFO class:57 - List of all available courses 
+2019-Dec-23 14:08:45,803  INFO class:110 - List of available topics
+2019-Dec-23 14:08:45,803  INFO class:71 - List of batches
+2019-Dec-23 14:08:45,807  INFO class:72 - Get Batch Details
+2019-Dec-23 14:08:45,803  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:08:45,807  INFO class:81 - Get subject details
+2019-Dec-23 14:08:47,803  INFO class:34 - Daily status Inserted 
+2019-Dec-23 14:08:56,927  INFO class:57 - List of all available courses 
+2019-Dec-23 14:09:00,785  INFO class:59 - New batch Inserted SMI_IT_BAT_5
+2019-Dec-23 14:11:03,521  INFO class:57 - List of all available courses 
+2019-Dec-23 14:11:06,604  INFO class:59 - New batch Inserted SMI_IT_BAT_6
+2019-Dec-23 14:11:17,188  INFO class:71 - List of batches
+2019-Dec-23 14:11:17,188  INFO class:72 - Get Batch Details
+2019-Dec-23 14:11:18,749  INFO class:92 - Mapping of Student and Batches  nullnull
+2019-Dec-23 14:11:18,749  INFO class:93 - Insert Student and Batch Mapping  9
+2019-Dec-23 14:11:25,900  INFO class:71 - List of batches
+2019-Dec-23 14:11:25,904  INFO class:72 - Get Batch Details
+2019-Dec-23 14:11:27,717  INFO class:157 - Insert Current status of the students
+2019-Dec-23 14:11:35,805  INFO class:157 - Insert Current status of the students
+2019-Dec-23 14:12:12,796  INFO class:71 - List of batches
+2019-Dec-23 14:12:12,796  INFO class:72 - Get Batch Details
+2019-Dec-23 14:12:25,897  INFO class:71 - List of batches
+2019-Dec-23 14:12:25,901  INFO class:72 - Get Batch Details
+2019-Dec-23 14:12:30,831  INFO class:157 - Insert Current status of the students
+2019-Dec-23 14:13:43,136  INFO class:71 - List of batches
+2019-Dec-23 14:13:43,136  INFO class:72 - Get Batch Details
+2019-Dec-23 14:13:54,307  INFO class:71 - List of batches
+2019-Dec-23 14:13:54,307  INFO class:72 - Get Batch Details
+2019-Dec-23 14:13:56,052 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 14:14:35,956  INFO class:71 - List of batches
+2019-Dec-23 14:14:35,956  INFO class:72 - Get Batch Details
+2019-Dec-23 14:14:41,865  INFO class:57 - List of all available courses 
+2019-Dec-23 14:14:41,870  INFO class:110 - List of available topics
+2019-Dec-23 14:14:41,870  INFO class:71 - List of batches
+2019-Dec-23 14:14:41,874  INFO class:72 - Get Batch Details
+2019-Dec-23 14:14:41,874  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:14:41,874  INFO class:81 - Get subject details
+2019-Dec-23 14:14:45,362  INFO class:34 - Daily status Inserted 
+2019-Dec-23 14:15:18,836  INFO class:57 - List of all available courses 
+2019-Dec-23 14:15:18,838  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:15:18,838  INFO class:71 - List of batches
+2019-Dec-23 14:15:18,839  INFO class:72 - Get Batch Details
+2019-Dec-23 14:15:18,839  INFO class:110 - List of available topics
+2019-Dec-23 14:15:18,838  INFO class:81 - Get subject details
+2019-Dec-23 14:15:29,987  INFO class:57 - List of all available courses 
+2019-Dec-23 14:15:33,453  INFO class:59 - New batch Inserted SMI_IT_BAT_7
+2019-Dec-23 14:16:28,936  INFO class:57 - List of all available courses 
+2019-Dec-23 14:16:32,999  INFO class:59 - New batch Inserted SMI_IT_BAT_8
+2019-Dec-23 14:16:41,147  INFO class:71 - List of batches
+2019-Dec-23 14:16:41,147  INFO class:72 - Get Batch Details
+2019-Dec-23 14:16:42,261 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 14:17:31,563  INFO class:71 - List of batches
+2019-Dec-23 14:17:31,563  INFO class:72 - Get Batch Details
+2019-Dec-23 14:17:33,304 ERROR class:61 - Fail to insert Attendance
+2019-Dec-23 14:17:39,544  INFO class:71 - List of batches
+2019-Dec-23 14:17:39,544  INFO class:72 - Get Batch Details
+2019-Dec-23 14:17:41,094  INFO class:92 - Mapping of Student and Batches  nullnull
+2019-Dec-23 14:17:41,094  INFO class:93 - Insert Student and Batch Mapping  10
+2019-Dec-23 14:18:24,469  INFO class:57 - List of all available courses 
+2019-Dec-23 14:18:24,477  INFO class:110 - List of available topics
+2019-Dec-23 14:18:24,477  INFO class:80 - List of all Subjects available
+2019-Dec-23 14:18:24,477  INFO class:81 - Get subject details
+2019-Dec-23 14:18:24,481  INFO class:71 - List of batches
+2019-Dec-23 14:18:24,481  INFO class:72 - Get Batch Details
+2019-Dec-23 14:18:29,585  INFO class:34 - Daily status Inserted 
+2019-Dec-23 14:18:46,673  INFO class:57 - List of all available courses 
+2019-Dec-23 14:18:48,186  INFO class:59 - New batch Inserted SMI_IT_BAT_9
+2019-Dec-23 14:18:53,326  INFO class:71 - List of batches
+2019-Dec-23 14:18:53,326  INFO class:72 - Get Batch Details
+2019-Dec-23 14:18:54,853  INFO class:92 - Mapping of Student and Batches  nullnull
+2019-Dec-23 14:18:54,853  INFO class:93 - Insert Student and Batch Mapping  11
+2019-Dec-23 14:19:41,423  INFO class:71 - List of batches
+2019-Dec-23 14:19:41,423  INFO class:72 - Get Batch Details
+2019-Dec-23 14:19:42,722  INFO class:92 - Mapping of Student and Batches  nullnull
+2019-Dec-23 14:19:42,726  INFO class:93 - Insert Student and Batch Mapping  12
+2019-Dec-23 14:19:48,008  INFO class:71 - List of batches
+2019-Dec-23 14:19:48,008  INFO class:72 - Get Batch Details
+2019-Dec-23 14:19:49,202  INFO class:157 - Insert Current status of the students
+2019-Dec-23 14:20:24,608  INFO class:71 - List of batches
+2019-Dec-23 14:20:24,608  INFO class:72 - Get Batch Details
+2019-Dec-23 14:20:29,827  INFO class:157 - Insert Current status of the students
+2019-Dec-23 14:21:01,962  INFO class:71 - List of batches
+2019-Dec-23 14:21:01,962  INFO class:72 - Get Batch Details
+2019-Dec-23 14:21:12,901  INFO class:71 - List of batches
+2019-Dec-23 14:21:12,901  INFO class:72 - Get Batch Details
+2019-Dec-23 14:23:19,195  INFO class:71 - List of batches
+2019-Dec-23 14:23:19,199  INFO class:72 - Get Batch Details
+2019-Dec-23 14:23:58,897  INFO class:157 - Insert Current status of the students
+2019-Dec-23 14:24:11,071  INFO class:57 - List of all available courses 
+2019-Dec-23 14:24:12,031  INFO class:45 - Insert Course Details  SMI_IT_CUR_4
+2019-Dec-23 14:27:25,937  INFO class:57 - List of all available courses 
+2019-Dec-23 14:29:13,832  INFO class:57 - List of all available courses 
+2019-Dec-23 14:31:30,500  INFO class:57 - List of all available courses 
+2019-Dec-23 14:32:07,357  INFO class:57 - List of all available courses 
+2019-Dec-23 14:32:23,051  INFO class:57 - List of all available courses 
+2019-Dec-23 14:32:49,801  INFO class:57 - List of all available courses 
+2019-Dec-23 14:33:13,164  INFO class:57 - List of all available courses 
+2019-Dec-23 14:33:51,507  INFO class:57 - List of all available courses 
+2019-Dec-23 14:34:48,107  INFO class:57 - List of all available courses 
+2019-Dec-23 14:35:04,878  INFO class:57 - List of all available courses 
+2019-Dec-23 14:35:16,647  INFO class:57 - List of all available courses 
+2019-Dec-23 14:35:32,140  INFO class:57 - List of all available courses 
+2019-Dec-23 14:35:46,735  INFO class:57 - List of all available courses 
+2019-Dec-23 14:37:18,062  INFO class:57 - List of all available courses 
+2019-Dec-23 14:38:03,532  INFO class:57 - List of all available courses 
+2019-Dec-23 14:38:35,371  INFO class:57 - List of all available courses 
+2019-Dec-23 14:39:40,401  INFO class:57 - List of all available courses 
+2019-Dec-23 16:13:40,811  INFO class:71 - List of batches
+2019-Dec-23 16:13:40,811  INFO class:72 - Get Batch Details
+2019-Dec-23 16:13:52,162  INFO class:71 - List of batches
+2019-Dec-23 16:13:52,162  INFO class:72 - Get Batch Details
+2019-Dec-23 16:14:07,490  INFO class:71 - List of batches
+2019-Dec-23 16:14:07,491  INFO class:72 - Get Batch Details
+2019-Dec-23 16:14:26,835  INFO class:71 - List of batches
+2019-Dec-23 16:14:26,836  INFO class:72 - Get Batch Details
+2019-Dec-23 16:14:58,771  INFO class:71 - List of batches
+2019-Dec-23 16:14:58,772  INFO class:72 - Get Batch Details
+2019-Dec-23 16:15:19,611  INFO class:71 - List of batches
+2019-Dec-23 16:15:19,612  INFO class:72 - Get Batch Details
+2019-Dec-23 16:16:27,358  INFO class:57 - List of all available courses 
+2019-Dec-23 16:18:04,757  INFO class:45 - Insert Course Details  SMI_IT_CUR_5
+2019-Dec-23 16:18:31,054  INFO class:57 - List of all available courses 
+2019-Dec-23 16:18:31,059  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:18:31,059  INFO class:81 - Get subject details
+2019-Dec-23 16:24:03,993  INFO class:57 - List of all available courses 
+2019-Dec-23 16:24:03,993  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:24:03,995  INFO class:81 - Get subject details
+2019-Dec-23 16:24:14,029  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:24:14,030  INFO class:81 - Get subject details
+2019-Dec-23 16:24:14,029  INFO class:57 - List of all available courses 
+2019-Dec-23 16:24:34,254  INFO class:57 - List of all available courses 
+2019-Dec-23 16:25:55,507  INFO class:57 - List of all available courses 
+2019-Dec-23 16:26:53,532  INFO class:57 - List of all available courses 
+2019-Dec-23 16:27:05,280  INFO class:57 - List of all available courses 
+2019-Dec-23 16:27:23,326  INFO class:45 - Insert Course Details  SMI_IT_CUR_6
+2019-Dec-23 16:28:20,950  INFO class:57 - List of all available courses 
+2019-Dec-23 16:30:04,722  INFO class:57 - List of all available courses 
+2019-Dec-23 16:30:19,973  INFO class:57 - List of all available courses 
+2019-Dec-23 16:30:19,981  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:30:19,981  INFO class:81 - Get subject details
+2019-Dec-23 16:30:49,950  INFO class:68 - Insert Subject details  SMI_IT_SUB_4
+2019-Dec-23 16:30:55,511  INFO class:57 - List of all available courses 
+2019-Dec-23 16:30:55,511  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:30:55,512  INFO class:81 - Get subject details
+2019-Dec-23 16:30:55,519  INFO class:110 - List of available topics
+2019-Dec-23 16:30:58,948  INFO class:87 - Get details about subject on course
+2019-Dec-23 16:32:39,543  INFO class:110 - List of available topics
+2019-Dec-23 16:32:39,543  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:32:39,543  INFO class:57 - List of all available courses 
+2019-Dec-23 16:32:39,544  INFO class:81 - Get subject details
+2019-Dec-23 16:32:50,117  INFO class:87 - Get details about subject on course
+2019-Dec-23 16:33:16,715  INFO class:98 - New Topic Inserted Introduction
+2019-Dec-23 16:33:32,785  INFO class:57 - List of all available courses 
+2019-Dec-23 16:33:32,785  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:33:32,787  INFO class:81 - Get subject details
+2019-Dec-23 16:33:32,794  INFO class:110 - List of available topics
+2019-Dec-23 16:34:33,393  INFO class:57 - List of all available courses 
+2019-Dec-23 16:34:33,393  INFO class:110 - List of available topics
+2019-Dec-23 16:34:33,393  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:34:33,395  INFO class:81 - Get subject details
+2019-Dec-23 16:35:01,572  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:35:01,572  INFO class:57 - List of all available courses 
+2019-Dec-23 16:35:01,573  INFO class:81 - Get subject details
+2019-Dec-23 16:35:01,574  INFO class:110 - List of available topics
+2019-Dec-23 16:35:57,474  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:35:57,474  INFO class:57 - List of all available courses 
+2019-Dec-23 16:35:57,475  INFO class:81 - Get subject details
+2019-Dec-23 16:35:57,481  INFO class:110 - List of available topics
+2019-Dec-23 16:36:19,582  INFO class:57 - List of all available courses 
+2019-Dec-23 16:36:19,582  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:36:19,584  INFO class:81 - Get subject details
+2019-Dec-23 16:36:19,584  INFO class:110 - List of available topics
+2019-Dec-23 16:36:45,388  INFO class:57 - List of all available courses 
+2019-Dec-23 16:36:45,388  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:36:45,389  INFO class:81 - Get subject details
+2019-Dec-23 16:36:45,391  INFO class:110 - List of available topics
+2019-Dec-23 16:37:10,143  INFO class:57 - List of all available courses 
+2019-Dec-23 16:37:23,156  INFO class:57 - List of all available courses 
+2019-Dec-23 16:37:33,183  INFO class:57 - List of all available courses 
+2019-Dec-23 16:37:33,183  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:37:33,184  INFO class:81 - Get subject details
+2019-Dec-23 16:37:33,184  INFO class:110 - List of available topics
+2019-Dec-23 16:38:09,196  INFO class:57 - List of all available courses 
+2019-Dec-23 16:38:50,368 ERROR class:45 - Details of trainers
+2019-Dec-23 16:38:52,245  INFO class:57 - List of all available courses 
+2019-Dec-23 16:38:52,249  INFO class:110 - List of available topics
+2019-Dec-23 16:38:52,249  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:38:52,249  INFO class:81 - Get subject details
+2019-Dec-23 16:43:03,806  INFO class:57 - List of all available courses 
+2019-Dec-23 16:43:03,819  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:43:03,819  INFO class:81 - Get subject details
+2019-Dec-23 16:43:03,835  INFO class:110 - List of available topics
+2019-Dec-23 16:43:33,758  INFO class:57 - List of all available courses 
+2019-Dec-23 16:43:33,763  INFO class:110 - List of available topics
+2019-Dec-23 16:43:33,763  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:43:33,763  INFO class:81 - Get subject details
+2019-Dec-23 16:44:01,928 ERROR class:45 - Details of trainers
+2019-Dec-23 16:44:04,540 ERROR class:45 - Details of trainers
+2019-Dec-23 16:45:09,901  INFO class:34 - New Trainer is addedSatheesh Kumar
+2019-Dec-23 16:45:09,917  INFO class:35 - Insert New Trainer  SMI_IT_TRA_3
+2019-Dec-23 16:45:15,682 ERROR class:45 - Details of trainers
+2019-Dec-23 16:45:35,195  INFO class:57 - List of all available courses 
+2019-Dec-23 16:45:47,708  INFO class:57 - List of all available courses 
+2019-Dec-23 16:45:47,711  INFO class:110 - List of available topics
+2019-Dec-23 16:45:47,711  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:45:47,714  INFO class:81 - Get subject details
+2019-Dec-23 16:45:51,491  INFO class:87 - Get details about subject on course
+2019-Dec-23 16:46:15,753  INFO class:98 - New Topic Inserted Basics
+2019-Dec-23 16:47:18,819  INFO class:110 - List of available topics
+2019-Dec-23 16:47:18,819  INFO class:80 - List of all Subjects available
+2019-Dec-23 16:47:18,833  INFO class:81 - Get subject details
+2019-Dec-23 16:47:18,819  INFO class:57 - List of all available courses 
+2019-Dec-23 16:47:21,891  INFO class:98 - New Topic Inserted null
+2019-Dec-23 16:54:02,728  INFO class:71 - List of batches
+2019-Dec-23 16:54:02,728  INFO class:72 - Get Batch Details
+2019-Dec-23 16:54:38,508  INFO class:71 - List of batches
+2019-Dec-23 16:54:38,508  INFO class:72 - Get Batch Details
+2019-Dec-23 17:00:43,477  INFO class:57 - List of all available courses 
+2019-Dec-23 17:00:43,489  INFO class:80 - List of all Subjects available
+2019-Dec-23 17:00:43,489  INFO class:81 - Get subject details
+2019-Dec-23 17:00:43,505  INFO class:110 - List of available topics
+2019-Dec-23 17:00:58,901  INFO class:57 - List of all available courses 
+2019-Dec-23 17:01:18,787  INFO class:57 - List of all available courses 
+2019-Dec-23 17:01:18,792  INFO class:110 - List of available topics
+2019-Dec-23 17:01:18,792  INFO class:80 - List of all Subjects available
+2019-Dec-23 17:01:18,793  INFO class:81 - Get subject details
+2019-Dec-23 17:01:42,446  INFO class:110 - List of available topics
+2019-Dec-23 17:01:42,446  INFO class:57 - List of all available courses 
+2019-Dec-23 17:01:42,446  INFO class:80 - List of all Subjects available
+2019-Dec-23 17:01:42,461  INFO class:81 - Get subject details
+2019-Dec-23 17:01:42,462  INFO class:71 - List of batches
+2019-Dec-23 17:01:42,462  INFO class:72 - Get Batch Details
+2019-Dec-23 17:31:14,524  INFO class:57 - List of all available courses 
+2019-Dec-23 17:31:26,660  INFO class:45 - Insert Course Details  SMI_IT_CUR_7
+2019-Dec-23 17:31:29,179  INFO class:57 - List of all available courses 
+2019-Dec-23 17:32:29,415  INFO class:57 - List of all available courses 
+2019-Dec-23 17:33:19,337  INFO class:71 - List of batches
+2019-Dec-23 17:33:19,337  INFO class:72 - Get Batch Details
+2019-Dec-23 17:35:18,071  INFO class:71 - List of batches
+2019-Dec-23 17:35:18,071  INFO class:72 - Get Batch Details
+2019-Dec-23 17:35:27,946  INFO class:79 - Get the student name according to their mobile number
+2019-Dec-23 17:35:27,952  INFO class:82 - Find the name of student based on Mobilenumber
+2019-Dec-23 17:35:43,449  INFO class:79 - Get the student name according to their mobile number
+2019-Dec-23 17:35:43,453  INFO class:82 - Find the name of student based on Mobilenumber
+2019-Dec-23 17:35:44,031  INFO class:79 - Get the student name according to their mobile number
+2019-Dec-23 17:35:44,031  INFO class:82 - Find the name of student based on Mobilenumber
+2019-Dec-23 17:35:44,359  INFO class:79 - Get the student name according to their mobile number
+2019-Dec-23 17:35:44,359  INFO class:82 - Find the name of student based on Mobilenumber
+2019-Dec-23 17:36:41,993  INFO class:71 - List of batches
+2019-Dec-23 17:36:41,993  INFO class:72 - Get Batch Details
+2019-Dec-23 17:38:28,852  INFO class:71 - List of batches
+2019-Dec-23 17:38:28,852  INFO class:72 - Get Batch Details
+2019-Dec-23 17:39:43,448  INFO class:71 - List of batches
+2019-Dec-23 17:39:43,448  INFO class:72 - Get Batch Details
+2019-Dec-23 17:42:00,852  INFO class:71 - List of batches
+2019-Dec-23 17:42:00,852  INFO class:72 - Get Batch Details
+2019-Dec-23 18:11:58,448  INFO class:71 - List of batches
+2019-Dec-23 18:11:58,448  INFO class:72 - Get Batch Details
+2019-Dec-23 18:12:08,196  INFO class:71 - List of batches
+2019-Dec-23 18:12:08,212  INFO class:72 - Get Batch Details
+2019-Dec-23 18:12:11,669  INFO class:71 - List of batches
+2019-Dec-23 18:12:11,669  INFO class:72 - Get Batch Details
+2019-Dec-23 18:12:28,570  INFO class:57 - List of all available courses 
+2019-Dec-23 18:12:28,580  INFO class:80 - List of all Subjects available
+2019-Dec-23 18:12:28,580  INFO class:81 - Get subject details
+2019-Dec-23 18:12:28,580  INFO class:110 - List of available topics
+2019-Dec-23 18:12:37,335  INFO class:71 - List of batches
+2019-Dec-23 18:12:37,335  INFO class:72 - Get Batch Details
+2019-Dec-23 19:24:30,399  INFO class:57 - List of all available courses 
+2019-Dec-24 09:55:13,331  INFO class:57 - List of all available courses 
+2019-Dec-24 09:55:25,762  INFO class:116 - Get topic on subject 
+2019-Dec-24 09:55:33,310  INFO class:57 - List of all available courses 
+2019-Dec-24 09:56:13,752  INFO class:71 - List of batches
+2019-Dec-24 09:56:13,753  INFO class:72 - Get Batch Details
+2019-Dec-24 09:56:16,205  INFO class:79 - Get the student name according to their mobile number
+2019-Dec-24 09:56:16,208  INFO class:82 - Find the name of student based on Mobilenumber
+2019-Dec-24 09:56:17,148  INFO class:79 - Get the student name according to their mobile number
+2019-Dec-24 09:56:17,151  INFO class:82 - Find the name of student based on Mobilenumber
+2019-Dec-24 09:56:23,484  INFO class:79 - Get the student name according to their mobile number
+2019-Dec-24 09:56:23,487  INFO class:82 - Find the name of student based on Mobilenumber
+2019-Dec-24 09:56:23,833  INFO class:79 - Get the student name according to their mobile number
+2019-Dec-24 09:56:23,836  INFO class:82 - Find the name of student based on Mobilenumber
+2019-Dec-24 09:56:24,185  INFO class:79 - Get the student name according to their mobile number
+2019-Dec-24 09:56:24,188  INFO class:82 - Find the name of student based on Mobilenumber
+2019-Dec-24 09:56:48,505  INFO class:71 - List of batches
+2019-Dec-24 09:56:48,506  INFO class:72 - Get Batch Details
+2019-Dec-24 09:56:53,326  INFO class:71 - List of batches
+2019-Dec-24 09:56:53,327  INFO class:72 - Get Batch Details
+2019-Dec-24 09:57:25,750  INFO class:57 - List of all available courses 
+2019-Dec-24 09:57:33,640  INFO class:45 - Insert Course Details  SMI_IT_CUR_8
+2019-Dec-24 09:57:38,202  INFO class:57 - List of all available courses 
+2019-Dec-24 09:57:38,207  INFO class:80 - List of all Subjects available
+2019-Dec-24 09:57:38,207  INFO class:81 - Get subject details
+2019-Dec-24 09:57:46,690  INFO class:57 - List of all available courses 
+2019-Dec-24 09:57:46,690  INFO class:80 - List of all Subjects available
+2019-Dec-24 09:57:46,691  INFO class:81 - Get subject details
+2019-Dec-24 09:57:46,695  INFO class:110 - List of available topics
+2019-Dec-24 09:57:55,688 ERROR class:45 - Details of trainers
+2019-Dec-24 09:58:13,683  INFO class:145 - Details of Terminated Students
+2019-Dec-24 10:07:17,994  INFO class:57 - List of all available courses 
+2019-Dec-24 10:09:40,450  INFO class:57 - List of all available courses 
+2019-Dec-24 10:09:45,491  INFO class:57 - List of all available courses 
+2019-Dec-24 10:10:38,288  INFO class:57 - List of all available courses 
+2019-Dec-24 10:10:41,916  INFO class:57 - List of all available courses 
+2019-Dec-24 10:15:11,595  INFO class:57 - List of all available courses 
+2019-Dec-24 10:15:44,420  INFO class:57 - List of all available courses 
+2019-Dec-24 10:16:16,246  INFO class:57 - List of all available courses 
+2019-Dec-24 10:17:25,401  INFO class:57 - List of all available courses 
+2019-Dec-24 10:17:36,478  INFO class:57 - List of all available courses 
+2019-Dec-24 10:17:36,482  INFO class:80 - List of all Subjects available
+2019-Dec-24 10:17:36,482  INFO class:81 - Get subject details
+2019-Dec-24 10:17:36,485  INFO class:110 - List of available topics
+2019-Dec-24 10:17:36,485  INFO class:71 - List of batches
+2019-Dec-24 10:17:36,486  INFO class:72 - Get Batch Details
+2019-Dec-24 10:17:41,309 ERROR class:45 - Details of trainers
+2019-Dec-24 10:17:47,749 ERROR class:45 - Details of trainers
+2019-Dec-24 10:29:14,661  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 10:30:03,015  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 10:30:53,138  INFO class:57 - List of all available courses 
+2019-Dec-24 10:31:05,114  INFO class:57 - List of all available courses 
+2019-Dec-24 10:31:05,118  INFO class:80 - List of all Subjects available
+2019-Dec-24 10:31:05,120  INFO class:81 - Get subject details
+2019-Dec-24 10:31:24,363  INFO class:57 - List of all available courses 
+2019-Dec-24 10:31:24,363  INFO class:80 - List of all Subjects available
+2019-Dec-24 10:31:24,365  INFO class:81 - Get subject details
+2019-Dec-24 10:31:24,373  INFO class:110 - List of available topics
+2019-Dec-24 10:31:39,622  INFO class:87 - Get details about subject on course
+2019-Dec-24 10:31:48,067  INFO class:57 - List of all available courses 
+2019-Dec-24 10:53:26,050  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 10:55:33,700  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 10:59:46,013  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 11:24:29,509  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 11:26:58,019 ERROR class:45 - Details of trainers
+2019-Dec-24 11:26:59,784 ERROR class:45 - Details of trainers
+2019-Dec-24 11:27:35,494 ERROR class:45 - Details of trainers
+2019-Dec-24 11:27:48,675  INFO class:139 - Details of discontinued students
+2019-Dec-24 11:28:08,871  INFO class:145 - Details of Terminated Students
+2019-Dec-24 11:59:15,592  INFO class:70 - List of batches
+2019-Dec-24 11:59:15,594  INFO class:71 - Get Batch Details
+2019-Dec-24 12:01:57,212  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 12:02:46,351  INFO class:70 - List of batches
+2019-Dec-24 12:02:46,353  INFO class:71 - Get Batch Details
+2019-Dec-24 12:07:07,233  INFO class:70 - List of batches
+2019-Dec-24 12:07:07,235  INFO class:71 - Get Batch Details
+2019-Dec-24 12:07:16,993  INFO class:70 - List of batches
+2019-Dec-24 12:07:16,995  INFO class:71 - Get Batch Details
+2019-Dec-24 12:07:29,102  INFO class:70 - List of batches
+2019-Dec-24 12:07:29,103  INFO class:71 - Get Batch Details
+2019-Dec-24 12:07:58,026  INFO class:70 - List of batches
+2019-Dec-24 12:07:58,028  INFO class:71 - Get Batch Details
+2019-Dec-24 12:08:07,302  INFO class:70 - List of batches
+2019-Dec-24 12:08:07,303  INFO class:71 - Get Batch Details
+2019-Dec-24 12:09:23,327  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 12:09:57,551  INFO class:57 - List of all available courses 
+2019-Dec-24 12:10:49,484  INFO class:59 - New batch Inserted SMI_IT_BAT_2
+2019-Dec-24 12:11:07,390  INFO class:70 - List of batches
+2019-Dec-24 12:11:07,392  INFO class:71 - Get Batch Details
+2019-Dec-24 12:13:35,240  INFO class:123 - Insert new Student
+2019-Dec-24 12:13:35,262  INFO class:83 - Insert Student Academic details  SMI_IT_ADI_3
+2019-Dec-24 12:13:35,350  INFO class:104 - Insert Student Personal details  SMI_IT_STUP_2
+2019-Dec-24 12:15:47,192  INFO class:83 - Insert Student Academic details  SMI_IT_ADI_4
+2019-Dec-24 12:15:47,270  INFO class:104 - Insert Student Personal details  SMI_IT_STUP_3
+2019-Dec-24 12:15:47,359  INFO class:123 - Insert new Student
+2019-Dec-24 12:16:04,390  INFO class:70 - List of batches
+2019-Dec-24 12:16:04,391  INFO class:71 - Get Batch Details
+2019-Dec-24 12:16:07,064  INFO class:113 - Details of student based on Batch
+2019-Dec-24 12:16:10,553  INFO class:78 - Get the student name according to their mobile number
+2019-Dec-24 12:16:10,558  INFO class:81 - Find the name of student based on Mobilenumber
+2019-Dec-24 12:16:13,083  INFO class:78 - Get the student name according to their mobile number
+2019-Dec-24 12:16:13,086  INFO class:81 - Find the name of student based on Mobilenumber
+2019-Dec-24 12:16:18,416  INFO class:91 - Mapping of Student and Batches  SMI_IT_STU_3SMI_IT_BAT_2
+2019-Dec-24 12:16:18,416  INFO class:92 - Insert Student and Batch Mapping  13
+2019-Dec-24 12:20:14,521  INFO class:83 - Insert Student Academic details  SMI_IT_ADI_5
+2019-Dec-24 12:20:14,609  INFO class:104 - Insert Student Personal details  SMI_IT_STUP_4
+2019-Dec-24 12:20:14,654  INFO class:123 - Insert new Student
+2019-Dec-24 12:21:06,675  INFO class:57 - List of all available courses 
+2019-Dec-24 12:21:06,675  INFO class:80 - List of all Subjects available
+2019-Dec-24 12:21:06,675  INFO class:110 - List of available topics
+2019-Dec-24 12:21:06,677  INFO class:81 - Get subject details
+2019-Dec-24 12:21:12,491  INFO class:70 - List of batches
+2019-Dec-24 12:21:12,492  INFO class:71 - Get Batch Details
+2019-Dec-24 12:21:15,356  INFO class:113 - Details of student based on Batch
+2019-Dec-24 12:21:17,574  INFO class:78 - Get the student name according to their mobile number
+2019-Dec-24 12:21:17,578  INFO class:81 - Find the name of student based on Mobilenumber
+2019-Dec-24 12:21:19,674  INFO class:78 - Get the student name according to their mobile number
+2019-Dec-24 12:21:19,677  INFO class:81 - Find the name of student based on Mobilenumber
+2019-Dec-24 12:21:23,037  INFO class:78 - Get the student name according to their mobile number
+2019-Dec-24 12:21:23,043  INFO class:81 - Find the name of student based on Mobilenumber
+2019-Dec-24 12:21:24,630  INFO class:78 - Get the student name according to their mobile number
+2019-Dec-24 12:21:24,634  INFO class:81 - Find the name of student based on Mobilenumber
+2019-Dec-24 12:21:25,905  INFO class:78 - Get the student name according to their mobile number
+2019-Dec-24 12:21:25,908  INFO class:81 - Find the name of student based on Mobilenumber
+2019-Dec-24 12:21:27,614  INFO class:91 - Mapping of Student and Batches  SMI_IT_STU_4SMI_IT_BAT_2
+2019-Dec-24 12:21:27,615  INFO class:92 - Insert Student and Batch Mapping  14
+2019-Dec-24 12:21:37,755  INFO class:70 - List of batches
+2019-Dec-24 12:21:37,756  INFO class:71 - Get Batch Details
+2019-Dec-24 12:21:40,474  INFO class:113 - Details of student based on Batch
+2019-Dec-24 12:21:43,030  INFO class:78 - Get the student name according to their mobile number
+2019-Dec-24 12:21:43,034  INFO class:81 - Find the name of student based on Mobilenumber
+2019-Dec-24 12:21:44,512  INFO class:78 - Get the student name according to their mobile number
+2019-Dec-24 12:21:44,517  INFO class:81 - Find the name of student based on Mobilenumber
+2019-Dec-24 12:21:45,793  INFO class:91 - Mapping of Student and Batches  SMI_IT_STU_5SMI_IT_BAT_2
+2019-Dec-24 12:21:45,794  INFO class:92 - Insert Student and Batch Mapping  15
+2019-Dec-24 12:22:19,123  INFO class:70 - List of batches
+2019-Dec-24 12:22:19,124  INFO class:71 - Get Batch Details
+2019-Dec-24 12:22:28,476  INFO class:70 - List of batches
+2019-Dec-24 12:22:28,477  INFO class:71 - Get Batch Details
+2019-Dec-24 12:22:44,536  INFO class:70 - List of batches
+2019-Dec-24 12:22:44,537  INFO class:71 - Get Batch Details
+2019-Dec-24 12:22:46,936  INFO class:70 - List of batches
+2019-Dec-24 12:22:46,936  INFO class:71 - Get Batch Details
+2019-Dec-24 12:22:51,797  INFO class:70 - List of batches
+2019-Dec-24 12:22:51,798  INFO class:71 - Get Batch Details
+2019-Dec-24 12:22:53,635  INFO class:70 - List of batches
+2019-Dec-24 12:22:53,636  INFO class:71 - Get Batch Details
+2019-Dec-24 12:23:12,288  INFO class:70 - List of batches
+2019-Dec-24 12:23:12,289  INFO class:71 - Get Batch Details
+2019-Dec-24 12:23:38,782  INFO class:57 - List of all available courses 
+2019-Dec-24 12:23:47,078  INFO class:70 - List of batches
+2019-Dec-24 12:23:47,079  INFO class:71 - Get Batch Details
+2019-Dec-24 12:24:27,362  INFO class:70 - List of batches
+2019-Dec-24 12:24:27,363  INFO class:71 - Get Batch Details
+2019-Dec-24 12:25:13,896  INFO class:70 - List of batches
+2019-Dec-24 12:25:13,896  INFO class:71 - Get Batch Details
+2019-Dec-24 12:25:19,222  INFO class:70 - List of batches
+2019-Dec-24 12:25:19,222  INFO class:71 - Get Batch Details
+2019-Dec-24 12:27:36,253  INFO class:70 - List of batches
+2019-Dec-24 12:27:36,253  INFO class:71 - Get Batch Details
+2019-Dec-24 12:29:32,903  INFO class:70 - List of batches
+2019-Dec-24 12:29:32,903  INFO class:71 - Get Batch Details
+2019-Dec-24 12:29:50,222  INFO class:70 - List of batches
+2019-Dec-24 12:29:50,222  INFO class:71 - Get Batch Details
+2019-Dec-24 12:32:16,425  INFO class:70 - List of batches
+2019-Dec-24 12:32:16,426  INFO class:71 - Get Batch Details
+2019-Dec-24 12:32:20,612  INFO class:70 - List of batches
+2019-Dec-24 12:32:20,613  INFO class:71 - Get Batch Details
+2019-Dec-24 12:34:11,327 ERROR class:45 - Details of trainers
+2019-Dec-24 12:34:17,018 ERROR class:45 - Details of trainers
+2019-Dec-24 12:34:54,229  INFO class:70 - List of batches
+2019-Dec-24 12:34:54,230  INFO class:71 - Get Batch Details
+2019-Dec-24 12:36:35,903  INFO class:113 - Details of student based on Batch
+2019-Dec-24 12:38:36,911  INFO class:70 - List of batches
+2019-Dec-24 12:38:36,911  INFO class:71 - Get Batch Details
+2019-Dec-24 12:38:56,599  INFO class:70 - List of batches
+2019-Dec-24 12:38:56,599  INFO class:71 - Get Batch Details
+2019-Dec-24 12:39:44,629  INFO class:44 - New Assesment Assigned SMI_IT_AAI_2
+2019-Dec-24 12:40:09,332  INFO class:70 - List of batches
+2019-Dec-24 12:40:09,332  INFO class:71 - Get Batch Details
+2019-Dec-24 12:40:16,801  INFO class:70 - List of batches
+2019-Dec-24 12:40:16,801  INFO class:71 - Get Batch Details
+2019-Dec-24 12:40:34,394  INFO class:44 - New Assesment Assigned SMI_IT_AAI_3
+2019-Dec-24 12:41:05,059  INFO class:70 - List of batches
+2019-Dec-24 12:41:05,060  INFO class:71 - Get Batch Details
+2019-Dec-24 12:41:47,414  INFO class:70 - List of batches
+2019-Dec-24 12:41:47,414  INFO class:71 - Get Batch Details
+2019-Dec-24 12:42:38,537  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 12:44:30,830  INFO class:44 - New Assesment Assigned SMI_IT_AAI_2
+2019-Dec-24 12:45:47,785  INFO class:68 - List of batches
+2019-Dec-24 12:45:47,785  INFO class:69 - Get Batch Details
+2019-Dec-24 12:46:36,177  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 12:46:55,039  INFO class:68 - List of batches
+2019-Dec-24 12:46:55,039  INFO class:69 - Get Batch Details
+2019-Dec-24 12:47:14,402  INFO class:44 - New Assesment Assigned SMI_IT_AAI_2
+2019-Dec-24 12:48:31,490  INFO class:68 - List of batches
+2019-Dec-24 12:48:31,492  INFO class:69 - Get Batch Details
+2019-Dec-24 12:48:32,584  INFO class:44 - New Assesment Assigned SMI_IT_AAI_3
+2019-Dec-24 12:48:42,261  INFO class:68 - List of batches
+2019-Dec-24 12:48:42,261  INFO class:69 - Get Batch Details
+2019-Dec-24 12:48:59,942  INFO class:44 - New Assesment Assigned SMI_IT_AAI_4
+2019-Dec-24 12:49:58,891  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 12:53:05,562  INFO class:68 - List of batches
+2019-Dec-24 12:53:05,565  INFO class:69 - Get Batch Details
+2019-Dec-24 12:53:22,315  INFO class:68 - List of batches
+2019-Dec-24 12:53:22,321  INFO class:69 - Get Batch Details
+2019-Dec-24 12:54:29,348  INFO class:68 - List of batches
+2019-Dec-24 12:54:29,349  INFO class:69 - Get Batch Details
+2019-Dec-24 12:54:36,082  INFO class:68 - List of batches
+2019-Dec-24 12:54:36,091  INFO class:69 - Get Batch Details
+2019-Dec-24 12:55:27,534  INFO class:68 - List of batches
+2019-Dec-24 12:55:27,534  INFO class:69 - Get Batch Details
+2019-Dec-24 12:55:58,878  INFO class:68 - List of batches
+2019-Dec-24 12:55:58,878  INFO class:69 - Get Batch Details
+2019-Dec-24 12:56:53,113  INFO class:68 - List of batches
+2019-Dec-24 12:56:53,115  INFO class:69 - Get Batch Details
+2019-Dec-24 12:57:49,565  INFO class:68 - List of batches
+2019-Dec-24 12:57:49,568  INFO class:69 - Get Batch Details
+2019-Dec-24 12:57:53,144  INFO class:68 - List of batches
+2019-Dec-24 12:57:53,147  INFO class:69 - Get Batch Details
+2019-Dec-24 12:57:59,659  INFO class:68 - List of batches
+2019-Dec-24 12:57:59,659  INFO class:69 - Get Batch Details
+2019-Dec-24 12:59:08,962  INFO class:68 - List of batches
+2019-Dec-24 12:59:08,963  INFO class:69 - Get Batch Details
+2019-Dec-24 12:59:19,871  INFO class:44 - New Assesment Assigned SMI_IT_AAI_2
+2019-Dec-24 13:01:09,300  INFO class:68 - List of batches
+2019-Dec-24 13:01:09,308  INFO class:69 - Get Batch Details
+2019-Dec-24 13:04:19,398  INFO class:68 - List of batches
+2019-Dec-24 13:04:19,399  INFO class:69 - Get Batch Details
+2019-Dec-24 13:04:29,225  INFO class:68 - List of batches
+2019-Dec-24 13:04:29,225  INFO class:69 - Get Batch Details
+2019-Dec-24 13:05:38,450  INFO class:68 - List of batches
+2019-Dec-24 13:05:38,451  INFO class:69 - Get Batch Details
+2019-Dec-24 13:10:54,300  INFO class:68 - List of batches
+2019-Dec-24 13:10:54,301  INFO class:69 - Get Batch Details
+2019-Dec-24 13:11:00,016  INFO class:68 - List of batches
+2019-Dec-24 13:11:00,016  INFO class:69 - Get Batch Details
+2019-Dec-24 13:13:24,373  INFO class:68 - List of batches
+2019-Dec-24 13:13:24,374  INFO class:69 - Get Batch Details
+2019-Dec-24 13:13:53,319  INFO class:68 - List of batches
+2019-Dec-24 13:13:53,320  INFO class:69 - Get Batch Details
+2019-Dec-24 13:14:12,343  INFO class:68 - List of batches
+2019-Dec-24 13:14:12,343  INFO class:69 - Get Batch Details
+2019-Dec-24 13:15:00,879  INFO class:68 - List of batches
+2019-Dec-24 13:15:00,880  INFO class:69 - Get Batch Details
+2019-Dec-24 13:16:15,221  INFO class:57 - List of all available courses 
+2019-Dec-24 13:16:20,432  INFO class:57 - List of all available courses 
+2019-Dec-24 13:17:35,153  INFO class:57 - List of all available courses 
+2019-Dec-24 13:18:53,536  INFO class:68 - List of batches
+2019-Dec-24 13:18:53,537  INFO class:69 - Get Batch Details
+2019-Dec-24 13:20:00,853  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 13:22:53,191  INFO class:57 - List of all available courses 
+2019-Dec-24 13:25:28,454  INFO class:68 - List of batches
+2019-Dec-24 13:25:28,455  INFO class:69 - Get Batch Details
+2019-Dec-24 13:27:55,899  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 13:29:49,644  INFO class:68 - List of batches
+2019-Dec-24 13:29:49,644  INFO class:69 - Get Batch Details
+2019-Dec-24 13:31:41,335  INFO class:68 - List of batches
+2019-Dec-24 13:31:41,345  INFO class:69 - Get Batch Details
+2019-Dec-24 13:33:51,277  INFO class:68 - List of batches
+2019-Dec-24 13:33:51,293  INFO class:69 - Get Batch Details
+2019-Dec-24 13:34:14,569  INFO class:57 - List of all available courses 
+2019-Dec-24 13:38:00,713  INFO class:68 - List of batches
+2019-Dec-24 13:38:00,718  INFO class:69 - Get Batch Details
+2019-Dec-24 13:38:13,118  INFO class:68 - List of batches
+2019-Dec-24 13:38:13,118  INFO class:69 - Get Batch Details
+2019-Dec-24 13:45:24,899  INFO class:68 - List of batches
+2019-Dec-24 13:45:24,899  INFO class:69 - Get Batch Details
+2019-Dec-24 15:14:39,591  INFO class:68 - List of batches
+2019-Dec-24 15:14:39,594  INFO class:69 - Get Batch Details
+2019-Dec-24 15:21:27,235  INFO class:68 - List of batches
+2019-Dec-24 15:21:27,236  INFO class:69 - Get Batch Details
+2019-Dec-24 15:22:28,504  INFO class:68 - List of batches
+2019-Dec-24 15:22:28,505  INFO class:69 - Get Batch Details
+2019-Dec-24 15:22:36,063 ERROR class:61 - Fail to insert Attendance
+2019-Dec-24 15:22:48,745  INFO class:111 - Details of student based on Batch
+2019-Dec-24 15:24:31,475  INFO class:68 - List of batches
+2019-Dec-24 15:24:31,479  INFO class:69 - Get Batch Details
+2019-Dec-24 15:24:35,460  INFO class:68 - List of batches
+2019-Dec-24 15:24:35,464  INFO class:69 - Get Batch Details
+2019-Dec-24 15:24:51,083  INFO class:68 - List of batches
+2019-Dec-24 15:24:51,084  INFO class:69 - Get Batch Details
+2019-Dec-24 15:31:36,210  INFO class:68 - List of batches
+2019-Dec-24 15:31:36,210  INFO class:69 - Get Batch Details
+2019-Dec-24 15:32:37,505  INFO class:68 - List of batches
+2019-Dec-24 15:32:37,505  INFO class:69 - Get Batch Details
+2019-Dec-24 15:33:34,237  INFO class:68 - List of batches
+2019-Dec-24 15:33:34,237  INFO class:69 - Get Batch Details
+2019-Dec-24 15:35:04,374  INFO class:68 - List of batches
+2019-Dec-24 15:35:04,374  INFO class:69 - Get Batch Details
+2019-Dec-24 15:35:46,469  INFO class:68 - List of batches
+2019-Dec-24 15:35:46,470  INFO class:69 - Get Batch Details
+2019-Dec-24 15:56:09,234  INFO class:68 - List of batches
+2019-Dec-24 15:56:09,234  INFO class:69 - Get Batch Details
+2019-Dec-24 16:10:12,190  INFO class:68 - List of batches
+2019-Dec-24 16:10:12,190  INFO class:69 - Get Batch Details
+2019-Dec-24 16:10:54,251  INFO class:68 - List of batches
+2019-Dec-24 16:10:54,251  INFO class:69 - Get Batch Details
+2019-Dec-24 16:11:33,277  INFO class:68 - List of batches
+2019-Dec-24 16:11:33,277  INFO class:69 - Get Batch Details
+2019-Dec-24 16:11:58,246  INFO class:68 - List of batches
+2019-Dec-24 16:11:58,246  INFO class:69 - Get Batch Details
+2019-Dec-24 16:12:40,332  INFO class:68 - List of batches
+2019-Dec-24 16:12:40,332  INFO class:69 - Get Batch Details
+2019-Dec-24 16:12:50,284  INFO class:68 - List of batches
+2019-Dec-24 16:12:50,284  INFO class:69 - Get Batch Details
+2019-Dec-24 16:17:02,241  INFO class:68 - List of batches
+2019-Dec-24 16:17:02,242  INFO class:69 - Get Batch Details
+2019-Dec-24 16:17:06,004  INFO class:68 - List of batches
+2019-Dec-24 16:17:06,004  INFO class:69 - Get Batch Details
+2019-Dec-24 16:17:50,331  INFO class:68 - List of batches
+2019-Dec-24 16:17:50,331  INFO class:69 - Get Batch Details
+2019-Dec-24 16:18:00,363  INFO class:68 - List of batches
+2019-Dec-24 16:18:00,363  INFO class:69 - Get Batch Details
+2019-Dec-24 16:18:26,280  INFO class:68 - List of batches
+2019-Dec-24 16:18:26,281  INFO class:69 - Get Batch Details
+2019-Dec-24 16:18:33,863  INFO class:68 - List of batches
+2019-Dec-24 16:18:33,863  INFO class:69 - Get Batch Details
+2019-Dec-24 16:20:11,207  INFO class:68 - List of batches
+2019-Dec-24 16:20:11,207  INFO class:69 - Get Batch Details
+2019-Dec-24 16:21:04,409  INFO class:68 - List of batches
+2019-Dec-24 16:21:04,409  INFO class:69 - Get Batch Details
+2019-Dec-24 16:21:53,582  INFO class:68 - List of batches
+2019-Dec-24 16:21:53,582  INFO class:69 - Get Batch Details
+2019-Dec-24 16:24:28,274  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 16:25:33,443  INFO class:57 - List of all available courses 
+2019-Dec-24 16:25:36,131  INFO class:68 - List of batches
+2019-Dec-24 16:25:36,147  INFO class:69 - Get Batch Details
+2019-Dec-24 16:25:40,504  INFO class:57 - List of all available courses 
+2019-Dec-24 16:26:18,390  INFO class:68 - List of batches
+2019-Dec-24 16:26:18,391  INFO class:69 - Get Batch Details
+2019-Dec-24 16:26:28,819  INFO class:68 - List of batches
+2019-Dec-24 16:26:28,820  INFO class:69 - Get Batch Details
+2019-Dec-24 16:26:30,630  INFO class:68 - List of batches
+2019-Dec-24 16:26:30,637  INFO class:69 - Get Batch Details
+2019-Dec-24 16:26:34,894  INFO class:68 - List of batches
+2019-Dec-24 16:26:34,905  INFO class:69 - Get Batch Details
+2019-Dec-24 16:26:38,838  INFO class:68 - List of batches
+2019-Dec-24 16:26:38,840  INFO class:69 - Get Batch Details
+2019-Dec-24 16:27:41,646  INFO class:68 - List of batches
+2019-Dec-24 16:27:41,646  INFO class:69 - Get Batch Details
+2019-Dec-24 16:31:52,561  INFO class:68 - List of batches
+2019-Dec-24 16:31:52,563  INFO class:69 - Get Batch Details
+2019-Dec-24 16:32:36,087  INFO class:68 - List of batches
+2019-Dec-24 16:32:36,087  INFO class:69 - Get Batch Details
+2019-Dec-24 16:38:15,926  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 16:38:40,809  INFO class:68 - List of batches
+2019-Dec-24 16:38:40,809  INFO class:69 - Get Batch Details
+2019-Dec-24 16:41:02,644  INFO class:68 - List of batches
+2019-Dec-24 16:41:02,644  INFO class:69 - Get Batch Details
+2019-Dec-24 16:42:07,276  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 16:48:06,399  INFO class:68 - List of batches
+2019-Dec-24 16:48:06,403  INFO class:69 - Get Batch Details
+2019-Dec-24 16:48:24,482  INFO class:44 - New Assesment Assigned SMI_IT_AAI_3
+2019-Dec-24 16:50:39,835  INFO class:68 - List of batches
+2019-Dec-24 16:50:39,837  INFO class:69 - Get Batch Details
+2019-Dec-24 16:57:31,879  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 16:59:08,279  INFO class:57 - List of all available courses 
+2019-Dec-24 17:19:26,065  INFO class:68 - List of batches
+2019-Dec-24 17:19:26,065  INFO class:69 - Get Batch Details
+2019-Dec-24 17:27:44,370  INFO class:57 - List of all available courses 
+2019-Dec-24 17:28:41,616  INFO class:57 - List of all available courses 
+2019-Dec-24 17:30:24,630  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 17:30:52,182  INFO class:57 - List of all available courses 
+2019-Dec-24 17:31:24,177  INFO class:57 - List of all available courses 
+2019-Dec-24 17:32:21,346  INFO class:57 - List of all available courses 
+2019-Dec-24 17:34:14,052  INFO class:57 - List of all available courses 
+2019-Dec-24 17:34:20,959  INFO class:68 - List of batches
+2019-Dec-24 17:34:20,959  INFO class:69 - Get Batch Details
+2019-Dec-24 17:34:25,065  INFO class:57 - List of all available courses 
+2019-Dec-24 17:34:47,785  INFO class:109 - Batchwise Attendance report
+2019-Dec-24 17:35:00,629  INFO class:109 - Batchwise Attendance report
+2019-Dec-24 17:35:06,643  INFO class:57 - List of all available courses 
+2019-Dec-24 17:35:29,973  INFO class:57 - List of all available courses 
+2019-Dec-24 17:36:50,509  INFO class:57 - New batch Inserted SMI_IT_BAT_3
+2019-Dec-24 17:36:55,107  INFO class:57 - New batch Inserted SMI_IT_BAT_4
+2019-Dec-24 17:40:31,754  INFO class:57 - List of all available courses 
+2019-Dec-24 17:41:29,019  INFO class:68 - List of batches
+2019-Dec-24 17:41:29,022  INFO class:69 - Get Batch Details
+2019-Dec-24 17:41:34,053  INFO class:109 - Batchwise Attendance report
+2019-Dec-24 17:44:24,409  INFO class:57 - List of all available courses 
+2019-Dec-24 17:45:55,226  INFO class:68 - List of batches
+2019-Dec-24 17:45:55,227  INFO class:69 - Get Batch Details
+2019-Dec-24 17:46:00,521  INFO class:109 - Batchwise Attendance report
+2019-Dec-24 17:46:39,340  INFO class:68 - List of batches
+2019-Dec-24 17:46:39,341  INFO class:69 - Get Batch Details
+2019-Dec-24 17:47:47,418  INFO class:68 - List of batches
+2019-Dec-24 17:47:47,434  INFO class:69 - Get Batch Details
+2019-Dec-24 17:49:36,990  INFO class:57 - List of all available courses 
+2019-Dec-24 17:51:47,139  INFO class:68 - List of batches
+2019-Dec-24 17:51:47,139  INFO class:69 - Get Batch Details
+2019-Dec-24 17:51:52,693  INFO class:109 - Batchwise Attendance report
+2019-Dec-24 17:58:56,605  INFO class:68 - List of batches
+2019-Dec-24 17:58:56,605  INFO class:69 - Get Batch Details
+2019-Dec-24 17:59:00,224  INFO class:109 - Batchwise Attendance report
+2019-Dec-24 18:03:32,690  INFO class:68 - List of batches
+2019-Dec-24 18:03:32,690  INFO class:69 - Get Batch Details
+2019-Dec-24 18:03:35,408  INFO class:111 - Details of student based on Batch
+2019-Dec-24 18:03:42,266  INFO class:57 - List of all available courses 
+2019-Dec-24 18:05:12,317  INFO class:57 - List of all available courses 
+2019-Dec-24 18:05:51,113  INFO class:57 - List of all available courses 
+2019-Dec-24 18:06:56,797  INFO class:57 - List of all available courses 
+2019-Dec-24 18:07:31,504  INFO class:57 - List of all available courses 
+2019-Dec-24 18:07:51,399  INFO class:57 - New batch Inserted SMI_IT_BAT_5
+2019-Dec-24 18:08:53,880  INFO class:68 - List of batches
+2019-Dec-24 18:08:53,880  INFO class:69 - Get Batch Details
+2019-Dec-24 18:10:03,263  INFO class:68 - List of batches
+2019-Dec-24 18:10:03,263  INFO class:69 - Get Batch Details
+2019-Dec-24 18:10:16,816  INFO class:68 - List of batches
+2019-Dec-24 18:10:16,816  INFO class:69 - Get Batch Details
+2019-Dec-24 18:10:25,894  INFO class:133 - Details of deployed students
+2019-Dec-24 18:11:09,034  INFO class:133 - Details of deployed students
+2019-Dec-24 18:11:23,912  INFO class:68 - List of batches
+2019-Dec-24 18:11:23,912  INFO class:69 - Get Batch Details
+2019-Dec-24 18:11:54,770  INFO class:68 - List of batches
+2019-Dec-24 18:11:54,770  INFO class:69 - Get Batch Details
+2019-Dec-24 18:12:22,660  INFO class:68 - List of batches
+2019-Dec-24 18:12:22,660  INFO class:69 - Get Batch Details
+2019-Dec-24 18:12:54,449  INFO class:68 - List of batches
+2019-Dec-24 18:12:54,450  INFO class:69 - Get Batch Details
+2019-Dec-24 18:13:03,756  INFO class:68 - List of batches
+2019-Dec-24 18:13:03,756  INFO class:69 - Get Batch Details
+2019-Dec-24 18:13:10,066  INFO class:68 - List of batches
+2019-Dec-24 18:13:10,066  INFO class:69 - Get Batch Details
+2019-Dec-24 18:13:24,779 ERROR class:61 - Fail to insert Attendance
+2019-Dec-24 18:13:29,513  INFO class:111 - Details of student based on Batch
+2019-Dec-24 18:13:34,787  INFO class:111 - Details of student based on Batch
+2019-Dec-24 18:14:33,816  INFO class:111 - Details of student based on Batch
+2019-Dec-24 18:16:51,035  INFO class:111 - Details of student based on Batch
+2019-Dec-24 18:16:57,300  INFO class:111 - Details of student based on Batch
+2019-Dec-24 18:16:59,691  INFO class:111 - Details of student based on Batch
+2019-Dec-24 18:17:07,951  INFO class:57 - List of all available courses 
+2019-Dec-24 18:17:08,116  INFO class:68 - List of batches
+2019-Dec-24 18:17:08,117  INFO class:69 - Get Batch Details
+2019-Dec-24 18:17:09,128  INFO class:57 - List of all available courses 
+2019-Dec-24 18:17:11,984  INFO class:57 - List of all available courses 
+2019-Dec-24 18:20:47,988  INFO class:68 - List of batches
+2019-Dec-24 18:20:47,988  INFO class:69 - Get Batch Details
+2019-Dec-24 18:20:51,191  INFO class:109 - Batchwise Attendance report
+2019-Dec-24 18:26:15,675  INFO class:68 - List of batches
+2019-Dec-24 18:26:15,675  INFO class:69 - Get Batch Details
+2019-Dec-24 18:29:28,052 ERROR class:45 - Details of trainers
+2019-Dec-24 18:29:38,306  INFO class:68 - List of batches
+2019-Dec-24 18:29:38,307  INFO class:69 - Get Batch Details
+2019-Dec-24 18:29:46,660 ERROR class:45 - Details of trainers
+2019-Dec-24 18:29:50,484  INFO class:68 - List of batches
+2019-Dec-24 18:29:50,485  INFO class:69 - Get Batch Details
+2019-Dec-24 18:30:50,142  INFO class:68 - List of batches
+2019-Dec-24 18:30:50,142  INFO class:69 - Get Batch Details
+2019-Dec-24 18:34:49,253  INFO class:57 - List of all available courses 
+2019-Dec-24 18:37:03,588  INFO class:57 - List of all available courses 
+2019-Dec-24 18:37:03,595  INFO class:80 - List of all Subjects available
+2019-Dec-24 18:37:03,596  INFO class:81 - Get subject details
+2019-Dec-24 18:37:03,597  INFO class:68 - List of batches
+2019-Dec-24 18:37:03,598  INFO class:69 - Get Batch Details
+2019-Dec-24 18:37:03,598  INFO class:110 - List of available topics
+2019-Dec-24 18:37:03,610 ERROR class:45 - Details of trainers
+2019-Dec-24 18:37:09,222  INFO class:57 - List of all available courses 
+2019-Dec-24 18:37:09,238  INFO class:110 - List of available topics
+2019-Dec-24 18:37:09,238  INFO class:80 - List of all Subjects available
+2019-Dec-24 18:37:09,239  INFO class:81 - Get subject details
+2019-Dec-24 18:37:09,239  INFO class:68 - List of batches
+2019-Dec-24 18:37:09,239  INFO class:69 - Get Batch Details
+2019-Dec-24 18:37:09,239 ERROR class:45 - Details of trainers
+2019-Dec-24 18:37:14,380  INFO class:57 - List of all available courses 
+2019-Dec-24 18:37:14,390  INFO class:68 - List of batches
+2019-Dec-24 18:37:14,390  INFO class:110 - List of available topics
+2019-Dec-24 18:37:14,390  INFO class:80 - List of all Subjects available
+2019-Dec-24 18:37:14,390  INFO class:81 - Get subject details
+2019-Dec-24 18:37:14,390  INFO class:69 - Get Batch Details
+2019-Dec-24 18:37:14,390 ERROR class:45 - Details of trainers
+2019-Dec-24 18:39:22,626  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 18:40:35,837  INFO class:57 - List of all available courses 
+2019-Dec-24 18:40:35,868  INFO class:80 - List of all Subjects available
+2019-Dec-24 18:40:35,868  INFO class:81 - Get subject details
+2019-Dec-24 18:40:36,165  INFO class:110 - List of available topics
+2019-Dec-24 18:40:36,165  INFO class:68 - List of batches
+2019-Dec-24 18:40:36,165  INFO class:69 - Get Batch Details
+2019-Dec-24 18:40:36,227 ERROR class:45 - Details of trainers
+2019-Dec-24 18:40:41,612  INFO class:111 - Details of student based on Batch
+2019-Dec-24 18:40:43,339  INFO class:87 - Get details about subject on course
+2019-Dec-24 18:40:46,119  INFO class:116 - Get topic on subject 
+2019-Dec-24 18:41:07,175 ERROR class:45 - Details of trainers
+2019-Dec-24 18:41:09,710 ERROR class:45 - Details of trainers
+2019-Dec-24 18:41:13,409 ERROR class:45 - Details of trainers
+2019-Dec-24 18:41:16,042 ERROR class:45 - Details of trainers
+2019-Dec-24 18:41:24,040 ERROR class:45 - Details of trainers
+2019-Dec-24 18:42:07,293 ERROR class:45 - Details of trainers
+2019-Dec-24 18:42:08,144 ERROR class:45 - Details of trainers
+2019-Dec-24 18:42:31,052 ERROR class:45 - Details of trainers
+2019-Dec-24 18:43:37,999  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-24 18:43:52,024 ERROR class:45 - Details of trainers
+2019-Dec-24 18:43:56,362 ERROR class:45 - Details of trainers
+2019-Dec-24 18:44:05,051 ERROR class:45 - Details of trainers
+2019-Dec-24 18:44:11,393 ERROR class:45 - Details of trainers
+2019-Dec-24 18:44:37,654  INFO class:34 - New Trainer is addedJohn
+2019-Dec-24 18:44:37,654  INFO class:35 - Insert New Trainer  SMI_IT_TRA_4
+2019-Dec-24 18:44:41,570 ERROR class:45 - Details of trainers
+2019-Dec-24 18:44:47,222  INFO class:57 - List of all available courses 
+2019-Dec-24 18:44:47,245  INFO class:68 - List of batches
+2019-Dec-24 18:44:47,245  INFO class:110 - List of available topics
+2019-Dec-24 18:44:47,245 ERROR class:45 - Details of trainers
+2019-Dec-24 18:44:47,245  INFO class:69 - Get Batch Details
+2019-Dec-24 18:44:47,245  INFO class:80 - List of all Subjects available
+2019-Dec-24 18:44:47,260  INFO class:81 - Get subject details
+2019-Dec-24 18:44:58,632  INFO class:111 - Details of student based on Batch
+2019-Dec-24 18:45:00,043  INFO class:87 - Get details about subject on course
+2019-Dec-24 18:45:01,699  INFO class:116 - Get topic on subject 
+2019-Dec-24 18:45:08,063  INFO class:34 - Daily status Inserted 
+2019-Dec-24 18:48:22,446  INFO class:68 - List of batches
+2019-Dec-24 18:48:22,446  INFO class:69 - Get Batch Details
+2019-Dec-24 18:48:29,362  INFO class:68 - List of batches
+2019-Dec-24 18:48:29,378  INFO class:69 - Get Batch Details
+2019-Dec-24 18:48:32,758  INFO class:109 - Batchwise Attendance report
+2019-Dec-24 18:48:57,896  INFO class:68 - List of batches
+2019-Dec-24 18:48:57,896  INFO class:69 - Get Batch Details
+2019-Dec-24 18:49:02,929  INFO class:68 - List of batches
+2019-Dec-24 18:49:02,929  INFO class:69 - Get Batch Details
+2019-Dec-24 18:49:03,293  INFO class:68 - List of batches
+2019-Dec-24 18:49:03,293  INFO class:69 - Get Batch Details
+2019-Dec-24 18:50:26,078  INFO class:68 - List of batches
+2019-Dec-24 18:50:26,078  INFO class:69 - Get Batch Details
+2019-Dec-24 18:52:47,879  INFO class:68 - List of batches
+2019-Dec-24 18:52:47,879  INFO class:69 - Get Batch Details
+2019-Dec-24 18:53:19,115  INFO class:68 - List of batches
+2019-Dec-24 18:53:19,116  INFO class:69 - Get Batch Details
+2019-Dec-24 18:54:22,348  INFO class:68 - List of batches
+2019-Dec-24 18:54:22,348  INFO class:69 - Get Batch Details
+2019-Dec-24 18:54:45,895  INFO class:68 - List of batches
+2019-Dec-24 18:54:45,896  INFO class:69 - Get Batch Details
+2019-Dec-24 18:54:47,464 ERROR class:61 - Fail to insert Attendance
+2019-Dec-24 18:54:50,673  INFO class:68 - List of batches
+2019-Dec-24 18:54:50,674  INFO class:69 - Get Batch Details
+2019-Dec-24 18:55:11,284  INFO class:68 - List of batches
+2019-Dec-24 18:55:11,284  INFO class:69 - Get Batch Details
+2019-Dec-24 18:55:48,896  INFO class:68 - List of batches
+2019-Dec-24 18:55:48,896  INFO class:69 - Get Batch Details
+2019-Dec-24 18:56:26,163  INFO class:68 - List of batches
+2019-Dec-24 18:56:26,164  INFO class:69 - Get Batch Details
+2019-Dec-24 18:56:48,340  INFO class:68 - List of batches
+2019-Dec-24 18:56:48,341  INFO class:69 - Get Batch Details
+2019-Dec-24 18:57:36,190  INFO class:68 - List of batches
+2019-Dec-24 18:57:36,190  INFO class:69 - Get Batch Details
+2019-Dec-24 18:57:37,381  INFO class:57 - List of all available courses 
+2019-Dec-24 18:57:45,956  INFO class:57 - List of all available courses 
+2019-Dec-24 18:59:00,308  INFO class:68 - List of batches
+2019-Dec-24 18:59:00,309  INFO class:69 - Get Batch Details
+2019-Dec-24 18:59:50,847  INFO class:68 - List of batches
+2019-Dec-24 18:59:50,847  INFO class:69 - Get Batch Details
+2019-Dec-24 19:00:08,689  INFO class:68 - List of batches
+2019-Dec-24 19:00:08,690  INFO class:69 - Get Batch Details
+2019-Dec-24 19:03:16,335  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:03:16,337  INFO class:81 - Get subject details
+2019-Dec-24 19:03:16,343  INFO class:110 - List of available topics
+2019-Dec-24 19:03:16,350  INFO class:68 - List of batches
+2019-Dec-24 19:03:16,350  INFO class:69 - Get Batch Details
+2019-Dec-24 19:03:16,350  INFO class:57 - List of all available courses 
+2019-Dec-24 19:04:40,498  INFO class:57 - List of all available courses 
+2019-Dec-24 19:04:40,507  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:04:40,507  INFO class:81 - Get subject details
+2019-Dec-24 19:04:40,516  INFO class:110 - List of available topics
+2019-Dec-24 19:04:40,517  INFO class:68 - List of batches
+2019-Dec-24 19:04:40,518  INFO class:69 - Get Batch Details
+2019-Dec-24 19:06:06,628  INFO class:57 - List of all available courses 
+2019-Dec-24 19:06:06,641  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:06:06,641  INFO class:81 - Get subject details
+2019-Dec-24 19:06:06,657  INFO class:110 - List of available topics
+2019-Dec-24 19:06:06,657  INFO class:68 - List of batches
+2019-Dec-24 19:06:06,657  INFO class:69 - Get Batch Details
+2019-Dec-24 19:06:22,689  INFO class:57 - List of all available courses 
+2019-Dec-24 19:06:22,719  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:06:22,719  INFO class:81 - Get subject details
+2019-Dec-24 19:06:22,719  INFO class:110 - List of available topics
+2019-Dec-24 19:06:22,735  INFO class:68 - List of batches
+2019-Dec-24 19:06:22,735  INFO class:69 - Get Batch Details
+2019-Dec-24 19:06:47,040  INFO class:57 - List of all available courses 
+2019-Dec-24 19:06:47,048  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:06:47,048  INFO class:81 - Get subject details
+2019-Dec-24 19:06:47,048  INFO class:110 - List of available topics
+2019-Dec-24 19:06:47,048  INFO class:68 - List of batches
+2019-Dec-24 19:06:47,063  INFO class:69 - Get Batch Details
+2019-Dec-24 19:07:03,253  INFO class:57 - List of all available courses 
+2019-Dec-24 19:07:03,268  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:07:03,268  INFO class:81 - Get subject details
+2019-Dec-24 19:07:03,268  INFO class:110 - List of available topics
+2019-Dec-24 19:07:03,284  INFO class:68 - List of batches
+2019-Dec-24 19:07:03,284  INFO class:69 - Get Batch Details
+2019-Dec-24 19:07:15,769  INFO class:68 - List of batches
+2019-Dec-24 19:07:15,769  INFO class:69 - Get Batch Details
+2019-Dec-24 19:07:34,583  INFO class:49 - New Assesment Assigned SMI_IT_AAI_4
+2019-Dec-24 19:07:43,818  INFO class:57 - List of all available courses 
+2019-Dec-24 19:07:43,832  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:07:43,832  INFO class:81 - Get subject details
+2019-Dec-24 19:07:43,832  INFO class:110 - List of available topics
+2019-Dec-24 19:07:43,832  INFO class:68 - List of batches
+2019-Dec-24 19:07:43,832  INFO class:69 - Get Batch Details
+2019-Dec-24 19:08:20,175  INFO class:57 - List of all available courses 
+2019-Dec-24 19:08:20,183  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:08:20,199  INFO class:81 - Get subject details
+2019-Dec-24 19:08:20,199  INFO class:110 - List of available topics
+2019-Dec-24 19:08:20,199  INFO class:68 - List of batches
+2019-Dec-24 19:08:20,199  INFO class:69 - Get Batch Details
+2019-Dec-24 19:08:50,832  INFO class:111 - Details of student based on Batch
+2019-Dec-24 19:08:53,552  INFO class:87 - Get details about subject on course
+2019-Dec-24 19:08:55,019  INFO class:116 - Get topic on subject 
+2019-Dec-24 19:09:19,597  INFO class:68 - List of batches
+2019-Dec-24 19:09:19,597  INFO class:69 - Get Batch Details
+2019-Dec-24 19:09:21,795  INFO class:57 - List of all available courses 
+2019-Dec-24 19:09:21,808  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:09:21,823  INFO class:81 - Get subject details
+2019-Dec-24 19:09:21,823  INFO class:110 - List of available topics
+2019-Dec-24 19:09:21,823  INFO class:68 - List of batches
+2019-Dec-24 19:09:21,823  INFO class:69 - Get Batch Details
+2019-Dec-24 19:09:27,587  INFO class:57 - List of all available courses 
+2019-Dec-24 19:10:29,695  INFO class:57 - List of all available courses 
+2019-Dec-24 19:11:17,097  INFO class:57 - List of all available courses 
+2019-Dec-24 19:11:34,518  INFO class:57 - List of all available courses 
+2019-Dec-24 19:12:30,490  INFO class:57 - List of all available courses 
+2019-Dec-24 19:12:56,831  INFO class:57 - List of all available courses 
+2019-Dec-24 19:13:10,910  INFO class:68 - List of batches
+2019-Dec-24 19:13:10,910  INFO class:69 - Get Batch Details
+2019-Dec-24 19:13:39,331  INFO class:57 - List of all available courses 
+2019-Dec-24 19:13:39,404  INFO class:80 - List of all Subjects available
+2019-Dec-24 19:13:39,404  INFO class:81 - Get subject details
+2019-Dec-24 19:13:39,417  INFO class:110 - List of available topics
+2019-Dec-24 19:13:39,445  INFO class:68 - List of batches
+2019-Dec-24 19:13:39,446  INFO class:69 - Get Batch Details
+2019-Dec-24 19:13:47,529  INFO class:57 - List of all available courses 
+2019-Dec-24 19:14:04,520  INFO class:68 - List of batches
+2019-Dec-24 19:14:04,520  INFO class:69 - Get Batch Details
+2019-Dec-24 19:15:08,551  INFO class:68 - List of batches
+2019-Dec-24 19:15:08,552  INFO class:69 - Get Batch Details
+2019-Dec-24 19:15:37,146  INFO class:68 - List of batches
+2019-Dec-24 19:15:37,146  INFO class:69 - Get Batch Details
+2019-Dec-24 19:15:51,921  INFO class:68 - List of batches
+2019-Dec-24 19:15:51,921  INFO class:69 - Get Batch Details
+2019-Dec-24 19:16:28,973  INFO class:68 - List of batches
+2019-Dec-24 19:16:28,973  INFO class:69 - Get Batch Details
+2019-Dec-24 19:17:12,481  INFO class:68 - List of batches
+2019-Dec-24 19:17:12,482  INFO class:69 - Get Batch Details
+2019-Dec-24 19:18:24,056  INFO class:68 - List of batches
+2019-Dec-24 19:18:24,057  INFO class:69 - Get Batch Details
+2019-Dec-24 19:18:44,546  INFO class:68 - List of batches
+2019-Dec-24 19:18:44,547  INFO class:69 - Get Batch Details
+2019-Dec-24 19:18:50,660  INFO class:111 - Details of student based on Batch
+2019-Dec-24 19:19:08,044  INFO class:68 - List of batches
+2019-Dec-24 19:19:08,045  INFO class:69 - Get Batch Details
+2019-Dec-24 19:19:24,776  INFO class:68 - List of batches
+2019-Dec-24 19:19:24,776  INFO class:69 - Get Batch Details
+2019-Dec-24 19:20:55,831  INFO class:57 - List of all available courses 
+2019-Dec-24 19:21:01,112  INFO class:68 - List of batches
+2019-Dec-24 19:21:01,112  INFO class:69 - Get Batch Details
+2019-Dec-24 19:21:12,972  INFO class:68 - List of batches
+2019-Dec-24 19:21:12,972  INFO class:69 - Get Batch Details
+2019-Dec-24 19:21:30,159  INFO class:68 - List of batches
+2019-Dec-24 19:21:30,160  INFO class:69 - Get Batch Details
+2019-Dec-24 19:22:24,784  INFO class:68 - List of batches
+2019-Dec-24 19:22:24,784  INFO class:69 - Get Batch Details
+2019-Dec-24 19:23:48,398  INFO class:68 - List of batches
+2019-Dec-24 19:23:48,398  INFO class:69 - Get Batch Details
+2019-Dec-24 19:24:12,689  INFO class:68 - List of batches
+2019-Dec-24 19:24:12,689  INFO class:69 - Get Batch Details
+2019-Dec-24 19:25:05,019  INFO class:68 - List of batches
+2019-Dec-24 19:25:05,019  INFO class:69 - Get Batch Details
+2019-Dec-24 19:25:19,899  INFO class:68 - List of batches
+2019-Dec-24 19:25:19,900  INFO class:69 - Get Batch Details
+2019-Dec-24 19:26:42,769  INFO class:68 - List of batches
+2019-Dec-24 19:26:42,769  INFO class:69 - Get Batch Details
+2019-Dec-24 19:27:53,790  INFO class:68 - List of batches
+2019-Dec-24 19:27:53,791  INFO class:69 - Get Batch Details
+2019-Dec-24 19:28:45,956  INFO class:68 - List of batches
+2019-Dec-24 19:28:45,956  INFO class:69 - Get Batch Details
+2019-Dec-24 19:30:24,294  INFO class:68 - List of batches
+2019-Dec-24 19:30:24,295  INFO class:69 - Get Batch Details
+2019-Dec-24 19:30:41,535  INFO class:68 - List of batches
+2019-Dec-24 19:30:41,535  INFO class:69 - Get Batch Details
+2019-Dec-24 19:31:19,421  INFO class:68 - List of batches
+2019-Dec-24 19:31:19,422  INFO class:69 - Get Batch Details
+2019-Dec-24 19:31:52,643  INFO class:68 - List of batches
+2019-Dec-24 19:31:52,643  INFO class:69 - Get Batch Details
+2019-Dec-24 19:33:47,659  INFO class:68 - List of batches
+2019-Dec-24 19:33:47,675  INFO class:69 - Get Batch Details
+2019-Dec-24 19:34:00,899  INFO class:68 - List of batches
+2019-Dec-24 19:34:00,900  INFO class:69 - Get Batch Details
+2019-Dec-24 19:35:12,059  INFO class:68 - List of batches
+2019-Dec-24 19:35:12,059  INFO class:69 - Get Batch Details
+2019-Dec-24 19:35:14,731  INFO class:68 - List of batches
+2019-Dec-24 19:35:14,731  INFO class:69 - Get Batch Details
+2019-Dec-24 19:35:17,135  INFO class:68 - List of batches
+2019-Dec-24 19:35:17,136  INFO class:69 - Get Batch Details
+2019-Dec-24 19:36:12,848  INFO class:68 - List of batches
+2019-Dec-24 19:36:12,849  INFO class:69 - Get Batch Details
+2019-Dec-24 19:36:24,495  INFO class:49 - New Assesment Assigned SMI_IT_AAI_5
+2019-Dec-24 19:37:07,852  INFO class:49 - New Assesment Assigned SMI_IT_AAI_6
+2019-Dec-24 19:44:36,253  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-25 09:43:24,303  INFO class:57 - List of all available courses 
+2019-Dec-25 09:43:39,517  INFO class:68 - List of batches
+2019-Dec-25 09:43:39,518  INFO class:69 - Get Batch Details
+2019-Dec-25 09:43:49,334  INFO class:57 - List of all available courses 
+2019-Dec-25 09:44:35,254  INFO class:57 - List of all available courses 
+2019-Dec-25 09:45:27,824  INFO class:57 - List of all available courses 
+2019-Dec-25 09:45:38,453  INFO class:68 - List of batches
+2019-Dec-25 09:45:38,468  INFO class:69 - Get Batch Details
+2019-Dec-25 09:45:43,097  INFO class:68 - List of batches
+2019-Dec-25 09:45:43,098  INFO class:69 - Get Batch Details
+2019-Dec-25 09:45:56,800  INFO class:68 - List of batches
+2019-Dec-25 09:45:56,803  INFO class:69 - Get Batch Details
+2019-Dec-25 09:46:35,756  INFO class:68 - List of batches
+2019-Dec-25 09:46:35,770  INFO class:69 - Get Batch Details
+2019-Dec-25 09:46:44,175  INFO class:57 - List of all available courses 
+2019-Dec-25 09:46:44,218  INFO class:110 - List of available topics
+2019-Dec-25 09:46:44,234  INFO class:68 - List of batches
+2019-Dec-25 09:46:44,234  INFO class:69 - Get Batch Details
+2019-Dec-25 09:46:44,249  INFO class:80 - List of all Subjects available
+2019-Dec-25 09:46:44,249  INFO class:81 - Get subject details
+2019-Dec-25 09:47:26,103  INFO class:57 - List of all available courses 
+2019-Dec-25 09:47:26,107  INFO class:80 - List of all Subjects available
+2019-Dec-25 09:47:26,107  INFO class:81 - Get subject details
+2019-Dec-25 09:47:26,118  INFO class:110 - List of available topics
+2019-Dec-25 09:47:26,124  INFO class:68 - List of batches
+2019-Dec-25 09:47:26,125  INFO class:69 - Get Batch Details
+2019-Dec-25 09:48:20,316  INFO class:57 - List of all available courses 
+2019-Dec-25 09:48:20,330  INFO class:80 - List of all Subjects available
+2019-Dec-25 09:48:20,330  INFO class:81 - Get subject details
+2019-Dec-25 09:48:20,347  INFO class:110 - List of available topics
+2019-Dec-25 09:48:20,356  INFO class:68 - List of batches
+2019-Dec-25 09:48:20,357  INFO class:69 - Get Batch Details
+2019-Dec-25 09:49:22,800  INFO class:57 - List of all available courses 
+2019-Dec-25 09:49:22,808  INFO class:80 - List of all Subjects available
+2019-Dec-25 09:49:22,808  INFO class:81 - Get subject details
+2019-Dec-25 09:49:22,808  INFO class:110 - List of available topics
+2019-Dec-25 09:49:22,808  INFO class:68 - List of batches
+2019-Dec-25 09:49:22,808  INFO class:69 - Get Batch Details
+2019-Dec-25 09:49:26,457  INFO class:68 - List of batches
+2019-Dec-25 09:49:26,457  INFO class:69 - Get Batch Details
+2019-Dec-25 09:49:38,692  INFO class:57 - List of all available courses 
+2019-Dec-25 09:49:38,701  INFO class:80 - List of all Subjects available
+2019-Dec-25 09:49:38,701  INFO class:81 - Get subject details
+2019-Dec-25 09:49:38,716  INFO class:110 - List of available topics
+2019-Dec-25 09:49:38,716  INFO class:68 - List of batches
+2019-Dec-25 09:49:38,716  INFO class:69 - Get Batch Details
+2019-Dec-25 09:50:04,691  INFO class:57 - List of all available courses 
+2019-Dec-25 09:50:04,694  INFO class:80 - List of all Subjects available
+2019-Dec-25 09:50:04,694  INFO class:81 - Get subject details
+2019-Dec-25 09:50:04,694  INFO class:110 - List of available topics
+2019-Dec-25 09:50:04,710  INFO class:68 - List of batches
+2019-Dec-25 09:50:04,710  INFO class:69 - Get Batch Details
+2019-Dec-25 09:52:05,893  INFO class:57 - List of all available courses 
+2019-Dec-25 09:52:05,950  INFO class:80 - List of all Subjects available
+2019-Dec-25 09:52:05,950  INFO class:81 - Get subject details
+2019-Dec-25 09:52:05,950  INFO class:68 - List of batches
+2019-Dec-25 09:52:05,950  INFO class:69 - Get Batch Details
+2019-Dec-25 09:52:05,950  INFO class:110 - List of available topics
+2019-Dec-25 09:52:27,125  INFO class:57 - List of all available courses 
+2019-Dec-25 09:53:12,075  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-25 09:53:45,291  INFO class:57 - List of all available courses 
+2019-Dec-25 09:54:36,669  INFO class:57 - List of all available courses 
+2019-Dec-25 09:55:58,460  INFO class:57 - List of all available courses 
+2019-Dec-25 09:56:56,102  INFO class:57 - List of all available courses 
+2019-Dec-25 09:57:08,598  INFO class:68 - List of batches
+2019-Dec-25 09:57:08,599  INFO class:69 - Get Batch Details
+2019-Dec-25 09:57:14,313  INFO class:68 - List of batches
+2019-Dec-25 09:57:14,314  INFO class:69 - Get Batch Details
+2019-Dec-25 10:01:01,231  INFO class:68 - List of batches
+2019-Dec-25 10:01:01,231  INFO class:69 - Get Batch Details
+2019-Dec-25 10:01:06,377  INFO class:68 - List of batches
+2019-Dec-25 10:01:06,392  INFO class:69 - Get Batch Details
+2019-Dec-25 10:01:37,318  INFO class:68 - List of batches
+2019-Dec-25 10:01:37,318  INFO class:69 - Get Batch Details
+2019-Dec-25 10:01:43,254  INFO class:68 - List of batches
+2019-Dec-25 10:01:43,264  INFO class:69 - Get Batch Details
+2019-Dec-25 10:01:46,548  INFO class:68 - List of batches
+2019-Dec-25 10:01:46,548  INFO class:69 - Get Batch Details
+2019-Dec-25 10:02:37,643  INFO class:68 - List of batches
+2019-Dec-25 10:02:37,645  INFO class:69 - Get Batch Details
+2019-Dec-25 10:03:54,185  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-25 10:04:02,381  INFO class:68 - List of batches
+2019-Dec-25 10:04:02,397  INFO class:69 - Get Batch Details
+2019-Dec-25 10:04:33,094  INFO class:68 - List of batches
+2019-Dec-25 10:04:33,096  INFO class:69 - Get Batch Details
+2019-Dec-25 10:05:06,252  INFO class:68 - List of batches
+2019-Dec-25 10:05:06,263  INFO class:69 - Get Batch Details
+2019-Dec-25 10:05:13,487  INFO class:68 - List of batches
+2019-Dec-25 10:05:13,495  INFO class:69 - Get Batch Details
+2019-Dec-25 10:05:25,208  INFO class:68 - List of batches
+2019-Dec-25 10:05:25,212  INFO class:69 - Get Batch Details
+2019-Dec-25 10:05:40,359  INFO class:68 - List of batches
+2019-Dec-25 10:05:40,366  INFO class:69 - Get Batch Details
+2019-Dec-25 10:05:54,628  INFO class:68 - List of batches
+2019-Dec-25 10:05:54,628  INFO class:69 - Get Batch Details
+2019-Dec-25 10:05:55,485  INFO class:68 - List of batches
+2019-Dec-25 10:05:55,485  INFO class:69 - Get Batch Details
+2019-Dec-25 10:05:59,483  INFO class:68 - List of batches
+2019-Dec-25 10:05:59,494  INFO class:69 - Get Batch Details
+2019-Dec-25 10:06:12,125  INFO class:68 - List of batches
+2019-Dec-25 10:06:12,125  INFO class:69 - Get Batch Details
+2019-Dec-25 10:07:48,675  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-25 10:08:06,717  INFO class:68 - List of batches
+2019-Dec-25 10:08:06,717  INFO class:69 - Get Batch Details
+2019-Dec-25 10:08:49,136  INFO class:68 - List of batches
+2019-Dec-25 10:08:49,138  INFO class:69 - Get Batch Details
+2019-Dec-25 10:09:00,643  INFO class:68 - List of batches
+2019-Dec-25 10:09:00,643  INFO class:69 - Get Batch Details
+2019-Dec-25 10:09:15,881  INFO class:68 - List of batches
+2019-Dec-25 10:09:15,882  INFO class:69 - Get Batch Details
+2019-Dec-25 10:09:44,848  INFO class:68 - List of batches
+2019-Dec-25 10:09:44,851  INFO class:69 - Get Batch Details
+2019-Dec-25 10:09:59,532  INFO class:68 - List of batches
+2019-Dec-25 10:09:59,533  INFO class:69 - Get Batch Details
+2019-Dec-25 10:10:21,894  INFO class:68 - List of batches
+2019-Dec-25 10:10:21,898  INFO class:69 - Get Batch Details
+2019-Dec-25 10:10:34,992  INFO class:68 - List of batches
+2019-Dec-25 10:10:34,994  INFO class:69 - Get Batch Details
+2019-Dec-25 10:10:56,238  INFO class:68 - List of batches
+2019-Dec-25 10:10:56,246  INFO class:69 - Get Batch Details
+2019-Dec-25 10:11:18,138  INFO class:68 - List of batches
+2019-Dec-25 10:11:18,149  INFO class:69 - Get Batch Details
+2019-Dec-25 10:11:36,706  INFO class:68 - List of batches
+2019-Dec-25 10:11:36,721  INFO class:69 - Get Batch Details
+2019-Dec-25 10:13:34,839  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:23:20,769  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-25 10:24:54,186  INFO class:68 - List of batches
+2019-Dec-25 10:24:54,196  INFO class:69 - Get Batch Details
+2019-Dec-25 10:24:58,928  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:25:03,595 ERROR class:61 - Fail to insert Attendance
+2019-Dec-25 10:25:12,337  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:25:19,817  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:25:33,238  INFO class:68 - List of batches
+2019-Dec-25 10:25:33,248  INFO class:69 - Get Batch Details
+2019-Dec-25 10:25:39,221  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:25:41,378  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:25:43,144  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:25:44,504  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:25:48,505  INFO class:59 - Inserting attendance SMI_IT_ATD_2
+2019-Dec-25 10:25:48,583  INFO class:59 - Inserting attendance SMI_IT_ATD_3
+2019-Dec-25 10:25:48,661  INFO class:59 - Inserting attendance SMI_IT_ATD_4
+2019-Dec-25 10:25:48,661 ERROR class:61 - Fail to insert Attendance
+2019-Dec-25 10:29:35,219  INFO class:68 - List of batches
+2019-Dec-25 10:29:35,219  INFO class:69 - Get Batch Details
+2019-Dec-25 10:29:41,315  INFO class:68 - List of batches
+2019-Dec-25 10:29:41,315  INFO class:69 - Get Batch Details
+2019-Dec-25 10:29:45,069  INFO class:68 - List of batches
+2019-Dec-25 10:29:45,070  INFO class:69 - Get Batch Details
+2019-Dec-25 10:29:47,246  INFO class:68 - List of batches
+2019-Dec-25 10:29:47,247  INFO class:69 - Get Batch Details
+2019-Dec-25 10:29:50,191  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:29:53,089  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:30:34,252  INFO class:68 - List of batches
+2019-Dec-25 10:30:34,252  INFO class:69 - Get Batch Details
+2019-Dec-25 10:31:52,769  INFO class:68 - List of batches
+2019-Dec-25 10:31:52,769  INFO class:69 - Get Batch Details
+2019-Dec-25 10:31:59,682  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:32:17,472  INFO class:68 - List of batches
+2019-Dec-25 10:32:17,488  INFO class:69 - Get Batch Details
+2019-Dec-25 10:32:49,269  INFO class:68 - List of batches
+2019-Dec-25 10:32:49,269  INFO class:69 - Get Batch Details
+2019-Dec-25 10:33:03,073  INFO class:68 - List of batches
+2019-Dec-25 10:33:03,073  INFO class:69 - Get Batch Details
+2019-Dec-25 10:33:06,206  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:34:34,694  INFO class:68 - List of batches
+2019-Dec-25 10:34:34,696  INFO class:69 - Get Batch Details
+2019-Dec-25 10:34:37,239  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:35:21,009  INFO class:68 - List of batches
+2019-Dec-25 10:35:21,009  INFO class:69 - Get Batch Details
+2019-Dec-25 10:35:27,715  INFO class:68 - List of batches
+2019-Dec-25 10:35:27,716  INFO class:69 - Get Batch Details
+2019-Dec-25 10:36:35,144  INFO class:68 - List of batches
+2019-Dec-25 10:36:35,144  INFO class:69 - Get Batch Details
+2019-Dec-25 10:36:36,046  INFO class:57 - List of all available courses 
+2019-Dec-25 10:36:48,208  INFO class:68 - List of batches
+2019-Dec-25 10:36:48,224  INFO class:69 - Get Batch Details
+2019-Dec-25 10:36:53,424  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:39:43,410  INFO class:68 - List of batches
+2019-Dec-25 10:39:43,410  INFO class:69 - Get Batch Details
+2019-Dec-25 10:40:18,600  INFO class:68 - List of batches
+2019-Dec-25 10:40:18,616  INFO class:69 - Get Batch Details
+2019-Dec-25 10:41:39,879  INFO class:68 - List of batches
+2019-Dec-25 10:41:39,880  INFO class:69 - Get Batch Details
+2019-Dec-25 10:41:44,769  INFO class:68 - List of batches
+2019-Dec-25 10:41:44,769  INFO class:69 - Get Batch Details
+2019-Dec-25 10:42:13,862  INFO class:68 - List of batches
+2019-Dec-25 10:42:13,862  INFO class:69 - Get Batch Details
+2019-Dec-25 10:42:14,656  INFO class:68 - List of batches
+2019-Dec-25 10:42:14,657  INFO class:69 - Get Batch Details
+2019-Dec-25 10:42:23,900  INFO class:68 - List of batches
+2019-Dec-25 10:42:23,901  INFO class:69 - Get Batch Details
+2019-Dec-25 10:42:27,206  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:42:42,105  INFO class:68 - List of batches
+2019-Dec-25 10:42:42,105  INFO class:69 - Get Batch Details
+2019-Dec-25 10:42:54,901  INFO class:68 - List of batches
+2019-Dec-25 10:42:54,901  INFO class:69 - Get Batch Details
+2019-Dec-25 10:42:58,019  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:43:48,504  INFO class:68 - List of batches
+2019-Dec-25 10:43:48,504  INFO class:69 - Get Batch Details
+2019-Dec-25 10:44:25,864  INFO class:68 - List of batches
+2019-Dec-25 10:44:25,864  INFO class:69 - Get Batch Details
+2019-Dec-25 10:44:56,366  INFO class:68 - List of batches
+2019-Dec-25 10:44:56,366  INFO class:69 - Get Batch Details
+2019-Dec-25 10:45:35,773  INFO class:68 - List of batches
+2019-Dec-25 10:45:35,773  INFO class:69 - Get Batch Details
+2019-Dec-25 10:45:48,919  INFO class:111 - Details of student based on Batch
+2019-Dec-25 10:45:53,707  INFO class:68 - List of batches
+2019-Dec-25 10:45:53,707  INFO class:69 - Get Batch Details

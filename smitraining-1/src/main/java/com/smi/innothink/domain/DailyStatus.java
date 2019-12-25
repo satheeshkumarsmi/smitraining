@@ -25,6 +25,15 @@ private String date;
 private String courseId;
 private String subjectId;
 private String topicId;
+private String trainerId;
+
+public String getTrainerId() {
+	return trainerId;
+}
+
+public void setTrainerId(String trainerId) {
+	this.trainerId = trainerId;
+}
 
 public String getDate() {
 	return date;
