@@ -17,6 +17,7 @@ import com.smi.innothink.controllerinterfaces.AssesmentControllerInterface;
 import com.smi.innothink.domain.AssignAssesment;
 import com.smi.innothink.domain.AssignAssesmentDetails;
 import com.smi.innothink.domain.MarkUpdates;
+import com.smi.innothink.domain.ReceiveMark;
 import com.smi.innothink.repository.AssignAssesmentRepository;
 import com.smi.innothink.repository.BatchMappingRepository;
 import com.smi.innothink.repository.BatchRepository;
@@ -45,8 +46,7 @@ public class AssesmentController implements AssesmentControllerInterface {
 
 	@RequestMapping(value = "/insertassesmentdetails", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertAssesment(@RequestBody(required = false) AssignAssesment assignAssesment) {
-		String assignAssesmentId = assignAssesmentRepository.getId("assign_assesment_id", "SMI_IT_AAI_",
-				"assign_assesment");
+		String assignAssesmentId = assignAssesmentRepository.getId("assign_assesment_id", "SMI_IT_AAI_","assign_assesment");
 		String id = AutoIncrement.incrementId(Integer.parseInt(assignAssesmentId), "SMI_IT_AAI_");
 		assignAssesment.setAssignAssesmentId(id);
 		AssignAssesment res = assignAssesmentRepository.save(assignAssesment);
@@ -95,12 +95,19 @@ public class AssesmentController implements AssesmentControllerInterface {
 		return map;
 	}
 
-	@RequestMapping(value = "/insertmarks", method = RequestMethod.POST, produces = "application/json")
-	public boolean insertMarks(@RequestBody MarkUpdates markUpdates) {
-		String markUpdatesId = markUpdatesRepository.getId("mark_updates_id", "SMI_IT_MUI_", "mark_updates");
-		String id = AutoIncrement.incrementId(Integer.parseInt(markUpdatesId), "SMI_IT_MUI_");
-		markUpdates.setMarkUpdatesId(id);
-		return true;
-	}
+	
 
-}
+	@RequestMapping(value = "/insertmarks", method = RequestMethod.POST, produces = "application/json")  
+	public boolean insertMarks2(@RequestBody String mark[]) {
+		//String test[]=receiveMark.getMark();
+		for(int i=0;i<mark.length;i++)
+		{
+			//String result[]=test[i].split("/");
+			System.out.println(mark.length);
+			//for(int j=0;j<result.length;j++) {
+		//		System.out.println(result[j]);
+			//}
+		}
+      return false;
+	}
+	}
