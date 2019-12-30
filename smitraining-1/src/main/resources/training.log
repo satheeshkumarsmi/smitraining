@@ -3333,3 +3333,931 @@
 2019-Dec-26 17:29:19,687  INFO class:110 - List of available topics
 2019-Dec-26 17:29:24,184  INFO class:57 - List of all available courses 
 2019-Dec-26 17:48:48,878  INFO class:57 - List of all available courses 
+2019-Dec-26 18:48:58,462  INFO class:68 - List of batches
+2019-Dec-26 18:48:58,462  INFO class:69 - Get Batch Details
+2019-Dec-26 18:48:58,462  INFO class:110 - List of available topics
+2019-Dec-26 18:48:58,462  INFO class:57 - List of all available courses 
+2019-Dec-26 18:48:58,462  INFO class:80 - List of all Subjects available
+2019-Dec-26 18:48:58,470  INFO class:81 - Get subject details
+2019-Dec-26 18:53:30,815  INFO class:57 - List of all available courses 
+2019-Dec-26 18:53:30,815  INFO class:80 - List of all Subjects available
+2019-Dec-26 18:53:30,829  INFO class:81 - Get subject details
+2019-Dec-26 18:53:30,830  INFO class:110 - List of available topics
+2019-Dec-26 18:53:30,830  INFO class:68 - List of batches
+2019-Dec-26 18:53:30,830  INFO class:69 - Get Batch Details
+2019-Dec-26 19:04:23,761  INFO class:68 - List of batches
+2019-Dec-26 19:04:23,761  INFO class:69 - Get Batch Details
+2019-Dec-26 19:04:23,761  INFO class:57 - List of all available courses 
+2019-Dec-26 19:04:23,761  INFO class:110 - List of available topics
+2019-Dec-26 19:04:23,761  INFO class:80 - List of all Subjects available
+2019-Dec-26 19:04:23,766  INFO class:81 - Get subject details
+2019-Dec-26 20:06:29,637  INFO class:57 - List of all available courses 
+2019-Dec-26 20:09:25,816  INFO class:68 - List of batches
+2019-Dec-26 20:09:25,816  INFO class:69 - Get Batch Details
+2019-Dec-26 20:31:31,949  INFO class:57 - List of all available courses 
+2019-Dec-26 20:31:35,419  INFO class:57 - List of all available courses 
+2019-Dec-26 20:31:52,900  INFO class:57 - List of all available courses 
+2019-Dec-27 10:02:11,239  INFO class:68 - List of batches
+2019-Dec-27 10:02:11,239  INFO class:69 - Get Batch Details
+2019-Dec-27 10:02:12,619 ERROR class:61 - Fail to insert Attendance
+2019-Dec-27 10:02:48,833 ERROR class:45 - Details of trainers
+2019-Dec-27 10:08:03,202  INFO class:68 - List of batches
+2019-Dec-27 10:08:03,202  INFO class:69 - Get Batch Details
+2019-Dec-27 10:08:24,053  INFO class:68 - List of batches
+2019-Dec-27 10:08:24,053  INFO class:69 - Get Batch Details
+2019-Dec-27 10:08:31,865  INFO class:111 - Details of student based on Batch
+2019-Dec-27 10:08:42,930  INFO class:75 - Attendance is updated for afternoon trueSMI_IT_STU_3
+2019-Dec-27 10:08:43,415  INFO class:75 - Attendance is updated for afternoon trueSMI_IT_STU_3
+2019-Dec-27 10:08:43,930  INFO class:75 - Attendance is updated for afternoon trueSMI_IT_STU_3
+2019-Dec-27 10:08:52,715  INFO class:71 - Attendance is updated for forenoontrueSMI_IT_STU_3
+2019-Dec-27 10:08:55,540  INFO class:71 - Attendance is updated for forenoontrueSMI_IT_STU_4
+2019-Dec-27 10:08:56,142  INFO class:71 - Attendance is updated for forenoontrueSMI_IT_STU_4
+2019-Dec-27 10:08:57,127  INFO class:71 - Attendance is updated for forenoontrueSMI_IT_STU_4
+2019-Dec-27 10:08:57,655  INFO class:71 - Attendance is updated for forenoontrueSMI_IT_STU_4
+2019-Dec-27 10:08:57,984  INFO class:71 - Attendance is updated for forenoontrueSMI_IT_STU_4
+2019-Dec-27 10:08:59,906  INFO class:71 - Attendance is updated for forenoontrueSMI_IT_STU_4
+2019-Dec-27 10:09:07,525  INFO class:71 - Attendance is updated for forenoontrueSMI_IT_STU_5
+2019-Dec-27 10:09:10,161  INFO class:71 - Attendance is updated for forenoontrueSMI_IT_STU_5
+2019-Dec-27 10:20:18,712 ERROR class:45 - Details of trainers
+2019-Dec-27 10:22:00,693  INFO class:57 - List of all available courses 
+2019-Dec-27 10:22:09,663  INFO class:57 - List of all available courses 
+2019-Dec-27 10:23:05,414 ERROR class:45 - Details of trainers
+2019-Dec-27 10:23:43,415 ERROR class:45 - Details of trainers
+2019-Dec-27 10:25:09,844  INFO class:57 - List of all available courses 
+2019-Dec-27 10:33:58,842  INFO class:80 - List of all Subjects available
+2019-Dec-27 10:33:58,842  INFO class:68 - List of batches
+2019-Dec-27 10:33:58,844  INFO class:69 - Get Batch Details
+2019-Dec-27 10:33:58,842  INFO class:110 - List of available topics
+2019-Dec-27 10:33:58,842  INFO class:57 - List of all available courses 
+2019-Dec-27 10:33:58,844  INFO class:81 - Get subject details
+2019-Dec-27 10:40:14,680 ERROR class:45 - Details of trainers
+2019-Dec-27 10:48:42,764  INFO class:57 - List of all available courses 
+2019-Dec-27 10:48:59,948  INFO class:68 - List of batches
+2019-Dec-27 10:48:59,948  INFO class:69 - Get Batch Details
+2019-Dec-27 10:50:22,817 ERROR class:45 - Details of trainers
+2019-Dec-27 10:50:26,305 ERROR class:45 - Details of trainers
+2019-Dec-27 10:50:29,285  INFO class:68 - List of batches
+2019-Dec-27 10:50:29,285  INFO class:69 - Get Batch Details
+2019-Dec-27 10:50:33,241 ERROR class:45 - Details of trainers
+2019-Dec-27 10:50:34,239 ERROR class:45 - Details of trainers
+2019-Dec-27 10:50:41,948  INFO class:57 - List of all available courses 
+2019-Dec-27 10:50:46,268  INFO class:45 - Insert Course Details  SMI_IT_CUR_10
+2019-Dec-27 10:50:48,285  INFO class:57 - List of all available courses 
+2019-Dec-27 10:50:48,299  INFO class:80 - List of all Subjects available
+2019-Dec-27 10:50:48,300  INFO class:81 - Get subject details
+2019-Dec-27 10:51:50,228  INFO class:68 - List of batches
+2019-Dec-27 10:51:50,229  INFO class:69 - Get Batch Details
+2019-Dec-27 10:53:59,920 ERROR class:45 - Details of trainers
+2019-Dec-27 11:11:06,241  INFO class:80 - List of all Subjects available
+2019-Dec-27 11:11:06,243  INFO class:81 - Get subject details
+2019-Dec-27 11:11:06,241  INFO class:57 - List of all available courses 
+2019-Dec-27 11:11:06,245  INFO class:68 - List of batches
+2019-Dec-27 11:11:06,249  INFO class:69 - Get Batch Details
+2019-Dec-27 11:11:06,245  INFO class:110 - List of available topics
+2019-Dec-27 11:11:57,374  INFO class:80 - List of all Subjects available
+2019-Dec-27 11:11:57,374  INFO class:110 - List of available topics
+2019-Dec-27 11:11:57,374  INFO class:57 - List of all available courses 
+2019-Dec-27 11:11:57,377  INFO class:68 - List of batches
+2019-Dec-27 11:11:57,379  INFO class:69 - Get Batch Details
+2019-Dec-27 11:11:57,374  INFO class:81 - Get subject details
+2019-Dec-27 11:15:15,467 ERROR class:45 - Details of trainers
+2019-Dec-27 11:22:13,644  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 11:24:20,378  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:03:53,026 ERROR class:45 - Details of trainers
+2019-Dec-27 12:08:26,601 ERROR class:45 - Details of trainers
+2019-Dec-27 12:09:47,201 ERROR class:45 - Details of trainers
+2019-Dec-27 12:10:54,081 ERROR class:45 - Details of trainers
+2019-Dec-27 12:11:39,606 ERROR class:45 - Details of trainers
+2019-Dec-27 12:12:04,816 ERROR class:45 - Details of trainers
+2019-Dec-27 12:12:35,135 ERROR class:45 - Details of trainers
+2019-Dec-27 12:13:22,892 ERROR class:45 - Details of trainers
+2019-Dec-27 12:13:47,300 ERROR class:45 - Details of trainers
+2019-Dec-27 12:14:12,845 ERROR class:45 - Details of trainers
+2019-Dec-27 12:14:39,637 ERROR class:45 - Details of trainers
+2019-Dec-27 12:15:53,887 ERROR class:45 - Details of trainers
+2019-Dec-27 12:16:04,424 ERROR class:45 - Details of trainers
+2019-Dec-27 12:18:12,109  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:18:28,353 ERROR class:45 - Details of trainers
+2019-Dec-27 12:21:47,385  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:24:41,189  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:26:32,356  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:30:50,465  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:33:15,745 ERROR class:45 - Details of trainers
+2019-Dec-27 12:34:22,125 ERROR class:45 - Details of trainers
+2019-Dec-27 12:34:54,123 ERROR class:45 - Details of trainers
+2019-Dec-27 12:35:58,060 ERROR class:45 - Details of trainers
+2019-Dec-27 12:36:27,600 ERROR class:45 - Details of trainers
+2019-Dec-27 12:37:17,092 ERROR class:45 - Details of trainers
+2019-Dec-27 12:37:53,666 ERROR class:45 - Details of trainers
+2019-Dec-27 12:38:26,708 ERROR class:45 - Details of trainers
+2019-Dec-27 12:39:28,783 ERROR class:45 - Details of trainers
+2019-Dec-27 12:40:33,660  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:40:47,428 ERROR class:45 - Details of trainers
+2019-Dec-27 12:41:39,563 ERROR class:45 - Details of trainers
+2019-Dec-27 12:42:51,846  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:43:52,901 ERROR class:45 - Details of trainers
+2019-Dec-27 12:44:12,253 ERROR class:45 - Details of trainers
+2019-Dec-27 12:45:04,847 ERROR class:45 - Details of trainers
+2019-Dec-27 12:45:24,883 ERROR class:45 - Details of trainers
+2019-Dec-27 12:46:14,930 ERROR class:45 - Details of trainers
+2019-Dec-27 12:46:49,240 ERROR class:45 - Details of trainers
+2019-Dec-27 12:48:12,200  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:51:56,473 ERROR class:45 - Details of trainers
+2019-Dec-27 12:52:19,818 ERROR class:45 - Details of trainers
+2019-Dec-27 12:52:26,317 ERROR class:45 - Details of trainers
+2019-Dec-27 12:53:20,348  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 12:53:32,820 ERROR class:45 - Details of trainers
+2019-Dec-27 12:54:20,510 ERROR class:45 - Details of trainers
+2019-Dec-27 12:54:36,132 ERROR class:45 - Details of trainers
+2019-Dec-27 12:55:27,097 ERROR class:45 - Details of trainers
+2019-Dec-27 12:55:41,983 ERROR class:45 - Details of trainers
+2019-Dec-27 12:55:59,172 ERROR class:45 - Details of trainers
+2019-Dec-27 12:56:29,090 ERROR class:45 - Details of trainers
+2019-Dec-27 12:56:46,641 ERROR class:45 - Details of trainers
+2019-Dec-27 12:57:44,093 ERROR class:45 - Details of trainers
+2019-Dec-27 12:58:38,651 ERROR class:45 - Details of trainers
+2019-Dec-27 13:00:08,642 ERROR class:45 - Details of trainers
+2019-Dec-27 13:00:42,955 ERROR class:45 - Details of trainers
+2019-Dec-27 13:03:51,809 ERROR class:45 - Details of trainers
+2019-Dec-27 13:16:08,351 ERROR class:45 - Details of trainers
+2019-Dec-27 13:16:40,185 ERROR class:45 - Details of trainers
+2019-Dec-27 13:17:00,121 ERROR class:45 - Details of trainers
+2019-Dec-27 13:24:12,239  INFO class:68 - List of batches
+2019-Dec-27 13:24:12,240  INFO class:69 - Get Batch Details
+2019-Dec-27 13:24:23,361 ERROR class:61 - Fail to insert Attendance
+2019-Dec-27 13:24:23,903 ERROR class:45 - Details of trainers
+2019-Dec-27 13:24:42,528  INFO class:68 - List of batches
+2019-Dec-27 13:24:42,529  INFO class:69 - Get Batch Details
+2019-Dec-27 13:24:53,783 ERROR class:45 - Details of trainers
+2019-Dec-27 13:25:13,912 ERROR class:45 - Details of trainers
+2019-Dec-27 13:25:22,599  INFO class:111 - Details of student based on Batch
+2019-Dec-27 13:25:28,277  INFO class:59 - Inserting attendance SMI_IT_ATD_9
+2019-Dec-27 13:25:28,343  INFO class:59 - Inserting attendance SMI_IT_ATD_10
+2019-Dec-27 13:25:28,398  INFO class:59 - Inserting attendance SMI_IT_ATD_11
+2019-Dec-27 13:25:28,499  INFO class:59 - Inserting attendance SMI_IT_ATD_12
+2019-Dec-27 13:25:28,500 ERROR class:61 - Fail to insert Attendance
+2019-Dec-27 13:25:38,507 ERROR class:45 - Details of trainers
+2019-Dec-27 13:26:09,387  INFO class:57 - List of all available courses 
+2019-Dec-27 13:26:09,396  INFO class:110 - List of available topics
+2019-Dec-27 13:26:09,399  INFO class:80 - List of all Subjects available
+2019-Dec-27 13:26:09,402  INFO class:81 - Get subject details
+2019-Dec-27 13:26:09,399  INFO class:68 - List of batches
+2019-Dec-27 13:26:09,405  INFO class:69 - Get Batch Details
+2019-Dec-27 13:26:09,399 ERROR class:45 - Details of trainers
+2019-Dec-27 13:26:15,991  INFO class:34 - Daily status Inserted 
+2019-Dec-27 13:26:16,942 ERROR class:45 - Details of trainers
+2019-Dec-27 13:26:33,197  INFO class:57 - List of all available courses 
+2019-Dec-27 13:26:40,849  INFO class:57 - New batch Inserted SMI_IT_BAT_7
+2019-Dec-27 13:26:47,100  INFO class:68 - List of batches
+2019-Dec-27 13:26:47,101  INFO class:69 - Get Batch Details
+2019-Dec-27 13:26:49,479  INFO class:89 - Mapping of Student and Batches  nullnull
+2019-Dec-27 13:26:49,480  INFO class:90 - Insert Student and Batch Mapping  17
+2019-Dec-27 13:26:50,724 ERROR class:45 - Details of trainers
+2019-Dec-27 13:26:55,012  INFO class:68 - List of batches
+2019-Dec-27 13:26:55,013  INFO class:69 - Get Batch Details
+2019-Dec-27 13:26:58,272  INFO class:157 - Insert Current status of the students
+2019-Dec-27 13:27:12,826 ERROR class:45 - Details of trainers
+2019-Dec-27 13:27:39,788 ERROR class:45 - Details of trainers
+2019-Dec-27 13:28:03,299  INFO class:111 - Details of student based on Batch
+2019-Dec-27 13:28:14,416  INFO class:68 - List of batches
+2019-Dec-27 13:28:14,417  INFO class:69 - Get Batch Details
+2019-Dec-27 13:28:30,607 ERROR class:45 - Details of trainers
+2019-Dec-27 13:28:49,363  INFO class:111 - Details of student based on Batch
+2019-Dec-27 13:29:36,338 ERROR class:45 - Details of trainers
+2019-Dec-27 13:29:55,538  INFO class:68 - List of batches
+2019-Dec-27 13:29:55,538  INFO class:69 - Get Batch Details
+2019-Dec-27 13:29:57,090 ERROR class:45 - Details of trainers
+2019-Dec-27 13:30:02,609  INFO class:111 - Details of student based on Batch
+2019-Dec-27 13:30:24,262 ERROR class:45 - Details of trainers
+2019-Dec-27 13:30:44,711 ERROR class:45 - Details of trainers
+2019-Dec-27 13:31:30,010  INFO class:68 - List of batches
+2019-Dec-27 13:31:30,011  INFO class:69 - Get Batch Details
+2019-Dec-27 13:31:35,312  INFO class:111 - Details of student based on Batch
+2019-Dec-27 13:33:20,895 ERROR class:45 - Details of trainers
+2019-Dec-27 13:34:46,682  INFO class:57 - List of all available courses 
+2019-Dec-27 13:34:46,698  INFO class:80 - List of all Subjects available
+2019-Dec-27 13:34:46,698  INFO class:81 - Get subject details
+2019-Dec-27 13:34:46,714  INFO class:110 - List of available topics
+2019-Dec-27 13:34:46,730  INFO class:68 - List of batches
+2019-Dec-27 13:34:46,731  INFO class:69 - Get Batch Details
+2019-Dec-27 13:34:46,742 ERROR class:45 - Details of trainers
+2019-Dec-27 13:34:54,689  INFO class:57 - List of all available courses 
+2019-Dec-27 13:34:54,691  INFO class:80 - List of all Subjects available
+2019-Dec-27 13:34:54,692  INFO class:81 - Get subject details
+2019-Dec-27 13:34:54,694  INFO class:68 - List of batches
+2019-Dec-27 13:34:54,695  INFO class:69 - Get Batch Details
+2019-Dec-27 13:34:54,696 ERROR class:45 - Details of trainers
+2019-Dec-27 13:34:54,691  INFO class:110 - List of available topics
+2019-Dec-27 13:35:08,306  INFO class:111 - Details of student based on Batch
+2019-Dec-27 13:35:11,336  INFO class:87 - Get details about subject on course
+2019-Dec-27 13:35:15,510  INFO class:116 - Get topic on subject 
+2019-Dec-27 13:35:25,859  INFO class:34 - Daily status Inserted 
+2019-Dec-27 13:36:25,253  INFO class:57 - List of all available courses 
+2019-Dec-27 13:36:25,257  INFO class:80 - List of all Subjects available
+2019-Dec-27 13:36:25,258  INFO class:81 - Get subject details
+2019-Dec-27 13:36:25,265  INFO class:68 - List of batches
+2019-Dec-27 13:36:25,266  INFO class:110 - List of available topics
+2019-Dec-27 13:36:25,266 ERROR class:45 - Details of trainers
+2019-Dec-27 13:36:25,266  INFO class:69 - Get Batch Details
+2019-Dec-27 13:37:30,396 ERROR class:45 - Details of trainers
+2019-Dec-27 13:37:30,397  INFO class:68 - List of batches
+2019-Dec-27 13:37:30,398  INFO class:69 - Get Batch Details
+2019-Dec-27 13:37:30,396  INFO class:57 - List of all available courses 
+2019-Dec-27 13:37:30,396  INFO class:80 - List of all Subjects available
+2019-Dec-27 13:37:30,404  INFO class:81 - Get subject details
+2019-Dec-27 13:37:30,397  INFO class:110 - List of available topics
+2019-Dec-27 14:05:54,804  INFO class:57 - List of all available courses 
+2019-Dec-27 14:06:35,279  INFO class:45 - Insert Course Details  SMI_IT_CUR_11
+2019-Dec-27 14:06:44,954  INFO class:57 - List of all available courses 
+2019-Dec-27 14:06:44,960  INFO class:80 - List of all Subjects available
+2019-Dec-27 14:06:44,961  INFO class:81 - Get subject details
+2019-Dec-27 14:07:06,480  INFO class:68 - Insert Subject details  SMI_IT_SUB_6
+2019-Dec-27 14:07:49,536  INFO class:57 - List of all available courses 
+2019-Dec-27 14:07:49,547  INFO class:110 - List of available topics
+2019-Dec-27 14:07:49,547  INFO class:80 - List of all Subjects available
+2019-Dec-27 14:07:49,547  INFO class:81 - Get subject details
+2019-Dec-27 14:07:58,555  INFO class:87 - Get details about subject on course
+2019-Dec-27 14:08:14,907  INFO class:98 - New Topic Inserted Basics
+2019-Dec-27 14:08:53,215  INFO class:57 - List of all available courses 
+2019-Dec-27 14:08:53,219  INFO class:110 - List of available topics
+2019-Dec-27 14:08:53,219  INFO class:80 - List of all Subjects available
+2019-Dec-27 14:08:53,221  INFO class:81 - Get subject details
+2019-Dec-27 14:08:58,370  INFO class:87 - Get details about subject on course
+2019-Dec-27 14:09:03,424  INFO class:87 - Get details about subject on course
+2019-Dec-27 14:09:07,824  INFO class:116 - Get topic on subject 
+2019-Dec-27 14:09:14,666  INFO class:34 - Daily status Inserted 
+2019-Dec-27 14:09:14,744  INFO class:34 - Daily status Inserted 
+2019-Dec-27 14:09:45,725  INFO class:80 - List of all Subjects available
+2019-Dec-27 14:09:45,725  INFO class:57 - List of all available courses 
+2019-Dec-27 14:09:45,725  INFO class:81 - Get subject details
+2019-Dec-27 14:09:45,727  INFO class:110 - List of available topics
+2019-Dec-27 14:11:24,617 ERROR class:45 - Details of trainers
+2019-Dec-27 14:12:07,527 ERROR class:45 - Details of trainers
+2019-Dec-27 14:12:14,100 ERROR class:45 - Details of trainers
+2019-Dec-27 14:12:52,969  INFO class:34 - New Trainer is addedRaman
+2019-Dec-27 14:12:52,970  INFO class:35 - Insert New Trainer  SMI_IT_TRA_5
+2019-Dec-27 14:14:26,609 ERROR class:45 - Details of trainers
+2019-Dec-27 14:14:31,535 ERROR class:45 - Details of trainers
+2019-Dec-27 14:14:52,813 ERROR class:45 - Details of trainers
+2019-Dec-27 14:15:16,534  INFO class:123 - Insert new Student
+2019-Dec-27 14:15:16,555  INFO class:83 - Insert Student Academic details  SMI_IT_ADI_6
+2019-Dec-27 14:15:16,576  INFO class:104 - Insert Student Personal details  SMI_IT_STUP_5
+2019-Dec-27 14:18:31,268  INFO class:123 - Insert new Student
+2019-Dec-27 14:18:31,302  INFO class:83 - Insert Student Academic details  SMI_IT_ADI_7
+2019-Dec-27 14:18:31,320  INFO class:104 - Insert Student Personal details  SMI_IT_STUP_6
+2019-Dec-27 14:20:32,143  INFO class:83 - Insert Student Academic details  SMI_IT_ADI_8
+2019-Dec-27 14:20:32,209  INFO class:104 - Insert Student Personal details  SMI_IT_STUP_7
+2019-Dec-27 14:20:32,251  INFO class:123 - Insert new Student
+2019-Dec-27 14:21:55,549  INFO class:104 - Insert Student Personal details  SMI_IT_STUP_8
+2019-Dec-27 14:21:55,593  INFO class:123 - Insert new Student
+2019-Dec-27 14:21:55,593  INFO class:83 - Insert Student Academic details  SMI_IT_ADI_9
+2019-Dec-27 14:24:26,553  INFO class:57 - List of all available courses 
+2019-Dec-27 14:24:49,171  INFO class:57 - New batch Inserted SMI_IT_BAT_8
+2019-Dec-27 14:25:08,414  INFO class:57 - List of all available courses 
+2019-Dec-27 14:25:11,867  INFO class:68 - List of batches
+2019-Dec-27 14:25:11,868  INFO class:69 - Get Batch Details
+2019-Dec-27 14:25:15,572  INFO class:89 - Mapping of Student and Batches  nullnull
+2019-Dec-27 14:25:15,573  INFO class:90 - Insert Student and Batch Mapping  18
+2019-Dec-27 14:25:41,127  INFO class:68 - List of batches
+2019-Dec-27 14:25:41,127  INFO class:69 - Get Batch Details
+2019-Dec-27 14:25:42,685  INFO class:157 - Insert Current status of the students
+2019-Dec-27 14:34:12,858  INFO class:68 - List of batches
+2019-Dec-27 14:34:12,858  INFO class:69 - Get Batch Details
+2019-Dec-27 14:34:19,445  INFO class:157 - Insert Current status of the students
+2019-Dec-27 14:34:32,939  INFO class:111 - Details of student based on Batch
+2019-Dec-27 14:34:39,141  INFO class:68 - List of batches
+2019-Dec-27 14:34:39,141  INFO class:69 - Get Batch Details
+2019-Dec-27 14:34:41,178  INFO class:111 - Details of student based on Batch
+2019-Dec-27 14:37:00,005  INFO class:68 - List of batches
+2019-Dec-27 14:37:00,006  INFO class:69 - Get Batch Details
+2019-Dec-27 14:37:52,249  INFO class:68 - List of batches
+2019-Dec-27 14:37:52,249  INFO class:69 - Get Batch Details
+2019-Dec-27 14:38:31,158  INFO class:68 - List of batches
+2019-Dec-27 14:38:31,159  INFO class:69 - Get Batch Details
+2019-Dec-27 14:38:40,722  INFO class:111 - Details of student based on Batch
+2019-Dec-27 14:39:38,664  INFO class:68 - List of batches
+2019-Dec-27 14:39:38,665  INFO class:69 - Get Batch Details
+2019-Dec-27 14:41:59,265  INFO class:68 - List of batches
+2019-Dec-27 14:41:59,266  INFO class:69 - Get Batch Details
+2019-Dec-27 14:42:04,285  INFO class:111 - Details of student based on Batch
+2019-Dec-27 14:43:54,406  INFO class:68 - List of batches
+2019-Dec-27 14:43:54,407  INFO class:69 - Get Batch Details
+2019-Dec-27 14:43:58,364  INFO class:111 - Details of student based on Batch
+2019-Dec-27 14:44:21,453  INFO class:157 - Insert Current status of the students
+2019-Dec-27 14:44:51,534  INFO class:68 - List of batches
+2019-Dec-27 14:44:51,534  INFO class:69 - Get Batch Details
+2019-Dec-27 14:44:54,612  INFO class:111 - Details of student based on Batch
+2019-Dec-27 14:44:56,482  INFO class:111 - Details of student based on Batch
+2019-Dec-27 14:45:05,763  INFO class:157 - Insert Current status of the students
+2019-Dec-27 15:12:38,811  INFO class:68 - List of batches
+2019-Dec-27 15:12:38,811  INFO class:69 - Get Batch Details
+2019-Dec-27 15:12:41,495  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:13:03,145  INFO class:157 - Insert Current status of the students
+2019-Dec-27 15:14:14,783  INFO class:57 - List of all available courses 
+2019-Dec-27 15:14:18,719  INFO class:57 - New batch Inserted SMI_IT_BAT_9
+2019-Dec-27 15:16:30,053  INFO class:57 - List of all available courses 
+2019-Dec-27 15:16:39,461  INFO class:68 - List of batches
+2019-Dec-27 15:16:39,462  INFO class:69 - Get Batch Details
+2019-Dec-27 15:16:40,897  INFO class:157 - Insert Current status of the students
+2019-Dec-27 15:16:54,162  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:17:06,643  INFO class:157 - Insert Current status of the students
+2019-Dec-27 15:17:49,373  INFO class:68 - List of batches
+2019-Dec-27 15:17:49,374  INFO class:69 - Get Batch Details
+2019-Dec-27 15:17:53,159  INFO class:157 - Insert Current status of the students
+2019-Dec-27 15:19:32,061  INFO class:68 - List of batches
+2019-Dec-27 15:19:32,062  INFO class:69 - Get Batch Details
+2019-Dec-27 15:19:34,859  INFO class:157 - Insert Current status of the students
+2019-Dec-27 15:27:58,641  INFO class:68 - List of batches
+2019-Dec-27 15:27:58,641  INFO class:69 - Get Batch Details
+2019-Dec-27 15:28:01,481  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:28:34,155  INFO class:157 - Insert Current status of the students
+2019-Dec-27 15:29:44,585  INFO class:68 - List of batches
+2019-Dec-27 15:29:44,586  INFO class:69 - Get Batch Details
+2019-Dec-27 15:29:49,810  INFO class:68 - List of batches
+2019-Dec-27 15:29:49,811  INFO class:69 - Get Batch Details
+2019-Dec-27 15:29:55,246  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:30:16,179  INFO class:125 - Change the batch of the student SMI_IT_STU_3into SMI_IT_BAT_2
+2019-Dec-27 15:33:24,135  INFO class:68 - List of batches
+2019-Dec-27 15:33:24,136  INFO class:69 - Get Batch Details
+2019-Dec-27 15:33:35,864  INFO class:68 - List of batches
+2019-Dec-27 15:33:35,865  INFO class:69 - Get Batch Details
+2019-Dec-27 15:33:38,858  INFO class:125 - Change the batch of the student nullinto null
+2019-Dec-27 15:34:39,949  INFO class:68 - List of batches
+2019-Dec-27 15:34:39,950  INFO class:69 - Get Batch Details
+2019-Dec-27 15:34:43,329  INFO class:125 - Change the batch of the student nullinto null
+2019-Dec-27 15:35:06,251  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:35:14,764  INFO class:125 - Change the batch of the student SMI_IT_STU_4into SMI_IT_BAT_3
+2019-Dec-27 15:35:31,501  INFO class:68 - List of batches
+2019-Dec-27 15:35:31,502  INFO class:69 - Get Batch Details
+2019-Dec-27 15:35:35,662  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:38:05,215  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:38:18,084  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:38:21,179  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:38:27,300  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:38:31,158  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 15:38:31,162  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 15:38:32,165  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 15:38:32,167  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 15:38:33,476  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 15:38:33,478  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 15:38:36,277  INFO class:89 - Mapping of Student and Batches  SMI_IT_STU_3SMI_IT_BAT_3
+2019-Dec-27 15:38:36,277  INFO class:90 - Insert Student and Batch Mapping  23
+2019-Dec-27 15:38:49,291  INFO class:68 - List of batches
+2019-Dec-27 15:38:49,292  INFO class:69 - Get Batch Details
+2019-Dec-27 15:38:55,568  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:39:03,233  INFO class:68 - List of batches
+2019-Dec-27 15:39:03,234  INFO class:69 - Get Batch Details
+2019-Dec-27 15:39:17,853  INFO class:82 - Daily attendance details for 2019-12-27
+2019-Dec-27 15:40:12,596  INFO class:87 - Monthly attendance details for 2019-12
+2019-Dec-27 15:40:49,150  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 15:40:49,153  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 15:40:52,007  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 15:40:52,009  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 15:41:08,403  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 15:41:08,406  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 15:41:08,672  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 15:41:08,674  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 15:41:10,032  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 15:41:10,034  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 15:41:12,925  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 15:41:12,927  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 15:41:23,423  INFO class:68 - List of batches
+2019-Dec-27 15:41:23,423  INFO class:69 - Get Batch Details
+2019-Dec-27 15:41:26,081  INFO class:109 - Batchwise Attendance report
+2019-Dec-27 15:41:56,531  INFO class:68 - List of batches
+2019-Dec-27 15:41:56,532  INFO class:69 - Get Batch Details
+2019-Dec-27 15:42:00,979  INFO class:109 - Batchwise Attendance report
+2019-Dec-27 15:42:04,727  INFO class:109 - Batchwise Attendance report
+2019-Dec-27 15:42:07,625  INFO class:109 - Batchwise Attendance report
+2019-Dec-27 15:42:12,163  INFO class:68 - List of batches
+2019-Dec-27 15:42:12,164  INFO class:69 - Get Batch Details
+2019-Dec-27 15:42:14,937  INFO class:109 - Batchwise Attendance report
+2019-Dec-27 15:42:21,052  INFO class:68 - List of batches
+2019-Dec-27 15:42:21,053  INFO class:69 - Get Batch Details
+2019-Dec-27 15:42:24,601  INFO class:109 - Batchwise Attendance report
+2019-Dec-27 15:42:30,007  INFO class:133 - Details of deployed students
+2019-Dec-27 15:43:11,283  INFO class:139 - Details of discontinued students
+2019-Dec-27 15:43:16,268  INFO class:145 - Details of Terminated Students
+2019-Dec-27 15:43:20,036  INFO class:139 - Details of discontinued students
+2019-Dec-27 15:43:41,095  INFO class:68 - List of batches
+2019-Dec-27 15:43:41,096  INFO class:69 - Get Batch Details
+2019-Dec-27 15:43:45,525  INFO class:57 - List of all available courses 
+2019-Dec-27 15:43:45,536  INFO class:110 - List of available topics
+2019-Dec-27 15:43:45,536  INFO class:80 - List of all Subjects available
+2019-Dec-27 15:43:45,537  INFO class:81 - Get subject details
+2019-Dec-27 15:43:45,541  INFO class:68 - List of batches
+2019-Dec-27 15:43:45,542  INFO class:69 - Get Batch Details
+2019-Dec-27 15:43:45,543 ERROR class:45 - Details of trainers
+2019-Dec-27 15:43:52,386  INFO class:111 - Details of student based on Batch
+2019-Dec-27 15:43:55,136  INFO class:87 - Get details about subject on course
+2019-Dec-27 15:43:57,374  INFO class:116 - Get topic on subject 
+2019-Dec-27 15:44:04,601  INFO class:34 - Daily status Inserted 
+2019-Dec-27 16:00:24,573 ERROR class:45 - Details of trainers
+2019-Dec-27 16:15:59,548  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 16:20:30,012  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 16:30:17,849  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 16:30:58,076  INFO class:68 - List of batches
+2019-Dec-27 16:30:58,079  INFO class:69 - Get Batch Details
+2019-Dec-27 16:30:58,415  INFO class:57 - List of all available courses 
+2019-Dec-27 16:30:58,422  INFO class:110 - List of available topics
+2019-Dec-27 16:30:58,424  INFO class:80 - List of all Subjects available
+2019-Dec-27 16:30:58,431  INFO class:81 - Get subject details
+2019-Dec-27 16:30:58,428  INFO class:68 - List of batches
+2019-Dec-27 16:30:58,435  INFO class:69 - Get Batch Details
+2019-Dec-27 16:31:19,067  INFO class:68 - List of batches
+2019-Dec-27 16:31:19,068  INFO class:69 - Get Batch Details
+2019-Dec-27 16:31:19,092  INFO class:57 - List of all available courses 
+2019-Dec-27 16:31:19,093  INFO class:80 - List of all Subjects available
+2019-Dec-27 16:31:19,096  INFO class:81 - Get subject details
+2019-Dec-27 16:31:19,099  INFO class:110 - List of available topics
+2019-Dec-27 16:31:55,564  INFO class:68 - List of batches
+2019-Dec-27 16:31:55,567  INFO class:69 - Get Batch Details
+2019-Dec-27 16:34:19,435  INFO class:68 - List of batches
+2019-Dec-27 16:34:19,438  INFO class:69 - Get Batch Details
+2019-Dec-27 16:34:20,822  INFO class:68 - List of batches
+2019-Dec-27 16:34:20,823  INFO class:69 - Get Batch Details
+2019-Dec-27 16:34:20,835  INFO class:57 - List of all available courses 
+2019-Dec-27 16:34:20,848  INFO class:80 - List of all Subjects available
+2019-Dec-27 16:34:20,849  INFO class:81 - Get subject details
+2019-Dec-27 16:34:20,866  INFO class:110 - List of available topics
+2019-Dec-27 16:37:22,079  INFO class:68 - List of batches
+2019-Dec-27 16:37:22,082  INFO class:69 - Get Batch Details
+2019-Dec-27 16:37:22,989  INFO class:57 - List of all available courses 
+2019-Dec-27 16:37:23,000  INFO class:110 - List of available topics
+2019-Dec-27 16:37:23,000  INFO class:68 - List of batches
+2019-Dec-27 16:37:23,001  INFO class:69 - Get Batch Details
+2019-Dec-27 16:37:23,000  INFO class:80 - List of all Subjects available
+2019-Dec-27 16:37:23,003  INFO class:81 - Get subject details
+2019-Dec-27 16:37:25,300  INFO class:57 - List of all available courses 
+2019-Dec-27 16:37:36,413  INFO class:57 - List of all available courses 
+2019-Dec-27 16:39:38,068  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 16:41:52,305  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 16:42:24,169  INFO class:68 - List of batches
+2019-Dec-27 16:42:24,173  INFO class:69 - Get Batch Details
+2019-Dec-27 16:42:35,872  INFO class:68 - List of batches
+2019-Dec-27 16:42:35,873  INFO class:69 - Get Batch Details
+2019-Dec-27 16:43:32,325  INFO class:68 - List of batches
+2019-Dec-27 16:43:32,327  INFO class:69 - Get Batch Details
+2019-Dec-27 16:47:48,076  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 16:50:15,341  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 16:52:36,344  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 17:29:05,309  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 17:36:59,258  INFO class:68 - List of batches
+2019-Dec-27 17:36:59,260  INFO class:69 - Get Batch Details
+2019-Dec-27 17:37:02,288  INFO class:57 - List of all available courses 
+2019-Dec-27 17:44:30,464  INFO class:68 - List of batches
+2019-Dec-27 17:44:30,466  INFO class:69 - Get Batch Details
+2019-Dec-27 17:44:32,218  INFO class:57 - List of all available courses 
+2019-Dec-27 17:44:32,258  INFO class:80 - List of all Subjects available
+2019-Dec-27 17:44:32,259  INFO class:81 - Get subject details
+2019-Dec-27 17:44:32,268  INFO class:110 - List of available topics
+2019-Dec-27 17:44:32,270  INFO class:68 - List of batches
+2019-Dec-27 17:44:32,273  INFO class:69 - Get Batch Details
+2019-Dec-27 17:45:55,570  INFO class:68 - List of batches
+2019-Dec-27 17:45:55,571  INFO class:69 - Get Batch Details
+2019-Dec-27 18:09:00,077  INFO class:133 - Details of deployed students
+2019-Dec-27 18:10:58,149  INFO class:82 - Daily attendance details for 2019-12-17
+2019-Dec-27 18:11:07,072  INFO class:82 - Daily attendance details for 27-12-2019
+2019-Dec-27 18:11:27,659  INFO class:82 - Daily attendance details for 2019-12-27
+2019-Dec-27 18:39:24,234  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 18:39:34,110  INFO class:123 - Insert new Student
+2019-Dec-27 18:39:34,154  INFO class:104 - Insert Student Personal details  SMI_IT_STUP_9
+2019-Dec-27 18:39:34,154  INFO class:83 - Insert Student Academic details  SMI_IT_ADI_10
+2019-Dec-27 18:41:37,833  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 18:44:46,562  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 18:47:28,802  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 18:50:03,200  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 18:53:33,289  INFO class:82 - Daily attendance details for 2019-12-27
+2019-Dec-27 19:00:05,796  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 19:05:37,163  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-27 19:13:47,219  INFO class:68 - List of batches
+2019-Dec-27 19:13:47,226  INFO class:69 - Get Batch Details
+2019-Dec-27 19:13:55,911  INFO class:111 - Details of student based on Batch
+2019-Dec-27 19:15:24,126  INFO class:68 - List of batches
+2019-Dec-27 19:15:24,131  INFO class:69 - Get Batch Details
+2019-Dec-27 19:18:57,040  INFO class:68 - List of batches
+2019-Dec-27 19:18:57,045  INFO class:69 - Get Batch Details
+2019-Dec-27 19:19:06,017  INFO class:68 - List of batches
+2019-Dec-27 19:19:06,018  INFO class:69 - Get Batch Details
+2019-Dec-27 19:19:41,591  INFO class:68 - List of batches
+2019-Dec-27 19:19:41,596  INFO class:69 - Get Batch Details
+2019-Dec-27 19:20:56,040  INFO class:68 - List of batches
+2019-Dec-27 19:20:56,040  INFO class:69 - Get Batch Details
+2019-Dec-27 19:21:01,937  INFO class:111 - Details of student based on Batch
+2019-Dec-27 19:27:38,794  INFO class:68 - List of batches
+2019-Dec-27 19:27:38,800  INFO class:69 - Get Batch Details
+2019-Dec-27 19:28:52,258  INFO class:68 - List of batches
+2019-Dec-27 19:28:52,261  INFO class:69 - Get Batch Details
+2019-Dec-27 19:29:24,180  INFO class:68 - List of batches
+2019-Dec-27 19:29:24,180  INFO class:69 - Get Batch Details
+2019-Dec-27 19:29:32,474  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 19:29:32,481  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 19:30:04,814  INFO class:68 - List of batches
+2019-Dec-27 19:30:04,818  INFO class:69 - Get Batch Details
+2019-Dec-27 19:30:11,047  INFO class:68 - List of batches
+2019-Dec-27 19:30:11,047  INFO class:69 - Get Batch Details
+2019-Dec-27 19:33:03,483  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 19:33:03,495  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 19:33:24,043  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-27 19:33:24,058  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-27 19:36:47,053  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 10:31:29,627  INFO class:80 - List of all Subjects available
+2019-Dec-30 10:31:29,627  INFO class:81 - Get subject details
+2019-Dec-30 10:31:29,648  INFO class:57 - List of all available courses 
+2019-Dec-30 10:31:29,648  INFO class:68 - List of batches
+2019-Dec-30 10:31:29,664  INFO class:69 - Get Batch Details
+2019-Dec-30 10:31:29,648  INFO class:110 - List of available topics
+2019-Dec-30 10:31:41,929  INFO class:57 - List of all available courses 
+2019-Dec-30 10:31:41,929  INFO class:110 - List of available topics
+2019-Dec-30 10:31:41,933  INFO class:68 - List of batches
+2019-Dec-30 10:31:41,929  INFO class:80 - List of all Subjects available
+2019-Dec-30 10:31:41,934  INFO class:81 - Get subject details
+2019-Dec-30 10:31:41,934  INFO class:69 - Get Batch Details
+2019-Dec-30 10:32:43,639  INFO class:57 - List of all available courses 
+2019-Dec-30 10:32:43,639  INFO class:110 - List of available topics
+2019-Dec-30 10:32:43,639  INFO class:80 - List of all Subjects available
+2019-Dec-30 10:32:43,639  INFO class:81 - Get subject details
+2019-Dec-30 10:32:43,639  INFO class:68 - List of batches
+2019-Dec-30 10:32:43,655  INFO class:69 - Get Batch Details
+2019-Dec-30 10:57:02,095  INFO class:105 - Insert Student Personal details  SMI_IT_STUP_10
+2019-Dec-30 10:57:02,155  INFO class:84 - Insert Student Academic details  SMI_IT_ADI_11
+2019-Dec-30 10:57:02,172  INFO class:124 - Insert new Student
+2019-Dec-30 10:58:05,588 ERROR class:45 - Details of trainers
+2019-Dec-30 10:58:58,382 ERROR class:45 - Details of trainers
+2019-Dec-30 10:59:09,946 ERROR class:45 - Details of trainers
+2019-Dec-30 11:00:05,514 ERROR class:45 - Details of trainers
+2019-Dec-30 11:00:32,279 ERROR class:45 - Details of trainers
+2019-Dec-30 11:01:21,960 ERROR class:45 - Details of trainers
+2019-Dec-30 11:01:33,624 ERROR class:45 - Details of trainers
+2019-Dec-30 11:02:22,027 ERROR class:45 - Details of trainers
+2019-Dec-30 11:02:26,841 ERROR class:45 - Details of trainers
+2019-Dec-30 11:02:41,808  INFO class:34 - New Trainer is addedtrainee4
+2019-Dec-30 11:02:41,812  INFO class:35 - Insert New Trainer  SMI_IT_TRA_6
+2019-Dec-30 11:02:47,204 ERROR class:45 - Details of trainers
+2019-Dec-30 11:48:57,095  INFO class:68 - List of batches
+2019-Dec-30 11:48:57,095  INFO class:69 - Get Batch Details
+2019-Dec-30 11:48:57,191  INFO class:57 - List of all available courses 
+2019-Dec-30 11:48:57,231  INFO class:80 - List of all Subjects available
+2019-Dec-30 11:48:57,231  INFO class:81 - Get subject details
+2019-Dec-30 11:48:57,247  INFO class:110 - List of available topics
+2019-Dec-30 11:52:48,236  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 11:53:20,417  INFO class:68 - List of batches
+2019-Dec-30 11:53:20,423  INFO class:69 - Get Batch Details
+2019-Dec-30 11:53:20,487  INFO class:57 - List of all available courses 
+2019-Dec-30 11:53:20,580  INFO class:80 - List of all Subjects available
+2019-Dec-30 11:53:20,580  INFO class:81 - Get subject details
+2019-Dec-30 11:53:20,580  INFO class:110 - List of available topics
+2019-Dec-30 11:53:56,274  INFO class:34 - Daily status Inserted 
+2019-Dec-30 12:01:02,156  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 12:01:02,165  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 12:09:53,851  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 12:13:28,432  INFO class:126 - Insert new Student
+2019-Dec-30 12:13:28,432  INFO class:106 - Insert Student Personal details  SMI_IT_STUP_11
+2019-Dec-30 12:13:28,466  INFO class:85 - Insert Student Academic details  SMI_IT_ADI_12
+2019-Dec-30 12:15:10,122  INFO class:106 - Insert Student Personal details  SMI_IT_STUP_12
+2019-Dec-30 12:15:10,122  INFO class:126 - Insert new Student
+2019-Dec-30 12:35:57,810  INFO class:68 - List of batches
+2019-Dec-30 12:35:57,813  INFO class:69 - Get Batch Details
+2019-Dec-30 12:36:23,826  INFO class:55 - New Assesment Assigned SMI_IT_AAI_8
+2019-Dec-30 12:48:43,486  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 12:49:17,857  INFO class:68 - List of batches
+2019-Dec-30 12:49:17,862  INFO class:69 - Get Batch Details
+2019-Dec-30 12:49:29,631  INFO class:68 - List of batches
+2019-Dec-30 12:49:29,634  INFO class:69 - Get Batch Details
+2019-Dec-30 12:49:29,651  INFO class:57 - List of all available courses 
+2019-Dec-30 12:49:29,773  INFO class:80 - List of all Subjects available
+2019-Dec-30 12:49:29,773  INFO class:81 - Get subject details
+2019-Dec-30 12:49:29,797  INFO class:110 - List of available topics
+2019-Dec-30 12:49:38,216  INFO class:55 - New Assesment Assigned SMI_IT_AAI_9
+2019-Dec-30 12:50:12,122  INFO class:57 - List of all available courses 
+2019-Dec-30 12:50:12,133  INFO class:80 - List of all Subjects available
+2019-Dec-30 12:50:12,133  INFO class:81 - Get subject details
+2019-Dec-30 12:50:12,133  INFO class:110 - List of available topics
+2019-Dec-30 12:50:12,141  INFO class:68 - List of batches
+2019-Dec-30 12:50:12,141  INFO class:69 - Get Batch Details
+2019-Dec-30 12:50:56,404  INFO class:68 - List of batches
+2019-Dec-30 12:50:56,404  INFO class:69 - Get Batch Details
+2019-Dec-30 12:50:56,404  INFO class:110 - List of available topics
+2019-Dec-30 12:50:56,404  INFO class:57 - List of all available courses 
+2019-Dec-30 12:50:56,404  INFO class:80 - List of all Subjects available
+2019-Dec-30 12:50:56,411  INFO class:81 - Get subject details
+2019-Dec-30 12:59:27,800  INFO class:89 - Mapping of Student and Batches  nullnull
+2019-Dec-30 12:59:27,800  INFO class:90 - Insert Student and Batch Mapping  24
+2019-Dec-30 13:03:49,579  INFO class:128 - Insert new Student
+2019-Dec-30 13:03:49,763  INFO class:85 - Insert Student Academic details  SMI_IT_ADI_13
+2019-Dec-30 13:03:49,825  INFO class:106 - Insert Student Personal details  SMI_IT_STUP_13
+2019-Dec-30 13:06:59,289  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 13:49:40,440  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 14:04:51,141  INFO class:68 - List of batches
+2019-Dec-30 14:04:51,145  INFO class:69 - Get Batch Details
+2019-Dec-30 14:04:57,740  INFO class:68 - List of batches
+2019-Dec-30 14:04:57,744  INFO class:69 - Get Batch Details
+2019-Dec-30 14:05:20,086  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:05:20,092  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:05:22,458  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:05:22,465  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:05:27,475  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:05:33,863  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:05:33,867  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:05:39,080  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:05:39,083  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:05:41,142  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:05:41,147  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:05:41,601  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:05:41,609  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:05:44,707  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:05:44,711  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:05:49,125  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:05:49,129  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:06:13,168  INFO class:68 - List of batches
+2019-Dec-30 14:06:13,168  INFO class:69 - Get Batch Details
+2019-Dec-30 14:06:21,499  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:06:33,460  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:06:33,465  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:07:28,827  INFO class:68 - List of batches
+2019-Dec-30 14:07:28,827  INFO class:69 - Get Batch Details
+2019-Dec-30 14:07:35,729  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:07:42,228  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:07:42,240  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:07:46,803  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:07:46,809  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:08:03,821  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:08:03,824  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:08:03,980  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:08:03,984  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:08:04,311  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:08:04,315  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:08:12,315  INFO class:68 - List of batches
+2019-Dec-30 14:08:12,315  INFO class:69 - Get Batch Details
+2019-Dec-30 14:08:16,825  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:08:20,809  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:08:20,812  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:09:27,024  INFO class:68 - List of batches
+2019-Dec-30 14:09:27,024  INFO class:69 - Get Batch Details
+2019-Dec-30 14:09:31,221  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:09:36,580  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:09:36,585  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:10:43,161  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:10:43,164  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:10:55,932  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:10:55,937  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:11:06,997  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:11:07,002  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:11:33,711  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:11:33,717  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:11:54,896  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:11:54,900  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:15:09,536  INFO class:68 - List of batches
+2019-Dec-30 14:15:09,536  INFO class:69 - Get Batch Details
+2019-Dec-30 14:15:12,607  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:15:15,087  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:15:15,091  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:15:16,387  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:15:16,391  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:15:18,944  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:15:18,947  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:15:20,996  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:15:20,998  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:15:28,331  INFO class:89 - Mapping of Student and Batches  nullSMI_IT_BAT_2
+2019-Dec-30 14:15:28,331  INFO class:90 - Insert Student and Batch Mapping  25
+2019-Dec-30 14:15:44,982  INFO class:68 - List of batches
+2019-Dec-30 14:15:44,982  INFO class:69 - Get Batch Details
+2019-Dec-30 14:15:56,601  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:15:56,606  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:16:05,717  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:16:05,719  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:17:25,650  INFO class:68 - List of batches
+2019-Dec-30 14:17:25,650  INFO class:69 - Get Batch Details
+2019-Dec-30 14:17:32,183  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:17:32,187  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:17:36,581  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:17:36,584  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:17:52,945  INFO class:68 - List of batches
+2019-Dec-30 14:17:52,949  INFO class:69 - Get Batch Details
+2019-Dec-30 14:27:39,171  INFO class:68 - List of batches
+2019-Dec-30 14:27:39,171  INFO class:69 - Get Batch Details
+2019-Dec-30 14:27:48,716  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:28:09,518  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:28:09,523  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:28:25,665  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:28:25,670  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:28:37,054  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:28:37,057  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:28:38,043  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:28:38,046  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:37:36,104  INFO class:68 - List of batches
+2019-Dec-30 14:37:36,104  INFO class:69 - Get Batch Details
+2019-Dec-30 14:37:42,596  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:37:49,689  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:37:49,694  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:37:50,819  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:37:50,824  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:37:53,636  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:37:53,638  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:38:03,455  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:38:03,458  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:39:25,305  INFO class:68 - List of batches
+2019-Dec-30 14:39:25,305  INFO class:69 - Get Batch Details
+2019-Dec-30 14:39:30,147  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:39:33,615  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:39:33,620  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:39:34,128  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:39:34,128  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:05,442  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:05,447  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:05,451  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:05,455  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:05,455  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:05,464  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:17,517  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:17,517  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:17,522  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:17,526  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:17,530  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:17,530  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:17,534  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:17,534  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:17,534  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:17,542  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:21,096  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:21,100  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:21,101  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:21,101  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:21,858  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:21,858  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:21,862  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:21,862  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:21,862  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:21,862  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:21,866  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:21,870  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:21,870  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:21,874  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:21,897  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:21,897  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:22,720  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:22,725  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:22,725  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:22,729  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:22,729  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:22,729  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:22,733  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:22,753  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:22,757  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:22,761  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:40:22,765  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:40:22,769  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:41:07,454  INFO class:68 - List of batches
+2019-Dec-30 14:41:07,454  INFO class:69 - Get Batch Details
+2019-Dec-30 14:41:13,416  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:41:19,735  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:41:19,739  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:41:20,656  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:41:20,656  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:41:20,660  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:41:20,660  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:41:25,489  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:41:25,493  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:41:25,497  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:41:25,501  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:41:25,517  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:41:25,521  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:41:26,693  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:41:26,698  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:41:26,698  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:41:26,702  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:03,435  INFO class:68 - List of batches
+2019-Dec-30 14:42:03,435  INFO class:69 - Get Batch Details
+2019-Dec-30 14:42:06,205  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:42:09,571  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:09,575  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:11,946  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:11,951  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:16,318  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:16,322  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:16,940  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:16,940  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:16,944  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:16,944  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:16,944  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:16,944  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:16,948  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:16,948  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:18,167  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:18,172  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:34,543  INFO class:68 - List of batches
+2019-Dec-30 14:42:34,543  INFO class:69 - Get Batch Details
+2019-Dec-30 14:42:37,491  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:42:39,860  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:39,866  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:42:51,836  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:42:51,840  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:43:05,057  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:43:05,063  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:43:12,718  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:43:12,723  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:45:39,923  INFO class:68 - List of batches
+2019-Dec-30 14:45:39,927  INFO class:69 - Get Batch Details
+2019-Dec-30 14:45:44,941  INFO class:111 - Details of student based on Batch
+2019-Dec-30 14:45:47,747  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:45:47,750  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:45:50,714  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:45:50,718  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:45:53,786  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:45:53,789  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:45:53,793  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 14:45:53,797  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 14:53:41,456  INFO class:68 - List of batches
+2019-Dec-30 14:53:41,460  INFO class:69 - Get Batch Details
+2019-Dec-30 14:56:34,302  INFO class:68 - List of batches
+2019-Dec-30 14:56:34,302  INFO class:69 - Get Batch Details
+2019-Dec-30 15:00:24,339  INFO class:68 - List of batches
+2019-Dec-30 15:00:24,339  INFO class:69 - Get Batch Details
+2019-Dec-30 15:00:55,799  INFO class:106 - Insert Student Personal details  SMI_IT_STUP_14
+2019-Dec-30 15:00:55,799  INFO class:85 - Insert Student Academic details  SMI_IT_ADI_14
+2019-Dec-30 15:00:55,887  INFO class:128 - Insert new Student
+2019-Dec-30 15:40:33,849  INFO class:68 - List of batches
+2019-Dec-30 15:40:33,849  INFO class:69 - Get Batch Details
+2019-Dec-30 16:18:11,210  INFO class:57 - List of all available courses 
+2019-Dec-30 16:18:35,386  INFO class:57 - List of all available courses 
+2019-Dec-30 16:18:51,690  INFO class:57 - List of all available courses 
+2019-Dec-30 16:18:58,957  INFO class:57 - List of all available courses 
+2019-Dec-30 16:18:58,977  INFO class:80 - List of all Subjects available
+2019-Dec-30 16:18:58,977  INFO class:81 - Get subject details
+2019-Dec-30 16:18:58,993  INFO class:110 - List of available topics
+2019-Dec-30 16:24:28,635  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 16:26:52,009  INFO class:68 - List of batches
+2019-Dec-30 16:26:52,011  INFO class:69 - Get Batch Details
+2019-Dec-30 16:26:54,728  INFO class:111 - Details of student based on Batch
+2019-Dec-30 16:27:05,112  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 16:27:05,117  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 16:27:07,457  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 16:27:07,462  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 16:27:10,063  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 16:27:10,067  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 16:27:10,324  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 16:27:10,328  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 16:27:10,338  INFO class:76 - Get the student name according to their mobile number
+2019-Dec-30 16:27:10,344  INFO class:79 - Find the name of student based on Mobilenumber
+2019-Dec-30 16:31:00,084  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 16:35:46,391  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 16:35:50,171  INFO class:86 - Insert Student Academic details  SMI_IT_ADI_15
+2019-Dec-30 16:35:50,171  INFO class:107 - Insert Student Personal details  SMI_IT_STUP_15
+2019-Dec-30 16:42:10,405  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 16:47:34,309  INFO class:68 - List of batches
+2019-Dec-30 16:47:34,313  INFO class:69 - Get Batch Details
+2019-Dec-30 16:47:34,339  INFO class:61 - List of all available courses 
+2019-Dec-30 16:47:34,420  INFO class:84 - List of all Subjects available
+2019-Dec-30 16:47:34,422  INFO class:85 - Get subject details
+2019-Dec-30 16:47:34,443  INFO class:114 - List of available topics
+2019-Dec-30 16:49:02,507  INFO class:68 - List of batches
+2019-Dec-30 16:49:02,509  INFO class:69 - Get Batch Details
+2019-Dec-30 16:49:08,971  INFO class:111 - Details of student based on Batch
+2019-Dec-30 16:49:53,537  INFO class:111 - Details of student based on Batch
+2019-Dec-30 16:50:07,341  INFO class:111 - Details of student based on Batch
+2019-Dec-30 16:50:47,753  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 16:52:48,293  INFO class:86 - Insert Student Academic details  SMI_IT_ADI_16
+2019-Dec-30 16:54:38,202  INFO class:68 - List of batches
+2019-Dec-30 16:54:38,204  INFO class:69 - Get Batch Details
+2019-Dec-30 16:54:51,543  INFO class:61 - List of all available courses 
+2019-Dec-30 16:54:51,555  INFO class:114 - List of available topics
+2019-Dec-30 16:54:51,556  INFO class:84 - List of all Subjects available
+2019-Dec-30 16:54:51,563  INFO class:85 - Get subject details
+2019-Dec-30 16:54:51,564  INFO class:68 - List of batches
+2019-Dec-30 16:54:51,568  INFO class:69 - Get Batch Details
+2019-Dec-30 17:00:38,466  INFO class:68 - List of batches
+2019-Dec-30 17:00:38,467  INFO class:69 - Get Batch Details
+2019-Dec-30 17:00:43,468  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:02:09,944  INFO class:68 - List of batches
+2019-Dec-30 17:02:09,945  INFO class:69 - Get Batch Details
+2019-Dec-30 17:04:52,328  INFO class:68 - List of batches
+2019-Dec-30 17:04:52,332  INFO class:69 - Get Batch Details
+2019-Dec-30 17:04:54,751  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:05:46,524  INFO class:68 - List of batches
+2019-Dec-30 17:05:46,526  INFO class:69 - Get Batch Details
+2019-Dec-30 17:05:48,086  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:06:15,307  INFO class:68 - List of batches
+2019-Dec-30 17:06:15,308  INFO class:69 - Get Batch Details
+2019-Dec-30 17:06:16,957  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:06:38,343  INFO class:68 - List of batches
+2019-Dec-30 17:06:38,344  INFO class:69 - Get Batch Details
+2019-Dec-30 17:06:40,273  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:07:02,615  INFO class:68 - List of batches
+2019-Dec-30 17:07:02,616  INFO class:69 - Get Batch Details
+2019-Dec-30 17:07:04,460  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:07:06,100  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:07:47,662  INFO class:68 - List of batches
+2019-Dec-30 17:07:47,663  INFO class:69 - Get Batch Details
+2019-Dec-30 17:07:49,432  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:08:14,300  INFO class:68 - List of batches
+2019-Dec-30 17:08:14,301  INFO class:69 - Get Batch Details
+2019-Dec-30 17:08:48,207  INFO class:68 - List of batches
+2019-Dec-30 17:08:48,208  INFO class:69 - Get Batch Details
+2019-Dec-30 17:09:00,389  INFO class:68 - List of batches
+2019-Dec-30 17:09:00,390  INFO class:69 - Get Batch Details
+2019-Dec-30 17:09:02,456  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:09:33,687  INFO class:68 - List of batches
+2019-Dec-30 17:09:33,688  INFO class:69 - Get Batch Details
+2019-Dec-30 17:09:35,331  INFO class:111 - Details of student based on Batch
+2019-Dec-30 17:16:13,399  INFO class:17 - Welcome to SMI Training Division
+2019-Dec-30 17:26:27,603  INFO class:17 - Welcome to SMI Training Division

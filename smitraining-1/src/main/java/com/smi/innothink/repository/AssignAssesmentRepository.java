@@ -31,6 +31,12 @@ public interface AssignAssesmentRepository extends JpaRepository<AssignAssesment
     @Query("from AssignAssesment a where a.status=:assigned")
 	Iterable<AssignAssesment> getAssigned(@Param("assigned") String status);
     
+    @Query("select p.assignAssesmentId, p.assignDate,p.assesmentType,q.batchName,p.totalQuestions,p.totalMarks,p.status from AssignAssesment p join Batch q on p.batchId=q.batchId ")
+    public ArrayList getMarks();
+    
+    @Query("select p.marksObtained,p.totalMarks,q.studentName from MarkUpdates p join Student q on p.studentId=q.studentId where p.assignAssesmentId= :id")
+    public ArrayList getStudent(@Param("id") String assesId);
+    
 	@Transactional
 	@Modifying
 	@Query("update AssignAssesment set status=:k where assignAssesmentId=:id")

@@ -27,11 +27,19 @@ private String bond;
 private String studentMobile;
 private String duration;
 private String salary;
+private String studentPassword;
 private String studentPersonalId;
 @Column(name="stay_details")
 private String stayDetails;
 private String academicId;
 private String mode;
+
+public String getStudentPassword() {
+	return studentPassword;
+}
+public void setStudentPassword(String studentPassword) {
+	this.studentPassword = studentPassword;
+}
 public String getStudentId() {
 	return studentId;
 }

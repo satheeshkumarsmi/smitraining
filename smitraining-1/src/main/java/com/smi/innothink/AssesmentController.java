@@ -27,7 +27,7 @@ import com.smi.innothink.services.AutoIncrement;
 @RestController
 @CrossOrigin
 @RequestMapping("/smi")
-public class AssesmentController implements AssesmentControllerInterface {
+public class AssesmentController {
 	static Logger log = Logger.getLogger("AssesmentController.class");
 	@Autowired(required = false)
 	AssignAssesment assignAssesment;
@@ -46,7 +46,8 @@ public class AssesmentController implements AssesmentControllerInterface {
 
 	@RequestMapping(value = "/insertassesmentdetails", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertAssesment(@RequestBody(required = false) AssignAssesment assignAssesment) {
-		String assignAssesmentId = assignAssesmentRepository.getId("assign_assesment_id", "SMI_IT_AAI_","assign_assesment");
+		String assignAssesmentId = assignAssesmentRepository.getId("assign_assesment_id", "SMI_IT_AAI_",
+				"assign_assesment");
 		String id = AutoIncrement.incrementId(Integer.parseInt(assignAssesmentId), "SMI_IT_AAI_");
 		assignAssesment.setAssignAssesmentId(id);
 		AssignAssesment res = assignAssesmentRepository.save(assignAssesment);
@@ -95,19 +96,48 @@ public class AssesmentController implements AssesmentControllerInterface {
 		return map;
 	}
 
+	@RequestMapping(value = "/getdetails", method = RequestMethod.GET, produces = "application/json")
+	public Iterable getMarkDetails() {
+		return assignAssesmentRepository.getMarks();
+	}
 	
+	
+	@RequestMapping(value = "/getmarkdetails", method = RequestMethod.GET, produces = "application/json")
+	public Iterable getMarkDetails(@RequestParam String assesId) {
+		return assignAssesmentRepository.getStudent(assesId);
+	}
 
-	@RequestMapping(value = "/insertmarks", method = RequestMethod.POST, produces = "application/json")  
-	public boolean insertMarks2(@RequestBody String mark[]) {
-		//String test[]=receiveMark.getMark();
-		for(int i=0;i<mark.length;i++)
-		{
-			//String result[]=test[i].split("/");
-			System.out.println(mark.length);
-			//for(int j=0;j<result.length;j++) {
-		//		System.out.println(result[j]);
-			//}
+	@RequestMapping(value = "/insertmarks", method = RequestMethod.POST, produces = "application/json")
+	public boolean insertMarks(@RequestBody String marks[]) {
+		String assesmentId="";
+		for (int i = 0; i < marks.length; i++) {
+			String s[]=new String[4];
+			s = marks[i].split("/");
+			MarkUpdates markUpdates=new MarkUpdates();
+			String markUpdatesId = markUpdatesRepository.getId("mark_updates_id", "SMI_IT_MUI_", "mark_updates");
+			String id = AutoIncrement.incrementId(Integer.parseInt(markUpdatesId), "SMI_IT_MUI_");
+			markUpdates.setMarkUpdatesId(id);
+			markUpdates.setAssignAssesmentId(s[0]);
+			assesmentId=s[0];
+			markUpdates.setStudentId(s[1]);
+			markUpdates.setTotalMarks(Double.parseDouble(s[2]));
+			markUpdates.setMarksObtained(Double.parseDouble(s[3]));
+			markUpdatesRepository.save(markUpdates);
 		}
-      return false;
+		System.out.println(assesmentId);
+		assignAssesmentRepository.updateStatus("Finished", assesmentId);
+		return true;
 	}
+	
+	@RequestMapping(value = "/getmarksonstudent" , method = RequestMethod.GET, produces = "application/json")
+	public Iterable getMarkDetailsOfStudent(@RequestParam String studentId) {
+		return markUpdatesRepository.getStudent(studentId);
 	}
+
+}
+
+/*
+ * for(int i=0;i<mark.length;i++) { System.out.println(mark.length); for(int
+ * j=0;j<result.length;j++) { String result[]=mark[].split("/");
+ * System.out.println(result[j]); } } return false; } }
+ */

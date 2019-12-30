@@ -13,11 +13,18 @@ public interface StudentRepository extends JpaRepository<Student, String>{
 
 	@Procedure(name = "in_and_out_test_student")
     String getId(@Param("inParam") String inParam,@Param("inParam1") String inParam1,@Param("outParam1") String inParam2);
-	@Query("from Student s where s.studentMobile Like  :mobile ")
-	ArrayList<Student> getName(@Param ("mobile") String mobile); 
+	@Query("from Student s where s.studentName Like  :name ")
+	ArrayList<Student> getName(@Param ("name") String name);
+	
+	
+	@Query("from Student s where s.studentName Like  :name ")
+	ArrayList<Student> getName1(@Param ("name") String name);
 	
 	@Query("from Student s where s.studentId=:id")
 	Student getStudent(@Param ("id") String k);
+	
+	@Query("select sp.studentEmail from StudentPersonal sp join Student s on s.studentPersonalId=sp.studentPersonalId where s.studentId=:id")
+	public String getMail(@Param("id") String id3);
 	
 	@Query("select b.batchName,s.studentName,s.dateOfJoining,sd.date,sd.teamName from StatusDetails sd join Student s on sd.studentId =s.studentId join Batch b on sd.batchId=b.batchId where sd.status=:id") 
     public ArrayList getDeployedStudent(@Param ("id") String status);

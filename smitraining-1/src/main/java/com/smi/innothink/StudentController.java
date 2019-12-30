@@ -6,10 +6,12 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.smi.innothink.controllerinterfaces.StudentControllerInterface;
 import com.smi.innothink.domain.AcademicDetails;
 import com.smi.innothink.domain.Qualification;
+import com.smi.innothink.domain.SaveStudent;
 import com.smi.innothink.domain.StatusDetails;
 import com.smi.innothink.domain.Stream;
 import com.smi.innothink.domain.Student;
@@ -21,6 +23,8 @@ import com.smi.innothink.repository.StreamRepository;
 import com.smi.innothink.repository.StudentPersonalRepository;
 import com.smi.innothink.repository.StudentRepository;
 import com.smi.innothink.services.AutoIncrement;
+import com.smi.innothink.services.MailSending;
+import com.smi.innothink.services.RandomPasswordStudent;
 
 @RestController
 @CrossOrigin
@@ -96,7 +100,6 @@ public class StudentController implements StudentControllerInterface {
 	public boolean insertStudentPersonal(@RequestBody(required = false) StudentPersonal studentPersonal) {
 		String personalId = studentPersonalRepository.getId("student_personal_id", "SMI_IT_STUP_", "student_personal");
 		String id2 = AutoIncrement.incrementId(Integer.parseInt(personalId), "SMI_IT_STUP_");
-		System.out.println(id2);
 		studentPersonal.setStudentPersonalId(id2);
 		StudentPersonal res2 = studentPersonalRepository.save(studentPersonal);
 		pId = res2.getStudentPersonalId();
@@ -111,22 +114,42 @@ public class StudentController implements StudentControllerInterface {
 	}
 
 	@RequestMapping(value = "/insertstudent", method = RequestMethod.POST, produces = "application/json")
-	public boolean insertStudent(@RequestBody(required = false) Student student) {
-		String studentId = studentPersonalRepository.getId("student_id", "SMI_IT_STU_", "student");
+	public boolean insertStudent(@RequestBody(required = false) SaveStudent saveStudent) {
+		AcademicDetails academicDetails=saveStudent.getAcademicDetails();
+		StudentPersonal studentPersonal = saveStudent.getStudentPersonal();
+		Student student = saveStudent.getStudent();
+		String academicId = academicDetailsRepository.getId("student_academic_id", "SMI_IT_ADI_", "academic_details");
+		String id1 = AutoIncrement.incrementId(Integer.parseInt(academicId), "SMI_IT_ADI_");
+		academicDetails.setStudentAcademicId(id1);
+		System.out.println(id1);
+		AcademicDetails res1 = academicDetailsRepository.save(academicDetails);
+		acId = res1.getStudentAcademicId();
+		String personalId = studentPersonalRepository.getId("student_personal_id", "SMI_IT_STUP_", "student_personal");
+		String id2 = AutoIncrement.incrementId(Integer.parseInt(personalId), "SMI_IT_STUP_");
+		studentPersonal.setStudentPersonalId(id2);
+		StudentPersonal res2 = studentPersonalRepository.save(studentPersonal);
+		pId = res2.getStudentPersonalId();
+		String studentId = studentRepository.getId("student_id", "SMI_IT_STU_", "student");
+		String id3 = AutoIncrement.incrementId(Integer.parseInt(studentId), "SMI_IT_STU_");
+		student.setStudentId(id3);
 		student.setAcademicId(acId);
 		student.setStudentPersonalId(pId);
-		String id3 = AutoIncrement.incrementId(Integer.parseInt(studentId), "SMI_IT_STU_");
-		System.out.println(id3);
-		student.setStudentId(id3);
+		String studentPassword=RandomPasswordStudent.randomAlphaNumeric(6);
+		student.setStudentPassword(studentPassword);		
 		Student res3 = studentRepository.save(student);
-		if (res3.getStudentId().equals(student.getStudentId())) {
-			log.info("Insert new Student");
-			return true;
-		} else {
-			log.info("Fail to insert new student");
-			return false;
-		}
+		String mail=studentRepository.getMail(id3);
+		MailSending mailSending=new MailSending();
+		System.out.println(mail);
+		System.out.println(id3);
+		System.out.println(studentPassword);
+		System.out.println(student.getStudentName());
+		mailSending.sendMail(mail, id3 , studentPassword,student.getStudentName());
+		
+	return true;
+		
+		
 	}
+	
 
 	@RequestMapping(value = "/getdeployedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
 	public Iterable getDeployedStudentsDetails() {
@@ -150,6 +173,11 @@ public class StudentController implements StudentControllerInterface {
 	public Iterable getIntrainingStudentsDetails() {
 		log.info("Details of students in training");
 		return studentRepository.getIntrainingStudent("in-training");
+	}
+	
+	@RequestMapping(value = "/getstudentmobileonname" ,  method = RequestMethod.GET , produces = "application/json")
+	public Iterable<Student> getStudent(@RequestParam String name){
+		return studentRepository.getName("%"+name+"%");
 	}
 
 	@RequestMapping(value = "/insertstudentstatus", method = RequestMethod.POST, produces = "application/json")

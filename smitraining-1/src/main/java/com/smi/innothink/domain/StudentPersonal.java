@@ -20,15 +20,10 @@ parameters = {
    @StoredProcedureParameter(mode = ParameterMode.IN, name = "outParam1", type = String.class),
    @StoredProcedureParameter(mode = ParameterMode.OUT, name = "outParam2", type = String.class)
 })
-public class StudentPersonal {
-	
-
-	
+public class StudentPersonal {	
 	@Id
 	@Column(name="student_personal_id")
-	private String studentPersonalId;
-
-	
+	private String studentPersonalId;	
     @Column(name="student_email")
 	private String studentEmail;
 	@Column(name="student_address")

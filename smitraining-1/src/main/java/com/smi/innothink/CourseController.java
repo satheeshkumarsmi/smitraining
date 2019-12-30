@@ -1,6 +1,9 @@
 package com.smi.innothink;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.MailSender;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -34,6 +37,7 @@ public class CourseController implements CourseControllerInterface{
 	TopicRepository topicRepository;
 	@Autowired(required = false)
 	Topic topic;
+
 	
 	@RequestMapping(value = "/insert", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertCourse(@RequestBody(required = false) Course course) {
@@ -114,6 +118,7 @@ public class CourseController implements CourseControllerInterface{
 	@RequestMapping(value = "/gettopiconsubject", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Topic> getTopicOnSubject(@RequestParam("subjectId") String subjectId) {
 		log.info("Get topic on subject ");
+
 		return topicRepository.getTopics(subjectId);
 	}
 	
