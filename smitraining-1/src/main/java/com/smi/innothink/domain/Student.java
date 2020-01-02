@@ -23,6 +23,7 @@ public class Student {
 private String studentId;
 private String studentName;
 private String dateOfJoining;
+private String mailId;
 private String bond;
 private String studentMobile;
 private String duration;
@@ -34,6 +35,12 @@ private String stayDetails;
 private String academicId;
 private String mode;
 
+public String getMailId() {
+	return mailId;
+}
+public void setMailId(String mailId) {
+	this.mailId = mailId;
+}
 public String getStudentPassword() {
 	return studentPassword;
 }

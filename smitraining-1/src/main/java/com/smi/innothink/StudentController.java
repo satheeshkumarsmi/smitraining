@@ -1,7 +1,10 @@
 package com.smi.innothink;
 
+
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,7 +26,6 @@ import com.smi.innothink.repository.StreamRepository;
 import com.smi.innothink.repository.StudentPersonalRepository;
 import com.smi.innothink.repository.StudentRepository;
 import com.smi.innothink.services.AutoIncrement;
-import com.smi.innothink.services.MailSending;
 import com.smi.innothink.services.RandomPasswordStudent;
 
 @RestController
@@ -55,6 +57,8 @@ public class StudentController implements StudentControllerInterface {
 	StatusDetails statusDetails;
 	@Autowired(required = false)
 	StatusDetailsRepository statusDetailsRepository;
+	@Autowired
+	JavaMailSender sender;
 
 	@RequestMapping(value = "/insertstudentstream", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertStudentStream(@RequestBody(required = false) Stream stream) {
@@ -118,10 +122,10 @@ public class StudentController implements StudentControllerInterface {
 		AcademicDetails academicDetails=saveStudent.getAcademicDetails();
 		StudentPersonal studentPersonal = saveStudent.getStudentPersonal();
 		Student student = saveStudent.getStudent();
+		System.out.println(student.getMailId());
 		String academicId = academicDetailsRepository.getId("student_academic_id", "SMI_IT_ADI_", "academic_details");
 		String id1 = AutoIncrement.incrementId(Integer.parseInt(academicId), "SMI_IT_ADI_");
 		academicDetails.setStudentAcademicId(id1);
-		System.out.println(id1);
 		AcademicDetails res1 = academicDetailsRepository.save(academicDetails);
 		acId = res1.getStudentAcademicId();
 		String personalId = studentPersonalRepository.getId("student_personal_id", "SMI_IT_STUP_", "student_personal");
@@ -138,39 +142,52 @@ public class StudentController implements StudentControllerInterface {
 		student.setStudentPassword(studentPassword);		
 		Student res3 = studentRepository.save(student);
 		String mail=studentRepository.getMail(id3);
-		MailSending mailSending=new MailSending();
 		System.out.println(mail);
 		System.out.println(id3);
 		System.out.println(studentPassword);
 		System.out.println(student.getStudentName());
-		mailSending.sendMail(mail, id3 , studentPassword,student.getStudentName());
-		
-	return true;
-		
+		SimpleMailMessage message=new SimpleMailMessage();
+		System.out.println(mail);
+		 message.setTo(mail);
+		 message.setSubject("SMI trainee Username and Password");
+		 message.setText("Hello "+student.getStudentName()+"Welcome to SMI Innothink.Your Username:"+id3+
+		 		"and Your Password:"+studentPassword);
+		 sender.send(message);
+		 if(res3.getStudentId().equals(student.getStudentId())) {
+	     return true;
+		 }
+		 else {
+			 return false;
+		 }
+		 
 		
 	}
 	
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/getdeployedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
-	public Iterable getDeployedStudentsDetails() {
+	public Iterable<Student> getDeployedStudentsDetails() {
 		log.info("Details of deployed students");
 		return studentRepository.getDeployedStudent("deployed");
 	}
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/getdiscontinuedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
-	public Iterable getDiscontinuedStudentsDetails() {
+	public Iterable<Student> getDiscontinuedStudentsDetails() {
 		log.info("Details of discontinued students");
 		return studentRepository.getDiscontinuedStudent("discontinued");
 	}
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/getterminatedstudentsdetails", method = RequestMethod.GET, produces = "application/json")
-	public Iterable getTerminatedStudentsDetails() {
+	public Iterable<Student> getTerminatedStudentsDetails() {
 		log.info("Details of Terminated Students");
 		return studentRepository.getTerminatedStudent("terminated");
 	}
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/getintrainingstudentsdetails", method = RequestMethod.GET, produces = "application/json")
-	public Iterable getIntrainingStudentsDetails() {
+	public Iterable<Student> getIntrainingStudentsDetails() {
 		log.info("Details of students in training");
 		return studentRepository.getIntrainingStudent("in-training");
 	}
@@ -184,5 +201,11 @@ public class StudentController implements StudentControllerInterface {
 	public void insertStudentStatus(@RequestBody(required = false) StatusDetails statusDetails) {
 		log.info("Insert Current status of the students");
 		statusDetailsRepository.save(statusDetails);
+	}
+	
+	@SuppressWarnings("rawtypes")
+	@RequestMapping(value = "/getstudentdetails",method =RequestMethod.GET, produces = "application/json")
+	public Iterable getStudentDetails(){
+		return studentRepository.getStudent();
 	}
 }

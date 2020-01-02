@@ -37,6 +37,8 @@ public class CourseController implements CourseControllerInterface{
 	TopicRepository topicRepository;
 	@Autowired(required = false)
 	Topic topic;
+	@Autowired(required = false)
+	JavaMailSender sender;
 
 	
 	@RequestMapping(value = "/insert", method = RequestMethod.POST, produces = "application/json")
@@ -114,6 +116,20 @@ public class CourseController implements CourseControllerInterface{
 		log.info("List of available topics");
 		return topicRepository.findAll();
 	}
+	
+	@RequestMapping(value="/mail",method = RequestMethod.POST, produces = "application/json")
+	public String getAction() {
+		SimpleMailMessage message=new SimpleMailMessage();
+		 message.setTo("dineshkumarv198@gmail.com");
+		 message.setSubject("SMI trainee Username and Password");
+		 message.setText("HelloWelcome to SMI Innothink.Your Username");
+		 sender.send(message);
+		 return "sent";
+	}
+	
+	
+	
+	
 	
 	@RequestMapping(value = "/gettopiconsubject", method = RequestMethod.GET, produces = "application/json")
 	public Iterable<Topic> getTopicOnSubject(@RequestParam("subjectId") String subjectId) {

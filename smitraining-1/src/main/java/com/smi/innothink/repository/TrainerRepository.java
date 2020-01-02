@@ -3,9 +3,11 @@ package com.smi.innothink.repository;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.jpa.repository.query.Procedure;
 import org.springframework.data.repository.query.Param;
 
+import com.smi.innothink.domain.Student;
 import com.smi.innothink.domain.Trainers;
 
 public interface TrainerRepository extends JpaRepository<Trainers, String>{
@@ -15,6 +17,10 @@ public interface TrainerRepository extends JpaRepository<Trainers, String>{
 
 	Optional<Trainers> findBytrainerName(String Username);
 	
-	
+	@Query("select t.mobile from Trainers t where t.trainerId=:id and t.trainerPassword=:password")
+	String checkCredential(@Param ("id") String userName,@Param ("password") String password);
+
+	@Query("from Trainers t where trainerId=:id")
+	Student getTrainer(@Param ("id") String userName);
 
 }

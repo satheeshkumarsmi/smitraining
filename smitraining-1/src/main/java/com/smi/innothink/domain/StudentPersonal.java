@@ -22,19 +22,12 @@ parameters = {
 })
 public class StudentPersonal {	
 	@Id
-	@Column(name="student_personal_id")
 	private String studentPersonalId;	
-    @Column(name="student_email")
-	private String studentEmail;
-	@Column(name="student_address")
+	
     private String studentAddress;
-	@Column(name="parent_mobile")
 	private String parentMobile;
-	@Column(name="student_alternate_mobile")
 	private String studentAlternateMobile;
-	@Column(name="date_of_birth")
 	private String dateOfBirth;
-	@Column(name="gender")
 	private String gender;
 	
 	public String getStudentPersonalId() {
@@ -44,12 +37,7 @@ public class StudentPersonal {
 		this.studentPersonalId = studentPersonalId;
 	}
 	
-	public String getStudentEmail() {
-		return studentEmail;
-	}
-	public void setStudentEmail(String studentEmail) {
-		this.studentEmail = studentEmail;
-	}
+
 	public String getStudentAddress() {
 		return studentAddress;
 	}
