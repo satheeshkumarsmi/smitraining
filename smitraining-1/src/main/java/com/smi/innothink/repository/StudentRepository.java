@@ -49,4 +49,6 @@ public interface StudentRepository extends JpaRepository<Student, String>{
 	@Modifying
 	@Query("update Student set studentPassword=:password where studentId=:userName")
     void changeOldPassword(String userName, String password);
+	@Query("select s.studentId from Student s where mailId=:id")
+	String getPassword(@Param("id")String mailId);
 }

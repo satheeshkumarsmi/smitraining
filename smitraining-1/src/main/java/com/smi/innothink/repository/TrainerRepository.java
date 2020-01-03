@@ -21,6 +21,6 @@ public interface TrainerRepository extends JpaRepository<Trainers, String>{
 	String checkCredential(@Param ("id") String userName,@Param ("password") String password);
 
 	@Query("from Trainers t where trainerId=:id")
-	Student getTrainer(@Param ("id") String userName);
+	Trainers getTrainer(@Param ("id") String userName);
 
 }

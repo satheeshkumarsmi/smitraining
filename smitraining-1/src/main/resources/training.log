@@ -5049,3 +5049,171 @@
 2020-Jan-02 12:08:04,030  INFO class:17 - Welcome to SMI Training Division
 2020-Jan-02 16:36:05,083  INFO class:17 - Welcome to SMI Training Division
 2020-Jan-02 16:39:38,511  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 17:31:31,068  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 17:44:26,014  INFO class:63 - List of all available courses 
+2020-Jan-02 17:44:31,238  INFO class:68 - List of batches
+2020-Jan-02 17:44:31,249  INFO class:69 - Get Batch Details
+2020-Jan-02 17:44:53,732  INFO class:68 - List of batches
+2020-Jan-02 17:44:53,742  INFO class:69 - Get Batch Details
+2020-Jan-02 17:45:15,562  INFO class:55 - New Assesment Assigned SMI_IT_AAI_11
+2020-Jan-02 17:45:25,256  INFO class:68 - List of batches
+2020-Jan-02 17:45:25,270  INFO class:69 - Get Batch Details
+2020-Jan-02 17:56:03,223  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 18:19:22,183  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 18:24:05,580  INFO class:68 - List of batches
+2020-Jan-02 18:24:05,596  INFO class:69 - Get Batch Details
+2020-Jan-02 18:24:11,853  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:24:13,889  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:24:19,149  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:24:21,956  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:24:24,104  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:24:26,651  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:24:29,303  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:24:32,175  INFO class:63 - List of all available courses 
+2020-Jan-02 18:24:32,187  INFO class:86 - List of all Subjects available
+2020-Jan-02 18:24:32,187  INFO class:87 - Get subject details
+2020-Jan-02 18:24:32,187  INFO class:116 - List of available topics
+2020-Jan-02 18:24:32,187  INFO class:68 - List of batches
+2020-Jan-02 18:24:32,203  INFO class:69 - Get Batch Details
+2020-Jan-02 18:24:37,601  INFO class:63 - List of all available courses 
+2020-Jan-02 18:24:43,297  INFO class:68 - List of batches
+2020-Jan-02 18:24:43,297  INFO class:69 - Get Batch Details
+2020-Jan-02 18:24:52,345  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:24:57,398  INFO class:68 - List of batches
+2020-Jan-02 18:24:57,398  INFO class:69 - Get Batch Details
+2020-Jan-02 18:25:00,110  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:25:03,895  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:25:21,256  INFO class:63 - List of all available courses 
+2020-Jan-02 18:25:28,775  INFO class:63 - List of all available courses 
+2020-Jan-02 18:25:28,780  INFO class:86 - List of all Subjects available
+2020-Jan-02 18:25:28,780  INFO class:87 - Get subject details
+2020-Jan-02 18:26:01,184  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 18:26:09,113 ERROR class:45 - Details of trainers
+2020-Jan-02 18:26:47,579  INFO class:34 - New Trainer is addedSatheesh
+2020-Jan-02 18:26:47,579  INFO class:35 - Insert New Trainer  SMI_IT_TRA_7
+2020-Jan-02 18:26:53,417 ERROR class:45 - Details of trainers
+2020-Jan-02 18:27:07,322  INFO class:68 - List of batches
+2020-Jan-02 18:27:07,322  INFO class:69 - Get Batch Details
+2020-Jan-02 18:27:25,495  INFO class:55 - New Assesment Assigned SMI_IT_AAI_12
+2020-Jan-02 18:28:26,628  INFO class:68 - List of batches
+2020-Jan-02 18:28:26,633  INFO class:69 - Get Batch Details
+2020-Jan-02 18:29:52,309  INFO class:68 - List of batches
+2020-Jan-02 18:29:52,309  INFO class:69 - Get Batch Details
+2020-Jan-02 18:30:14,076  INFO class:55 - New Assesment Assigned SMI_IT_AAI_13
+2020-Jan-02 18:32:45,183 ERROR class:45 - Details of trainers
+2020-Jan-02 18:33:15,317  INFO class:34 - New Trainer is addedsai
+2020-Jan-02 18:33:15,317  INFO class:35 - Insert New Trainer  SMI_IT_TRA_8
+2020-Jan-02 18:35:44,514 ERROR class:45 - Details of trainers
+2020-Jan-02 18:36:07,200  INFO class:34 - New Trainer is addedsai
+2020-Jan-02 18:36:07,200  INFO class:35 - Insert New Trainer  SMI_IT_TRA_9
+2020-Jan-02 18:36:58,584 ERROR class:45 - Details of trainers
+2020-Jan-02 18:38:49,303 ERROR class:45 - Details of trainers
+2020-Jan-02 18:39:47,626 ERROR class:45 - Details of trainers
+2020-Jan-02 18:42:24,140 ERROR class:45 - Details of trainers
+2020-Jan-02 18:45:01,497  INFO class:81 - Daily attendance details for 2020-01-02
+2020-Jan-02 18:45:09,488  INFO class:68 - List of batches
+2020-Jan-02 18:45:09,488  INFO class:69 - Get Batch Details
+2020-Jan-02 18:45:47,097  INFO class:63 - List of all available courses 
+2020-Jan-02 18:46:15,467  INFO class:68 - List of batches
+2020-Jan-02 18:46:15,467  INFO class:69 - Get Batch Details
+2020-Jan-02 18:46:20,825  INFO class:68 - List of batches
+2020-Jan-02 18:46:20,825  INFO class:69 - Get Batch Details
+2020-Jan-02 18:46:27,683  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:46:46,652  INFO class:63 - List of all available courses 
+2020-Jan-02 18:47:03,294 ERROR class:45 - Details of trainers
+2020-Jan-02 18:47:48,217  INFO class:68 - List of batches
+2020-Jan-02 18:47:48,217  INFO class:69 - Get Batch Details
+2020-Jan-02 18:50:03,341  INFO class:68 - List of batches
+2020-Jan-02 18:50:03,345  INFO class:69 - Get Batch Details
+2020-Jan-02 18:51:04,179  INFO class:68 - List of batches
+2020-Jan-02 18:51:04,179  INFO class:69 - Get Batch Details
+2020-Jan-02 18:51:07,732  INFO class:111 - Details of student based on Batch
+2020-Jan-02 18:56:32,300  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 19:00:51,452  INFO class:68 - List of batches
+2020-Jan-02 19:00:51,471  INFO class:69 - Get Batch Details
+2020-Jan-02 19:01:20,714  INFO class:170 - Details of deployed students
+2020-Jan-02 19:01:24,717  INFO class:177 - Details of discontinued students
+2020-Jan-02 19:01:27,401  INFO class:184 - Details of Terminated Students
+2020-Jan-02 19:01:38,561  INFO class:81 - Daily attendance details for 2019-12-30
+2020-Jan-02 19:01:44,001  INFO class:81 - Daily attendance details for 2019-12-23
+2020-Jan-02 19:01:46,421  INFO class:81 - Daily attendance details for 2019-12-25
+2020-Jan-02 19:01:48,681  INFO class:81 - Daily attendance details for 2019-12-26
+2020-Jan-02 19:01:51,344  INFO class:81 - Daily attendance details for 2019-12-27
+2020-Jan-02 19:02:05,669  INFO class:68 - List of batches
+2020-Jan-02 19:02:05,677  INFO class:69 - Get Batch Details
+2020-Jan-02 19:02:08,336  INFO class:63 - List of all available courses 
+2020-Jan-02 19:02:08,346  INFO class:116 - List of available topics
+2020-Jan-02 19:02:08,350  INFO class:68 - List of batches
+2020-Jan-02 19:02:08,363  INFO class:69 - Get Batch Details
+2020-Jan-02 19:02:08,350  INFO class:86 - List of all Subjects available
+2020-Jan-02 19:02:08,363  INFO class:87 - Get subject details
+2020-Jan-02 19:02:10,984  INFO class:68 - List of batches
+2020-Jan-02 19:02:11,000  INFO class:69 - Get Batch Details
+2020-Jan-02 19:02:15,297  INFO class:111 - Details of student based on Batch
+2020-Jan-02 19:02:17,855  INFO class:111 - Details of student based on Batch
+2020-Jan-02 19:02:21,421  INFO class:63 - List of all available courses 
+2020-Jan-02 19:02:21,436  INFO class:86 - List of all Subjects available
+2020-Jan-02 19:02:21,436  INFO class:87 - Get subject details
+2020-Jan-02 19:02:21,436  INFO class:68 - List of batches
+2020-Jan-02 19:02:21,452  INFO class:69 - Get Batch Details
+2020-Jan-02 19:02:21,452  INFO class:116 - List of available topics
+2020-Jan-02 19:02:24,334  INFO class:63 - List of all available courses 
+2020-Jan-02 19:02:25,419  INFO class:68 - List of batches
+2020-Jan-02 19:02:25,419  INFO class:69 - Get Batch Details
+2020-Jan-02 19:02:32,580  INFO class:111 - Details of student based on Batch
+2020-Jan-02 19:02:37,903  INFO class:68 - List of batches
+2020-Jan-02 19:02:37,903  INFO class:69 - Get Batch Details
+2020-Jan-02 19:02:40,861  INFO class:68 - List of batches
+2020-Jan-02 19:02:40,861  INFO class:69 - Get Batch Details
+2020-Jan-02 19:03:52,580 ERROR class:45 - Details of trainers
+2020-Jan-02 19:08:43,503  INFO class:68 - List of batches
+2020-Jan-02 19:08:43,503  INFO class:69 - Get Batch Details
+2020-Jan-02 19:10:44,492  INFO class:68 - List of batches
+2020-Jan-02 19:10:44,492  INFO class:69 - Get Batch Details
+2020-Jan-02 19:12:01,670  INFO class:68 - List of batches
+2020-Jan-02 19:12:01,670  INFO class:69 - Get Batch Details
+2020-Jan-02 19:12:06,674  INFO class:68 - List of batches
+2020-Jan-02 19:12:06,674  INFO class:69 - Get Batch Details
+2020-Jan-02 19:13:05,320  INFO class:68 - List of batches
+2020-Jan-02 19:13:05,320  INFO class:69 - Get Batch Details
+2020-Jan-02 19:13:34,208  INFO class:68 - List of batches
+2020-Jan-02 19:13:34,208  INFO class:69 - Get Batch Details
+2020-Jan-02 19:15:11,456  INFO class:68 - List of batches
+2020-Jan-02 19:15:11,456  INFO class:69 - Get Batch Details
+2020-Jan-02 19:19:09,595  INFO class:68 - List of batches
+2020-Jan-02 19:19:09,595  INFO class:69 - Get Batch Details
+2020-Jan-02 19:19:18,177  INFO class:68 - List of batches
+2020-Jan-02 19:19:18,177  INFO class:69 - Get Batch Details
+2020-Jan-02 19:20:43,293  INFO class:68 - List of batches
+2020-Jan-02 19:20:43,293  INFO class:69 - Get Batch Details
+2020-Jan-02 19:21:14,248  INFO class:68 - List of batches
+2020-Jan-02 19:21:14,248  INFO class:69 - Get Batch Details
+2020-Jan-02 19:22:00,919  INFO class:68 - List of batches
+2020-Jan-02 19:22:00,919  INFO class:69 - Get Batch Details
+2020-Jan-02 19:22:13,744  INFO class:68 - List of batches
+2020-Jan-02 19:22:13,744  INFO class:69 - Get Batch Details
+2020-Jan-02 19:23:05,366  INFO class:68 - List of batches
+2020-Jan-02 19:23:05,366  INFO class:69 - Get Batch Details
+2020-Jan-02 19:24:09,485  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 19:24:43,758  INFO class:63 - List of all available courses 
+2020-Jan-02 19:25:18,127  INFO class:63 - List of all available courses 
+2020-Jan-02 19:25:24,061  INFO class:68 - List of batches
+2020-Jan-02 19:25:24,066  INFO class:69 - Get Batch Details
+2020-Jan-02 19:25:29,370  INFO class:68 - List of batches
+2020-Jan-02 19:25:29,383  INFO class:69 - Get Batch Details
+2020-Jan-02 19:25:32,047  INFO class:68 - List of batches
+2020-Jan-02 19:25:32,061  INFO class:69 - Get Batch Details
+2020-Jan-02 19:25:40,117  INFO class:68 - List of batches
+2020-Jan-02 19:25:40,134  INFO class:69 - Get Batch Details
+2020-Jan-02 19:27:20,789  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 19:33:11,635  INFO class:68 - List of batches
+2020-Jan-02 19:33:11,654  INFO class:69 - Get Batch Details
+2020-Jan-02 19:33:13,686  INFO class:68 - List of batches
+2020-Jan-02 19:33:13,691  INFO class:69 - Get Batch Details
+2020-Jan-02 19:33:20,611  INFO class:110 - Details of student based on Batch
+2020-Jan-02 19:33:39,507  INFO class:68 - List of batches
+2020-Jan-02 19:33:39,521  INFO class:69 - Get Batch Details
+2020-Jan-02 19:43:23,716  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 19:44:52,717  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 19:48:29,947  INFO class:17 - Welcome to SMI Training Division
+2020-Jan-02 19:49:56,406  INFO class:17 - Welcome to SMI Training Division

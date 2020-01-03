@@ -1,5 +1,6 @@
 package com.smi.innothink;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -7,12 +8,14 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.smi.innothink.domain.ChangePassword;
 import com.smi.innothink.domain.UserCredentials;
 import com.smi.innothink.repository.StudentRepository;
@@ -31,29 +34,31 @@ public class CredentialController {
 	TrainerRepository trainerRepository;
 	@Autowired(required = false)
 	HttpSession session;
+	@Autowired(required = false)
+	JavaMailSender sender;
 	
-	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/userlogin", method = RequestMethod.POST, produces = "application/json")
-	public  Map userLogin(@RequestBody UserCredentials userCredentials){
-		Map map=new HashMap();
+	public  ArrayList<Object> userLogin(@RequestBody UserCredentials userCredentials){
+		//Map map=new HashMap();
+		ArrayList<Object> al = new ArrayList<Object>();
 		String userName=userCredentials.getUserName();
 		String password=userCredentials.getPassword();
 	    if(userName.substring(0,11).equals("SMI_IT_STU_")) {
 	    	System.out.println("Student");
 	    	if(studentRepository.checkCredentials(userName,password).length()>5) {
-	    		session.setAttribute("LoggedIn", userName);
-	    		 map.put("StudentLoggedIn",studentRepository.getStudent(userName));	  
-	    		 map.put("UserName",session.getAttribute("LoggedIn"));
+	    		session.setAttribute("LoggedIn", studentRepository.getStudent(userName));	
+	    		
+	    		 al.add(session.getAttribute("LoggedIn"));
 	    	}
 	    }
 	    if(userName.substring(0,11).equals("SMI_IT_TRA_")) {
 	    	if(trainerRepository.checkCredential(userName, password).length()>5) {
-	    		session.setAttribute("LoggedIn", userName);
-	    		map.put("TrainerLoggedIn",trainerRepository.getTrainer(userName));
-	    		map.put("UserName",session.getAttribute("LoggedIn"));
+	    		session.setAttribute("LoggedIn",trainerRepository.getTrainer(userName));
+	    	
+	    		al.add(session.getAttribute("LoggedIn"));
 	    	}
 	    }
-	    return map;
+	    return al;
 	}
 	
 	
@@ -81,6 +86,19 @@ public class CredentialController {
 	    else {
 		return false;
 	    }
+	}
+	
+	@RequestMapping(value="/forgetpassword" , method = RequestMethod.POST , produces = "application/json")
+	public boolean forgetPassword(@RequestParam String mailId)
+	{
+		String password=studentRepository.getPassword(mailId);
+		SimpleMailMessage message=new SimpleMailMessage();
+		message.setTo(mailId);
+		message.setSubject("SMI trainee, Your Password");
+		message.setText("Hi, Your request for asking the password is success. your password is :  "+password+"");
+		sender.send(message);
+		return true;
+		
 	}
 	
 }

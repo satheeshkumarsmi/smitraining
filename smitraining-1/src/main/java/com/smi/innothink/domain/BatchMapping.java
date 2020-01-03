@@ -17,6 +17,13 @@ public class BatchMapping {
 	private String batchId;
 	@Column(name="student_id")
 	private String studentId;
+	private String assignedDate;
+	public String getAssignedDate() {
+		return assignedDate;
+	}
+	public void setAssignedDate(String assignedDate) {
+		this.assignedDate = assignedDate;
+	}
 	public String getBatchId() {
 		return batchId;
 	}

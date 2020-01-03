@@ -38,7 +38,7 @@ public class AttendanceController implements AttendanceControllerInterface {
 	static Logger log = Logger.getLogger("AttendanceController.class");
 	
 	@RequestMapping(value = "/insertattendance", method = RequestMethod.POST, produces = "application/json")
-	public boolean insertAttendance(@RequestBody(required = false) DateBatch dateBatch) {
+	public void insertAttendance(@RequestBody(required = false) DateBatch dateBatch) {
 		System.out.println(dateBatch.getBatchId());
 		System.out.println(dateBatch.getAttendanceDate());
 		ArrayList<String> al = batchMappingRepository.getStudent(dateBatch.getBatchId());
@@ -58,8 +58,7 @@ public class AttendanceController implements AttendanceControllerInterface {
 			attendanceRepository.save(attendance);
 			log.info("Inserting attendance " + attendance.getAttendanceId());
 		}
-		log.error("Fail to insert Attendance");
-		return false;}
+	}
 	
 
 

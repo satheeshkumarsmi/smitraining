@@ -90,7 +90,6 @@ public class BatchController implements BatchControllerInterface {
 			log.info("Insert Student and Batch Mapping  " + batchMapping.getId());
 			return true;
 		}
-
 		else {
 			log.info("Fail to insert Batch Mapping");
 			return false;
@@ -114,11 +113,13 @@ public class BatchController implements BatchControllerInterface {
 
 	@RequestMapping(value = "/switchbatch", method = RequestMethod.POST, produces = "application/java")
 	public boolean switchBatch(@RequestBody(required = false) BatchMapping batchMapping) {
-		String k = batchMapping.getStudentId();
-		String n = batchMapping.getBatchId();
-		batchMappingRepository.remove(k);
-		batchMapping.setStudentId(k);
-		batchMapping.setBatchId(n);
+		String studentId = batchMapping.getStudentId();
+		String batchId = batchMapping.getBatchId();
+		String date =batchMapping.getAssignedDate();
+		batchMappingRepository.remove(studentId);
+		batchMapping.setStudentId(studentId);
+		batchMapping.setBatchId( batchId);
+		batchMapping.setAssignedDate(date);
 		System.out.println(batchMapping);
 		BatchMapping b = batchMappingRepository.save(batchMapping);
 		System.out.println(b);
