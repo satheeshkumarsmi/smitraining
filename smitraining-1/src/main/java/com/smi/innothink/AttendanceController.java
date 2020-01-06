@@ -65,6 +65,10 @@ public class AttendanceController implements AttendanceControllerInterface {
 	@RequestMapping(value = "/updateattendance", method = RequestMethod.POST, produces = "application/json")
 	public boolean insertAttendanceProperly(@RequestBody(required = false) AttendanceSession attendanceSession) {		
 		if (attendanceSession.getSession().equals("Forenoon") && attendanceSession.isStatus()) {
+			System.out.println(attendanceSession.getSession());
+			System.out.println(attendanceSession.isStatus());
+			System.out.println(attendanceSession.getStudentId());
+			System.out.println(attendance.getAttendanceDate());
 			attendanceRepository.updateForenoonAttendance(attendanceSession.getStudentId(),
 					attendance.getAttendanceDate());
 			log.info("Attendance is updated for forenoon" +attendanceSession.isStatus() + attendanceSession.getStudentId());

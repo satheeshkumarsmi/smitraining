@@ -117,15 +117,6 @@ public class CourseController implements CourseControllerInterface{
 		return topicRepository.findAll();
 	}
 	
-	@RequestMapping(value="/mail",method = RequestMethod.POST, produces = "application/json")
-	public String getAction() {
-		SimpleMailMessage message=new SimpleMailMessage();
-		 message.setTo("dineshkumarv198@gmail.com");
-		 message.setSubject("SMI trainee Username and Password");
-		 message.setText("HelloWelcome to SMI Innothink.Your Username");
-		 sender.send(message);
-		 return "sent";
-	}
 	
 	
 	

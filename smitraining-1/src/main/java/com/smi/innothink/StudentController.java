@@ -142,18 +142,13 @@ public class StudentController implements StudentControllerInterface {
 		student.setStudentPassword(studentPassword);		
 		Student res3 = studentRepository.save(student);
 		String mail=studentRepository.getMail(id3);
-		System.out.println(mail);
-		System.out.println(id3);
-		System.out.println(studentPassword);
-		System.out.println(student.getStudentName());
 		SimpleMailMessage message=new SimpleMailMessage();
-		System.out.println(mail);
-		 message.setTo(mail);
-		 message.setSubject("SMI trainee Username and Password");
-		 message.setText("Hello "+student.getStudentName()+"Welcome to SMI Innothink.Your Username:"+id3+
+		message.setTo(mail);
+		message.setSubject("SMI trainee Username and Password");
+		message.setText("Hello "+student.getStudentName()+"Welcome to SMI Innothink.Your Username:"+id3+
 		 		"and Your Password:"+studentPassword);
-		 sender.send(message);
-		 if(res3.getStudentId().equals(student.getStudentId())) {
+		sender.send(message);
+		if(res3.getStudentId().equals(student.getStudentId())) {
 	     return true;
 		 }
 		 else {

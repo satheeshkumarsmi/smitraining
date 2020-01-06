@@ -21,10 +21,12 @@ public interface StudentRepository extends JpaRepository<Student, String>{
 	
 	
 	@Query("from Student s where s.studentName Like  :name ")
-	ArrayList<Student> getName1(@Param ("name") String name);
-	
-	@Query("from Student s where s.studentId=:id")
+	ArrayList<Object> getName1(@Param ("name") String name);
+	@Query(" from Student s where s.studentId=:id")
 	Student getStudent(@Param ("id") String k);
+	
+	@Query("select s.studentId,s.studentName,s.dateOfJoining,s.mailId from Student s where s.studentId=:id")
+	ArrayList<String> getStudent1(@Param ("id") String k);
 	
 	@Query("select s.mailId from Student s where s.studentId=:id")
 	public String getMail(@Param("id") String id3);

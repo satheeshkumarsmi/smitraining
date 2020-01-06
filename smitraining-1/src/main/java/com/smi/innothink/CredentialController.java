@@ -38,7 +38,7 @@ public class CredentialController {
 	JavaMailSender sender;
 	
 	@RequestMapping(value = "/userlogin", method = RequestMethod.POST, produces = "application/json")
-	public  ArrayList<Object> userLogin(@RequestBody UserCredentials userCredentials){
+	public  Iterable userLogin(@RequestBody UserCredentials userCredentials){
 		//Map map=new HashMap();
 		ArrayList<Object> al = new ArrayList<Object>();
 		String userName=userCredentials.getUserName();
@@ -46,16 +46,14 @@ public class CredentialController {
 	    if(userName.substring(0,11).equals("SMI_IT_STU_")) {
 	    	System.out.println("Student");
 	    	if(studentRepository.checkCredentials(userName,password).length()>5) {
-	    		session.setAttribute("LoggedIn", studentRepository.getStudent(userName));	
-	    		
-	    		 al.add(session.getAttribute("LoggedIn"));
+	    		session.setAttribute("LoggedIn", studentRepository.getStudent1(userName));	
+	    		 al.add( session.getAttribute("LoggedIn"));
 	    	}
 	    }
 	    if(userName.substring(0,11).equals("SMI_IT_TRA_")) {
 	    	if(trainerRepository.checkCredential(userName, password).length()>5) {
 	    		session.setAttribute("LoggedIn",trainerRepository.getTrainer(userName));
-	    	
-	    		al.add(session.getAttribute("LoggedIn"));
+	    		al.add( session.getAttribute("LoggedIn"));
 	    	}
 	    }
 	    return al;

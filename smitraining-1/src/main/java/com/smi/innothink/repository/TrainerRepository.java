@@ -1,5 +1,6 @@
 package com.smi.innothink.repository;
 
+import java.util.ArrayList;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -20,7 +21,7 @@ public interface TrainerRepository extends JpaRepository<Trainers, String>{
 	@Query("select t.mobile from Trainers t where t.trainerId=:id and t.trainerPassword=:password")
 	String checkCredential(@Param ("id") String userName,@Param ("password") String password);
 
-	@Query("from Trainers t where trainerId=:id")
-	Trainers getTrainer(@Param ("id") String userName);
+	@Query(" select t.trainerId,t.trainerName from Trainers t where trainerId=:id")
+	ArrayList<String> getTrainer(@Param ("id") String userName);
 
 }
